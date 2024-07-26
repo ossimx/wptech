@@ -1,38 +1,317 @@
+/* App.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Interphases:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=TT+Autonomous:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Interphases', sans-serif;
+  overflow-x: hidden;
+  background-image: url("/public/bg.jpg");
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  background: transparent;
+  font-family: 'Roboto', sans-serif;
+  transition: background 0.3s ease;
+  font-size: 1.5rem;
+}
+.navbar .logo {
+  position: absolute; /* Move the logo out of the flex center */
+  left: 20px;
+}
+.navbar:hover {
+  background: #004d00; /* Dark green on hover */
+}
+.navbar.hide {
+  opacity: 0;
+  background-color: rgba(1, 138, 19, 0); /* Transparent background */
+}
+.logo img {
+  height: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #b3e6ff; /* Light blue on hover for text */
+}
+.lang-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lang-container a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  transition: background 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+.lang-container a:hover {
+  background-color: #003808;
+  border-radius: 4px;
+}
+
+.lang-container a img {
+  margin-right: 8px;
+  width: 5vh; /* Adjust size as needed */
+  height: auto;
+}
+
+.lang-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #018a13;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s ease, max-height 0.3s ease;
+  max-height: 0;
+}
+
+.lang-container:hover .lang-dropdown {
+  display: block;
+  opacity: 1;
+  max-height: 250px; /* Adjust as needed */
+}
+
+.lang-dropdown a {
+  display: block;
+  padding: 8px 8px;
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.3s;
+}
+
+.lang-dropdown a:hover {
+  background-color: #003808;
+}
+.about-section, .technology-section, .news-section {
+  position: relative;
+  width: 100vw; /* Changed to 100vw for full viewport width */
+  height: 100vh; /* Full viewport height */
+  background-size: contain; /* Ensure the full image is visible */
+  background-position: center;
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  color: rgb(0, 0, 0);
+}
+
+/* Specific styling for about section */
+.about-section {
+  background-image: url('/public/Wpowertech-2.jpg'); /* Background image path */
+}
+
+/* Styling for image inside the about section */
+.about-image img {
+  max-width: 80%; /* Adjust as needed */
+  height: auto;
+  z-index: 2; /* Ensure it is above the background */
+  position: relative; /* Ensure it's positioned correctly */
+  display: block; /* Ensure it behaves as a block element */
+  margin: 0 auto; /* Center the image horizontally */
+}
+.news-section {
+  padding: 1vw;
+  background-color: #2558ff;
+  text-align: center;
+}
+
+.facebook-feed {
+  display: flex; /* Use Flexbox to arrange items in a row */
+  gap: 20px; /* Space between posts */
+  overflow-x: auto;
+}
+
+.facebook-post {
+  background-color: white;
+  border-radius: 1vw;
+  overflow: hidden;
+  padding: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 10vw;
+}
+
+.overlay {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.about-section .overlay h1 {
+  font-size: 4rem;
+}
+/* TECH SECTION*/
+.technology-section {
+  background-image: url('/public/Wpowertech-24.jpg'); /* Ensure this path is correct */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  padding: 0 20px;
+  position: relative; /* Ensure correct positioning of child elements */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Container for overlay content */
+.technology-section .overlay {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.43); /* Light transparent background */
+  padding: 0vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  max-width: 600px; /* Set a max-width for better text readability */
+  z-index: 2; /* Ensure it's above the background image */
+}
+
+/* Title styling */
+.technology-section .overlay h2 {
+  font-size: 7rem; /* Increase size */
+  color: #009eed; /* Aquamarine color for the title */
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Enhance text shadow */
+  margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+.technology-section .overlay p {
+  font-size: 4rem; /* Increase font size for readability */
+  margin-bottom: 20px;
+  color: #333; /* Dark gray color */
+}
+
+/* Container for button and arrow */
+.button-container {
+  position: absolute;
+  right: 150px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+}
+.learn-more {
+  padding: 20px 40px;
+  border: 2px solid #005ab9;
+  background-color: #005ab9;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 1.5rem; /* Larger button text */
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+
+}
+
+.learn-more:hover {
+  background-color: #0056b3;
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* Arrow image styling */
+.arrow {
+  width: 100px;
+  height: 100px;
+  color:blue;
+  opacity: 0.8;
+  margin-right: 15px; /* Space between arrow and button */
+}
+
+
+/*FOOTER*/
+
+footer {
+  padding: 20px;
+  background-color: #002a01;
+  color: #fff700;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  clear: both;
+}
+
+.footer-content {
+  display: flex;
+  align-items: flex-start; /* Align items at the top */
+  justify-content: center;
+  gap: 150px;
+  flex-wrap: wrap; /* Ensure content wraps properly on smaller screens */
+  background-color: #4CAF50;
+}
+
+.location-container,
+.contact-details {
+  display: flex;
+  flex-direction: column; /* Ensure heading and content are stacked vertically */
+  align-items: flex-start; /* Align items to the left */
+}
+
+.location-container p,
+.contact-details p {
+  display: flex;
+  align-items: center;
+  margin: 0 0 10px 0;
+  text-align: left;
+  color:white;
+  text-shadow:1px 1px 5px rgba(0, 0, 0, 0.5)
+}
+.location-container a,
+.contact-details a {
+  display: flex;
+  align-items: center;
+  margin: 0 0 10px 0;
+  text-align: left;
+  color:white;
+  text-shadow:1px 1px 5px rgba(0, 0, 0, 0.5)
+}
+.contact-details p svg {
+  margin-right: 10px;
+}
+.location-container h2,
+.contact-details h2 {
+  margin: 0 0 10px 0;
+  text-align: left;
+  color:white;
+  font-size:2rem;
+  text-shadow:2px 2px 10px rgba(0, 0, 0, 0.5) ;
 }
