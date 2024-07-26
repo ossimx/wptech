@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Interphases:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=TT+Autonomous:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-body, html {
+
+body,
+html {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -18,7 +20,7 @@ body, html {
 
 .navbar {
   display: flex;
-  justify-content: center; /* Center content horizontally */
+  justify-content: center;
   align-items: center;
   padding: 10px 20px;
   position: fixed;
@@ -30,17 +32,21 @@ body, html {
   transition: background 0.3s ease;
   font-size: 1.5rem;
 }
+
 .navbar .logo {
-  position: absolute; /* Move the logo out of the flex center */
+  position: absolute;
   left: 20px;
 }
+
 .navbar:hover {
-  background: #004d00; /* Dark green on hover */
+  background: #004d00;
 }
+
 .navbar.hide {
   opacity: 0;
-  background-color: rgba(1, 138, 19, 0); /* Transparent background */
+  background-color: rgba(1, 138, 19, 0);
 }
+
 .logo img {
   height: 50px;
 }
@@ -59,8 +65,9 @@ body, html {
 }
 
 .nav-links li a:hover {
-  color: #b3e6ff; /* Light blue on hover for text */
+  color: #b3e6ff;
 }
+
 .lang-container {
   position: relative;
   display: flex;
@@ -84,7 +91,7 @@ body, html {
 
 .lang-container a img {
   margin-right: 8px;
-  width: 5vh; /* Adjust size as needed */
+  width: 5vh;
   height: auto;
 }
 
@@ -106,7 +113,7 @@ body, html {
 .lang-container:hover .lang-dropdown {
   display: block;
   opacity: 1;
-  max-height: 250px; /* Adjust as needed */
+  max-height: 250px;
 }
 
 .lang-dropdown a {
@@ -121,39 +128,42 @@ body, html {
 .lang-dropdown a:hover {
   background-color: #003808;
 }
-.about-section, .technology-section, .news-section {
+
+.about-section,
+.technology-section,
+.news-section {
   position: relative;
-  width: 100vw; /* Changed to 100vw for full viewport width */
-  height: 100vh; /* Full viewport height */
-  background-size: contain; /* Ensure the full image is visible */
+  width: 100vw;
+  height: 100vh;
+  background-size: contain;
   background-position: center;
-  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-repeat: no-repeat;
   color: rgb(0, 0, 0);
+  box-shadow: 0 3vw 5vw rgba(0, 0, 0, 0.8);
 }
 
-/* Specific styling for about section */
 .about-section {
-  background-image: url('/public/Wpowertech-2.jpg'); /* Background image path */
+  background-image: url('/public/Wpowertech-2.jpg');
 }
 
-/* Styling for image inside the about section */
 .about-image img {
-  max-width: 80%; /* Adjust as needed */
+  max-width: 80%;
   height: auto;
-  z-index: 2; /* Ensure it is above the background */
-  position: relative; /* Ensure it's positioned correctly */
-  display: block; /* Ensure it behaves as a block element */
-  margin: 0 auto; /* Center the image horizontally */
+  z-index: 2;
+  position: relative;
+  display: block;
+  margin: 0 auto;
 }
+
 .news-section {
   padding: 1vw;
-  background-color: #2558ff;
+  background-color: #ffffff;
   text-align: center;
 }
 
 .facebook-feed {
-  display: flex; /* Use Flexbox to arrange items in a row */
-  gap: 20px; /* Space between posts */
+  display: flex;
+  gap: 20px;
   overflow-x: auto;
 }
 
@@ -179,58 +189,61 @@ body, html {
 .about-section .overlay h1 {
   font-size: 4rem;
 }
-/* TECH SECTION*/
+
 .technology-section {
-  background-image: url('/public/Wpowertech-24.jpg'); /* Ensure this path is correct */
+  background-image: url('/public/Wpowertech-24.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   display: flex;
   align-items: center;
-  height: 100vh; /* Full viewport height */
+  height: 100vh;
   padding: 0 20px;
-  position: relative; /* Ensure correct positioning of child elements */
+  position: relative;
 }
 
-/* Container for overlay content */
 .technology-section .overlay {
   position: absolute;
   left: 20px;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(255, 255, 255, 0.43); /* Light transparent background */
+  background: rgba(255, 255, 255, 0.43);
   padding: 0vw;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align items to the left */
-  max-width: 600px; /* Set a max-width for better text readability */
-  z-index: 2; /* Ensure it's above the background image */
+  align-items: flex-start;
+  max-width: 600px;
+  z-index: 2;
 }
 
-/* Title styling */
 .technology-section .overlay h2 {
-  font-size: 7rem; /* Increase size */
-  color: #009eed; /* Aquamarine color for the title */
-  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Enhance text shadow */
+  font-size: 6rem;
+  color: #009eed;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
   margin-bottom: 20px;
 }
 
-/* Paragraph styling */
 .technology-section .overlay p {
-  font-size: 4rem; /* Increase font size for readability */
+  font-size: 4rem;
   margin-bottom: 20px;
-  color: #333; /* Dark gray color */
+  color: #333;
 }
 
-/* Container for button and arrow */
 .button-container {
   position: absolute;
   right: 150px;
-  top: 50%;
+  bottom: 20px;
   transform: translateY(-50%);
   display: flex;
   align-items: center;
 }
+
+.technology-section iframe {
+  position: absolute;
+  right: 10vw;
+  box-shadow: 0 2vw 4vw rgba(0, 0, 0, 0.7);
+}
+
 .learn-more {
   padding: 20px 40px;
   border: 2px solid #005ab9;
@@ -238,27 +251,23 @@ body, html {
   color: #fff;
   text-decoration: none;
   border-radius: 10px;
-  font-size: 1.5rem; /* Larger button text */
+  font-size: 1.5rem;
   transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
 
 }
 
 .learn-more:hover {
   background-color: #0056b3;
-  transform: scale(1.1); /* Slight zoom effect on hover */
+  transform: scale(1.1);
 }
 
-/* Arrow image styling */
 .arrow {
   width: 100px;
   height: 100px;
-  color:blue;
+  color: blue;
   opacity: 0.8;
-  margin-right: 15px; /* Space between arrow and button */
+  margin-right: 15px;
 }
-
-
-/*FOOTER*/
 
 footer {
   padding: 20px;
@@ -272,18 +281,18 @@ footer {
 
 .footer-content {
   display: flex;
-  align-items: flex-start; /* Align items at the top */
+  align-items: flex-start;
   justify-content: center;
   gap: 150px;
-  flex-wrap: wrap; /* Ensure content wraps properly on smaller screens */
+  flex-wrap: wrap;
   background-color: #4CAF50;
 }
 
 .location-container,
 .contact-details {
   display: flex;
-  flex-direction: column; /* Ensure heading and content are stacked vertically */
-  align-items: flex-start; /* Align items to the left */
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .location-container p,
@@ -292,26 +301,154 @@ footer {
   align-items: center;
   margin: 0 0 10px 0;
   text-align: left;
-  color:white;
-  text-shadow:1px 1px 5px rgba(0, 0, 0, 0.5)
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5)
 }
+
 .location-container a,
 .contact-details a {
   display: flex;
   align-items: center;
   margin: 0 0 10px 0;
   text-align: left;
-  color:white;
-  text-shadow:1px 1px 5px rgba(0, 0, 0, 0.5)
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5)
 }
+
 .contact-details p svg {
   margin-right: 10px;
 }
+
 .location-container h2,
 .contact-details h2 {
   margin: 0 0 10px 0;
   text-align: left;
-  color:white;
-  font-size:2rem;
-  text-shadow:2px 2px 10px rgba(0, 0, 0, 0.5) ;
+  color: white;
+  font-size: 2rem;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+
+  /*TABLET*/
+  .technology-section .overlay {
+    width: 40%;
+  }
+  .button-container {
+    right: 30px;
+  }
+
+  .arrow {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+  .technology-section iframe {
+    position: absolute;
+    right: 40px;
+    bottom: 30%; 
+    width: 50%; 
+    height: 20%; 
+    border: 4px solid #005ab9; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  .technology-section .overlay h2 {
+    font-size: 3rem;
+  }
+
+  .technology-section .overlay p {
+    font-size: 2rem;
+  }
+
+  .learn-more {
+    padding: 10px 20px;
+    font-size: 2rem;
+  }
+
+  .footer-content {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    font-size: 1rem;
+    padding: 8px 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .nav-links li a {
+    padding: 4px 8px;
+  }
+
+  .technology-section .overlay {
+    width: 40%;
+    background: rgba(255, 255, 255, 0.0);
+    top: 20%;
+  }
+
+  .learn-more {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+  .arrow {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  .button-container {
+    right: 50px;
+    bottom:60px;
+  }
+  .learn-more
+  {
+    width:80%;
+    height:120%;
+  }
+  .technology-section .overlay h2 {
+    font-size: 3rem;
+  }
+  .technology-section .overlay p {
+    font-size: 1.5rem;
+    color:rgb(120, 120, 120);
+  }
+  .technology-section iframe {
+    position: absolute;
+    right: 40px;
+    bottom: 35%;
+    width: 90%; 
+    height: 30%;
+    border: 2px solid #005ab9;
+    border-radius: 4px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  }
+
+
+  .facebook-post {
+    min-width: 90%;
+  }
+
+  .footer-content {
+    text-align: center;
+  }
+
+  .location-container,
+  .contact-details {
+    align-items: center;
+  }
+
+  .location-container iframe {
+    margin-top: -15px;
+  }
+
+  .lang-container {
+    position: absolute;
+    right: 10px;
+  }
 }

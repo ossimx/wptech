@@ -1,16 +1,13 @@
 import React from 'react';
-import './Technology.css';
+import { useTranslation } from 'react-i18next';
 
 const Technology = () => {
+  const { t } = useTranslation();
+  
   return (
     <div className="technology-page">
-      <h1 className="tech-title">Technology</h1>
-      <p className="tech-description">
-        Learn more about the most efficient trash to energy machine.
-      </p>
-      <div className="learn-more-container">
-        <a href="/technology" className="learn-more">Learn More</a>
-      </div>
+      <h1>{t('technology')}</h1>
+      <p>{t('technology_description')}</p>
     </div>
   );
 };
