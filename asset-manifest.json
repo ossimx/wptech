@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ff0835be.css",
+    "main.js": "/static/js/main.e35190da.js",
+    "static/js/453.4b6d0715.chunk.js": "/static/js/453.4b6d0715.chunk.js",
+    "static/media/Wpowertech-24.jpg": "/static/media/Wpowertech-24.712f3e650c4fc62f40c5.jpg",
+    "static/media/Wpowertech-2.jpg": "/static/media/Wpowertech-2.1e747fa13d4884caf10b.jpg",
+    "static/media/bg.jpg": "/static/media/bg.d0a361cfe19cb4f7cf07.jpg",
+    "index.html": "/index.html",
+    "static/media/getFetch.cjs": "/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
+    "main.ff0835be.css.map": "/static/css/main.ff0835be.css.map",
+    "main.e35190da.js.map": "/static/js/main.e35190da.js.map",
+    "453.4b6d0715.chunk.js.map": "/static/js/453.4b6d0715.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff0835be.css",
+    "static/js/main.e35190da.js"
+  ]
+}
