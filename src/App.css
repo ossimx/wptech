@@ -132,9 +132,6 @@ html {
 .about-section,
 .technology-section,
 .news-section {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -192,7 +189,7 @@ html {
 
 .technology-section {
   background-image: url('/public/Wpowertech-24.jpg');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-attachment: fixed;
   display: flex;
