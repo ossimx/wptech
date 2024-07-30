@@ -26,6 +26,9 @@ const Home = () => {
             className="about-section"
           >
             <div className="overlay">
+              <div className="background-image">
+                <img src="/Wpowertech-2.jpg" alt="Background" />
+              </div>
               <div className="about-image">
                 <img src="/Wpowertech_logo_white.png" alt="Wpowertech Logo" />
               </div>
@@ -56,8 +59,8 @@ const Home = () => {
               mouseTracking
               infinite
               items={items}
-              renderPrevButton={() => <CustomPrevButton onClick={() => {}} />}
-              renderNextButton={() => <CustomNextButton onClick={() => {}} />}
+              renderPrevButton={() => <CustomPrevButton onClick={() => { }} />}
+              renderNextButton={() => <CustomNextButton onClick={() => { }} />}
             />
           </ParallaxLayer>
 
@@ -73,8 +76,8 @@ const Home = () => {
                 <p>SC Waste Powertech SRL</p>
                 <p><FaEnvelope />: office@wpowertech.ro</p>
                 <p><FaPhone />: (+40) 751-624-810</p>
-                <a href="https://www.facebook.com/profile.php?id=61559358922953"  style={{ textDecoration: 'none' }}><FaFacebook/>: Waste Powertech SRL</a>
-                <a href="https://www.youtube.com/@wastepowertech4213"  style={{ textDecoration: 'none' }}><FaYoutube/>: Waste Powertech</a>
+                <a href="https://www.facebook.com/profile.php?id=61559358922953" style={{ textDecoration: 'none' }}><FaFacebook />: Waste Powertech SRL</a>
+                <a href="https://www.youtube.com/@wastepowertech4213" style={{ textDecoration: 'none' }}><FaYoutube />: Waste Powertech</a>
               </div>
               <div className="location-container">
                 <h2><b>{t('location')}</b></h2>
