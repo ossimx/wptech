@@ -6,6 +6,7 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import { IoMdClose } from "react-icons/io";
 import { HiOutlineBars3 } from 'react-icons/hi2';
 import '../Navbar.css';
+import images from '../images/Imageholder';
 
 const Layout = ({ children }) => {
     const { t, i18n } = useTranslation();
@@ -43,8 +44,8 @@ const Layout = ({ children }) => {
             <nav className="navbar" ref={navbarRef}>
                 <div className="logo">
                     <Link to="/">
-                        <img src="/WPowertech System logo black.png" alt="Logo" className='logo-black' />
-                        <img src="/Wpowertech_logo_white.png" alt="Logo" className='logo-white' />
+                        <img src={images.WPowertechSystemLogoBlack} alt="Logo" className='logo-black' />
+                        <img src={images.WPowertechSystemLogoWhite} alt="Logo" className='logo-white' />
                     </Link>
                 </div>
                 <div className="menu-icon" onClick={toggleMenu}>
@@ -77,22 +78,22 @@ const Layout = ({ children }) => {
                 </button>
                 <div className="lang-dropdown">
                     <button type="button" onClick={() => changeLanguage('en')}>
-                        <img src="us.png" alt="English" />
+                        <img src={images.us} alt="English" />
                     </button>
                     <button type="button" onClick={() => changeLanguage('ro')}>
-                        <img src="ro.png" alt="Romanian" />
+                        <img src={images.ro} alt="Romanian" />
                     </button>
                     <button type="button" onClick={() => changeLanguage('hu')}>
-                        <img src="hu.png" alt="Hungarian" />
+                        <img src={images.hu} alt="Hungarian" />
                     </button>
                     <button type="button" onClick={() => changeLanguage('de')}>
-                        <img src="de.png" alt="German" />
+                        <img src={images.de} alt="German" />
                     </button>
                     <button type="button" onClick={() => changeLanguage('gr')}>
-                        <img src="gr.png" alt="Greek" />
+                        <img src={images.gr} alt="Greek" />
                     </button>
                     <button type="button" onClick={() => changeLanguage('zh')}>
-                        <img src="zh.png" alt="Chinese" />
+                        <img src={images.zh} alt="Chinese" />
                     </button>
 
                     </div>

@@ -6,6 +6,7 @@ import { FaFacebook, FaYoutube } from "react-icons/fa6";
 
 import './TechnologyPage.css';
 import '../../App.css';
+import images from '../../images/Imageholder'
 const TechnologyPage = () => {
   const { t } = useTranslation();
 
@@ -18,7 +19,7 @@ const TechnologyPage = () => {
           <p>{t('thermal_treatment_methods')}</p>
         </div>
         <div className='image-layer'>
-        <img src="/how it works.png" alt="How It Works" />
+        <img src={images.HowItWorks} alt="How It Works" />
         </div>
       </ParallaxLayer>
       <ParallaxLayer offset={1} speed={0.5} className="text-layer">
@@ -28,7 +29,7 @@ const TechnologyPage = () => {
           <p>{t('benefits')}</p>
         </div>
         <div className='image-layer'>
-        <img src="/tech-2.png" alt="Thermal Treatment" />
+        <img src={images.ThermalTreatment} alt="Thermal Treatment" />
         </div>
       </ParallaxLayer>
       <ParallaxLayer

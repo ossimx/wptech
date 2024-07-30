@@ -12,6 +12,8 @@ import 'react-alice-carousel/lib/alice-carousel.css';
 import '../App.css';
 import '../components/Carousel.css';
 
+import images from '../images/Imageholder';
+
 import items from '../components/CarouselItems';
 
 const Home = () => {
@@ -27,10 +29,10 @@ const Home = () => {
           >
             <div className="overlay">
               <div className="background-image">
-                <img src="/Wpowertech-2.jpg" alt="Background" />
+                <img src={images.Wpowertech2} alt="Background" />
               </div>
               <div className="about-image">
-                <img src="/Wpowertech_logo_white.png" alt="Wpowertech Logo" />
+                <img src={images.WPowertechSystemLogoWhite} alt="Wpowertech Logo" />
               </div>
             </div>
           </ParallaxLayer>
