@@ -1,14 +1,4 @@
-# WPTech - React Parallax Website
-
-WPTech is a modern React application featuring parallax scrolling effects, a responsive image carousel, and dynamic routing. Designed for flexibility and ease of use, this project includes multi-language support and a responsive layout suitable for both desktop and mobile views.
-
-## Features
-
-- **Parallax Scrolling**: Engaging scrolling effects using `@react-spring/parallax`.
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices.
-- **Multi-Language Support**: Easily switch between languages with `react-i18next`.
-- **Interactive Carousel**: Features a customizable carousel component using `react-alice-carousel`.
-- **Dynamic Routing**: Separate pages for Technology, References, and Contact.
+# WPTech - React Website
 
 ## Getting Started
 
