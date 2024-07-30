@@ -66,7 +66,7 @@
   
   .nav-links li:hover {
     position: relative;
-    background-color: rgb(35, 0, 60);
+    background-color: rgb(4, 60, 0);
     height: 6.4vw;
     width: 10vw;
     transition: background-color 0.5s ease;
@@ -208,7 +208,7 @@
   .lang-container:hover .lang-dropdown {
     display: block;
     opacity: 1;
-    max-height: 250px;
+    max-height: 250vw;
   }
   
   .lang-dropdown button {
@@ -237,7 +237,15 @@
     .nav-links {
         display: none;
     }
-
+    .navbar.hide
+    {
+      opacity: 1;
+      background: #004d00;
+    }
+    .navbar
+    {
+      background: #004d00;
+    }
     .menu-icon {
         display: block;
         font-size: 2rem;
@@ -273,7 +281,7 @@
     }
 
     .nav-links li button {
-        display: flexbox;
+        display:block;
         width: 100%;
         text-align: left;
         padding: 1 rem;
@@ -289,11 +297,13 @@
         background-color: #00b755;
         left: -34.5vw;
         width: 100vw;
+        box-sizing: border-box;
         
     }
 
     .nav-links li .dropdown-content button {
-        display: block;
+        display: flexbox;
+        justify-content: left;
         width: 100vw;
         text-align: left;
         background: none;
@@ -302,6 +312,7 @@
         font-size: 5vw;
         cursor: pointer;
         border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        box-sizing: border-box;
     }
 
     .nav-links li .dropdown-content button:hover {
