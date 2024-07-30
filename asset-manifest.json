@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/wptech/static/css/main.33f4f06b.css",
-    "main.js": "/wptech/static/js/main.e4d127d1.js",
+    "main.css": "/wptech/static/css/main.adfedbea.css",
+    "main.js": "/wptech/static/js/main.7e16c043.js",
     "static/js/453.4b6d0715.chunk.js": "/wptech/static/js/453.4b6d0715.chunk.js",
     "static/media/Wpowertech-24.jpg": "/wptech/static/media/Wpowertech-24.712f3e650c4fc62f40c5.jpg",
     "static/media/Wpowertech-2.jpg": "/wptech/static/media/Wpowertech-2.1e747fa13d4884caf10b.jpg",
     "static/media/tech-2.png": "/wptech/static/media/tech-2.ed378b12002e222d5c2b.png",
+    "static/media/feed3.png": "/wptech/static/media/feed3.3f4c6221df00a4d35ff5.png",
     "static/media/how it works.png": "/wptech/static/media/how it works.79d4a5b4b92cfefedf93.png",
+    "static/media/feed1.png": "/wptech/static/media/feed1.71de0c3352d48504d403.png",
+    "static/media/feed4.png": "/wptech/static/media/feed4.7009ece83379201c62e9.png",
     "static/media/logo.png": "/wptech/static/media/logo.9cc5eea76d838117cd9b.png",
+    "static/media/feed2.png": "/wptech/static/media/feed2.0f01da05a4372fc9186b.png",
     "static/media/bg.jpg": "/wptech/static/media/bg.d0a361cfe19cb4f7cf07.jpg",
+    "static/media/feed5.png": "/wptech/static/media/feed5.74704e80d4550e098c56.png",
     "static/media/technology.jpeg": "/wptech/static/media/technology.ad468f76e8fb683b68ab.jpeg",
     "static/media/WPowertech System logo black.png": "/wptech/static/media/WPowertech System logo black.71e6e1c4d054d8ada448.png",
     "static/media/WPowertech_logo_white.png": "/wptech/static/media/WPowertech_logo_white.10bbbf17f09ad5ef9cf9.png",
     "index.html": "/wptech/index.html",
     "static/media/getFetch.cjs": "/wptech/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
-    "main.33f4f06b.css.map": "/wptech/static/css/main.33f4f06b.css.map",
-    "main.e4d127d1.js.map": "/wptech/static/js/main.e4d127d1.js.map",
+    "main.adfedbea.css.map": "/wptech/static/css/main.adfedbea.css.map",
+    "main.7e16c043.js.map": "/wptech/static/js/main.7e16c043.js.map",
     "453.4b6d0715.chunk.js.map": "/wptech/static/js/453.4b6d0715.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33f4f06b.css",
-    "static/js/main.e4d127d1.js"
+    "static/css/main.adfedbea.css",
+    "static/js/main.7e16c043.js"
   ]
 }
