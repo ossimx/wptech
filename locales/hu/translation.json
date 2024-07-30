@@ -1,10 +1,17 @@
 {
-    "welcome": "Üdvözöljük a Waste Powertechnél",
+    "welcome": "Üdvözöljük a Waste Powertech-nél",
     "learn_more": "Tudjon meg többet",
     "contact_us": "Lépjen kapcsolatba velünk:",
     "location": "Helyszín:",
     "technology": "Technológia",
     "references": "Referenciák",
+    "company": "Cég",
+    "products": "Termékek",
     "contact": "Kapcsolat",
-    "learn_more_desc": "Tudjon meg többet a technológiáról"
+    "learn_more_desc": "Tudjon meg többet a technológiáról",
+    "news": "Hírek",
+    "history": "Történelem",
+    "certificates": "Tanúsítványok",
+    "sustainability": "Fenntarthatóság",
+    "ourproduct": "Termékeink"
 }

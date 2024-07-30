@@ -1,10 +1,17 @@
 {
-    "welcome": "欢迎来到废物电力技术",
+    "welcome": "欢迎来到 Waste Powertech",
     "learn_more": "了解更多",
-    "contact_us": "联系我们：",
-    "location": "位置：",
+    "contact_us": "联系我们:",
+    "location": "位置:",
     "technology": "技术",
-    "references": "参考资料",
-    "contact": "联系",
-    "learn_more_desc": "了解更多关于技术的信息"
+    "references": "参考",
+    "company": "公司",
+    "products": "产品",
+    "contact": "联系方式",
+    "learn_more_desc": "了解更多关于技术的信息",
+    "news": "新闻",
+    "history": "历史",
+    "certificates": "证书",
+    "sustainability": "可持续性",
+    "ourproduct": "我们的产品"
 }
