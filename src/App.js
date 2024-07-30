@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Company from './pages/Company';
 import Products from './pages/Products';
@@ -12,9 +12,9 @@ const App = () => {
     <Router>
       <Layout>
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/company" element={<Company />} />
-          <Route path="/products" component={Products} />
+          <Route path="/products" element={<Products/>} />
           <Route path="/products/technology" element={<Technology />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
