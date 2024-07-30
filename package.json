@@ -1,7 +1,6 @@
-{
+{  
   "name": "parallax-site",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@react-spring/parallax": "^9.7.4",
     "@react-spring/web": "^9.7.4",
