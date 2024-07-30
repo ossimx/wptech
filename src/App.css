@@ -18,129 +18,31 @@ html {
   text-align: center;
 }
 
-.navbar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 20px;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
-  background: transparent;
-  font-family: 'Roboto', sans-serif;
-  transition: background 0.3s ease;
-  font-size: 1.5rem;
-}
-
-.navbar .logo {
-  position: absolute;
-  left: 20px;
-}
-
-.navbar:hover {
-  background: #004d00;
-}
-
-.navbar.hide {
-  opacity: 0;
-  background-color: rgba(1, 138, 19, 0);
-}
-
-.logo img {
-  height: 50px;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.nav-links li a {
-  color: #fff;
-  text-decoration: none;
-  padding: 8px 16px;
-  transition: color 0.3s ease;
-}
-
-.nav-links li a:hover {
-  color: #b3e6ff;
-}
-
-.lang-container {
-  position: relative;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.lang-container a {
-  color: #fff;
-  text-decoration: none;
-  padding: 8px 16px;
-  transition: background 0.3s;
-  display: flex;
-  align-items: center;
-}
-
-.lang-container a:hover {
-  background-color: #003808;
-  border-radius: 4px;
-}
-
-.lang-container a img {
-  margin-right: 8px;
-  width: 5vh;
-  height: auto;
-}
-
-.lang-dropdown {
-  display: none;
-  position: absolute;
-  top: 100%;
-  right: 0;
-  background-color: #018a13;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
-  overflow: hidden;
-  z-index: 1000;
-  opacity: 0;
-  transition: opacity 0.3s ease, max-height 0.3s ease;
-  max-height: 0;
-}
-
-.lang-container:hover .lang-dropdown {
-  display: block;
-  opacity: 1;
-  max-height: 250px;
-}
-
-.lang-dropdown a {
-  display: block;
-  padding: 8px 8px;
-  color: #fff;
-  text-decoration: none;
-  white-space: nowrap;
-  transition: background 0.3s;
-}
-
-.lang-dropdown a:hover {
-  background-color: #003808;
-}
-
-.about-section,
-.technology-section,
-.news-section {
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: rgb(0, 0, 0);
-  box-shadow: 0 3vw 5vw rgba(0, 0, 0, 0.8);
-}
-
 .about-section {
-  background-image: url('/public/Wpowertech-2.jpg');
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.background-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the div */
+  z-index: -1; /* Place the background image behind other content */
+}
+
+.about-image {
+  position: relative;
+  z-index: 1;
 }
 
 .about-image img {
@@ -156,6 +58,14 @@ html {
   padding: 1vw;
   background-color: #ffffff;
   text-align: center;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 3vw 5vw rgba(0, 0, 0, 0.8);
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .facebook-feed {
@@ -189,14 +99,18 @@ html {
 
 .technology-section {
   background-image: url('/public/Wpowertech-24.jpg');
-  background-size: contain;
-  background-position: center;
   background-attachment: fixed;
   display: flex;
   align-items: center;
-  height: 100vh;
   padding: 0 20px;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 3vw 5vw rgba(0, 0, 0, 0.8);
   position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .technology-section .overlay {

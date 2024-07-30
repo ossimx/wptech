@@ -5,6 +5,13 @@
     "location": "Locație:",
     "technology": "Tehnologie",
     "references": "Referințe",
+    "company": "Companie",
+    "products": "Produse",
     "contact": "Contact",
-    "learn_more_desc": "Aflați mai multe despre tehnologie"
+    "learn_more_desc": "Aflați mai multe despre tehnologie",
+    "news": "Știri",
+    "history": "Istoric",
+    "certificates": "Certificări",
+    "sustainability": "Sustenabilitate",
+    "ourproduct": "Produsele Noastre"
 }
