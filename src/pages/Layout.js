@@ -8,6 +8,7 @@ import { HiOutlineBars3 } from 'react-icons/hi2';
 import '../Navbar.css';
 import images from '../images/Imageholder';
 
+
 const Layout = ({ children }) => {
     const { t, i18n } = useTranslation();
     const changeLanguage = (lng) => {
@@ -32,7 +33,7 @@ const Layout = ({ children }) => {
             setDropdownOpen(null);
         }
     };
-
+    
     useEffect(() => {
         document.addEventListener('mousedown', handleClickOutside);
         return () => {
@@ -41,6 +42,7 @@ const Layout = ({ children }) => {
     }, []);
     return (
         <div className="layout">
+        <header>
             <nav className="navbar" ref={navbarRef}>
                 <div className="logo">
                     <Link to="/">
@@ -67,7 +69,6 @@ const Layout = ({ children }) => {
                             <Link to="/products/ourproduct"><button><IoMdArrowDropdown className="dropdown-arrow" />{t('ourproduct')}</button></Link>
                             <Link to="/products/technology"><button type="button">{t('technology')}</button></Link>
                             <Link to="/products/references"><button type="button">{t('references')}</button></Link>
-                            <Link to="/products/certificates"><button type="button">{t('certificates')}</button></Link>
                         </div>
                     </li>
                     <li><Link to="/contact"><button type="button">{t('contact')}</button></Link></li>
@@ -92,6 +93,9 @@ const Layout = ({ children }) => {
                     <button type="button" onClick={() => changeLanguage('gr')}>
                         <img src={images.gr} alt="Greek" />
                     </button>
+                    <button type="button" onClick={() => changeLanguage('tr')}>
+                        <img src={images.tr} alt="Turkish" />
+                    </button>
                     <button type="button" onClick={() => changeLanguage('zh')}>
                         <img src={images.zh} alt="Chinese" />
                     </button>
@@ -99,6 +103,7 @@ const Layout = ({ children }) => {
                     </div>
                 </div>
             </nav>
+            </header>
             <main>
                 {children}
             </main>

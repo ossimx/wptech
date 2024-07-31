@@ -1,6 +1,6 @@
 {
     "welcome": "Willkommen bei Waste Powertech",
-    "learn_more": "Erfahren Sie mehr",
+    "learn_more": "Mehr erfahren",
     "contact_us": "Kontaktieren Sie uns unter:",
     "location": "Standort:",
     "technology": "Technologie",
@@ -9,9 +9,17 @@
     "products": "Produkte",
     "contact": "Kontakt",
     "learn_more_desc": "Erfahren Sie mehr über die Technologie",
-    "news": "Nachrichten",
+    "news": "Neuigkeiten",
     "history": "Geschichte",
     "certificates": "Zertifikate",
     "sustainability": "Nachhaltigkeit",
-    "ourproduct": "Unsere Produkte"
-}
+    "ourproduct": "Unsere Produkte",
+    "how_it_works": "Wie funktioniert es?",
+    "molecular_disintegration": "Molekulare Disintegration bezieht sich auf das Aufbrechen chemischer Bindungen innerhalb von Molekülen, was zur Bildung kleinerer, einfacherer Verbindungen führt.",
+    "thermal_treatment_methods": "Thermische Behandlungsmethoden beinhalten die Exposition der Moleküle gegenüber hohen Temperaturen, wodurch sie sich in kleinere Verbindungen aufspalten.",
+    "high_temp_thermal_decomposition": "Die Hochtemperatur-Thermolyse bezieht sich auf einen Prozess, bei dem organische oder anorganische Materialien bei sehr hohen Temperaturen, gewöhnlich über 700 Grad Celsius, abgebaut werden. Der Prozess umfasst die Anwendung von Wärme auf das Material in Abwesenheit von Sauerstoff, um einfachere Verbindungen wie Gase und Feststoffe zu erzeugen.",
+    "pyrolysis": "In Abwesenheit von Sauerstoff wird der Prozess als Pyrolyse bezeichnet. Pyrolyse beinhaltet das Erhitzen des Materials auf hohe Temperaturen ohne Kontakt mit Luft, wodurch die Verbrennung verhindert wird. Dieser Prozess produziert Gase wie Methan, Wasserstoff und Kohlenmonoxid sowie Feststoffe.",
+    "benefits": "Die Hochtemperatur-Thermolyse hat viele Vorteile, wie die Reduzierung des Abfallvolumens und die Energieerzeugung aus Abfall. Es kann jedoch auch schädliche Schadstoffe in die Atmosphäre freisetzen, wenn es nicht kontrolliert durchgeführt wird, was negative Auswirkungen auf die menschliche Gesundheit und die Umwelt haben kann. Daher ist es wichtig, diese Prozesse unter strengen Vorschriften durchzuführen, um sicherzustellen, dass sie sicher und umweltfreundlich sind.",
+    "overall": "Insgesamt kann die molekulare Disintegration eine effektive Möglichkeit sein, das Abfallvolumen auf Deponien zu reduzieren, erneuerbare Energie zu erzeugen und Treibhausgasemissionen zu verringern. Es ist jedoch wichtig sicherzustellen, dass diese Prozesse auf sichere und umweltfreundliche Weise durchgeführt werden, um ihre potenziellen negativen Auswirkungen zu minimieren."
+  }
+  
