@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wptech/static/css/main.629166ca.css",
-    "main.js": "/wptech/static/js/main.df369239.js",
+    "main.css": "/wptech/static/css/main.d2e11cfe.css",
+    "main.js": "/wptech/static/js/main.b0355926.js",
     "static/js/453.4b6d0715.chunk.js": "/wptech/static/js/453.4b6d0715.chunk.js",
     "static/media/Wpowertech-24.jpg": "/wptech/static/media/Wpowertech-24.712f3e650c4fc62f40c5.jpg",
     "static/media/Wpowertech-2.jpg": "/wptech/static/media/Wpowertech-2.1e747fa13d4884caf10b.jpg",
@@ -15,19 +15,30 @@
     "static/media/feed4.png": "/wptech/static/media/feed4.7009ece83379201c62e9.png",
     "static/media/logo.png": "/wptech/static/media/logo.9cc5eea76d838117cd9b.png",
     "static/media/feed2.png": "/wptech/static/media/feed2.0f01da05a4372fc9186b.png",
+    "static/media/darmanesti.jpeg": "/wptech/static/media/darmanesti.e6debbd69dd93343a713.jpeg",
+    "static/media/Darmanesti-02.jpeg": "/wptech/static/media/Darmanesti-02.5672ea0da8769b64273a.jpeg",
+    "static/media/Darmanesti-04.jpeg": "/wptech/static/media/Darmanesti-04.70cdbc15822b5a695ccd.jpeg",
+    "static/media/Darmanesti-03.jpeg": "/wptech/static/media/Darmanesti-03.dbfd5df966b3b6cb0153.jpeg",
     "static/media/bg.jpg": "/wptech/static/media/bg.d0a361cfe19cb4f7cf07.jpg",
     "static/media/feed5.png": "/wptech/static/media/feed5.74704e80d4550e098c56.png",
+    "static/media/jidvei.jpeg": "/wptech/static/media/jidvei.a96302d9e8b1b50638d1.jpeg",
+    "static/media/valcea.jpeg": "/wptech/static/media/valcea.bcf49d2cb4e00e5a1606.jpeg",
+    "static/media/valcea-02.jpeg": "/wptech/static/media/valcea-02.7902ff75bf6e3c8a9dda.jpeg",
+    "static/media/valcea-03.jpeg": "/wptech/static/media/valcea-03.df105a735e306d752fd9.jpeg",
+    "static/media/valcea-04.jpeg": "/wptech/static/media/valcea-04.ef83545e094d89f2438a.jpeg",
+    "static/media/valcea-05.jpeg": "/wptech/static/media/valcea-05.1a3859ebae7d61ea44a5.jpeg",
+    "static/media/tarnaveni.jpeg": "/wptech/static/media/tarnaveni.6c93f953664d684a7b13.jpeg",
     "static/media/technology.jpeg": "/wptech/static/media/technology.ad468f76e8fb683b68ab.jpeg",
     "static/media/WPowertech System logo black.png": "/wptech/static/media/WPowertech System logo black.71e6e1c4d054d8ada448.png",
     "static/media/WPowertech_logo_white.png": "/wptech/static/media/WPowertech_logo_white.10bbbf17f09ad5ef9cf9.png",
     "index.html": "/wptech/index.html",
     "static/media/getFetch.cjs": "/wptech/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
-    "main.629166ca.css.map": "/wptech/static/css/main.629166ca.css.map",
-    "main.df369239.js.map": "/wptech/static/js/main.df369239.js.map",
+    "main.d2e11cfe.css.map": "/wptech/static/css/main.d2e11cfe.css.map",
+    "main.b0355926.js.map": "/wptech/static/js/main.b0355926.js.map",
     "453.4b6d0715.chunk.js.map": "/wptech/static/js/453.4b6d0715.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.629166ca.css",
-    "static/js/main.df369239.js"
+    "static/css/main.d2e11cfe.css",
+    "static/js/main.b0355926.js"
   ]
 }
