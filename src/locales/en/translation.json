@@ -20,5 +20,15 @@
   "high_temp_thermal_decomposition": "High temperature thermal decomposition refers to a process of breaking down organic or inorganic materials at very high temperatures, usually above 700 degrees Celsius. The process involves applying heat to the material in the absence of oxygen to produce simpler compounds, such as gases and solids.",
   "pyrolysis": "In the absence of oxygen, the process is known as pyrolysis. Pyrolysis involves heating the material to high temperatures without any contact with air, which prevents combustion. This process produces gases, such as methane, hydrogen, and carbon monoxide, as well as solids.",
   "benefits": "High temperature thermal decomposition has many benefits, such as reducing waste volume and producing energy from waste. However, it can also release harmful pollutants into the atmosphere if not carried out in a controlled manner, which can have negative impacts on human health and the environment. Therefore, it is important to carry out these processes under strict regulations to ensure that they are safe and environmentally sustainable.",
-  "overall": "Overall, molecular disintegration can be an effective way to reduce the volume of waste in landfills, generate renewable energy, and reduce greenhouse gas emissions. However, it is important to ensure that these processes are carried out in a safe and environmentally sustainable manner to minimize their potential negative impacts."
+  "overall": "Overall, molecular disintegration can be an effective way to reduce the volume of waste in landfills, generate renewable energy, and reduce greenhouse gas emissions. However, it is important to ensure that these processes are carried out in a safe and environmentally sustainable manner to minimize their potential negative impacts.",
+  "title-tarnaveni": "Târnăveni, Romania",
+  "desc-tarnaveni": "Raw material - industrial waste (textile, rubber, wood, paper, plastic, etc.)\n4000 tonnes/year",
+  "title-jidvei": "Jidvei, Romania",
+  "desc-jidvei": "Raw material - biomass\n8000 tonnes/year",
+  "title-ramnicu": "Râmnicu Vâlcea, Romania",
+  "desc-ramnicu": "Raw material - RDF, sludge from wastewater treatment plants\n10000 tonnes/year\n\nDelivered: September 2023",
+  "title-darmanesti": "Dărmănești, Romania (Under Construction)",
+  "desc-darmanesti": "Raw material - used tires and oil waste\n10000 tonnes/year\n\nDelivery time: October 2023",
+  "title-oradea": "Oradea, Romania (Under Construction)",
+  "desc-oradea": "Raw material - used tires and RDF\n50000 tonnes/year\n\nDelivery time: March 2024"
 }
