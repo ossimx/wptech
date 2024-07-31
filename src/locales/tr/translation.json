@@ -1,0 +1,25 @@
+{
+    "welcome": "Waste Powertech'e Hoş Geldiniz",
+    "learn_more": "Daha Fazla Bilgi Edinin",
+    "contact_us": "Bize şu adresten ulaşın:",
+    "location": "Konum:",
+    "technology": "Teknoloji",
+    "references": "Referanslar",
+    "company": "Şirket",
+    "products": "Ürünler",
+    "contact": "İletişim",
+    "learn_more_desc": "Teknoloji hakkında daha fazla bilgi edinin",
+    "news": "Haberler",
+    "history": "Tarihçe",
+    "certificates": "Sertifikalar",
+    "sustainability": "Sürdürülebilirlik",
+    "ourproduct": "Ürünlerimiz",
+    "how_it_works": "Nasıl çalışır?",
+    "molecular_disintegration": "Moleküler ayrışma, moleküller içindeki kimyasal bağların parçalanması ve daha küçük, basit bileşiklerin oluşması anlamına gelir.",
+    "thermal_treatment_methods": "Termal işlem yöntemleri, moleküllerin yüksek sıcaklıklara maruz bırakılarak daha küçük bileşiklere ayrılmasını içerir.",
+    "high_temp_thermal_decomposition": "Yüksek sıcaklıkta termal ayrışma, organik veya inorganik malzemelerin genellikle 700 santigrat derecenin üzerindeki çok yüksek sıcaklıklarda parçalanma sürecini ifade eder. Bu süreç, oksijen olmadan malzemeye ısı uygulanmasını ve daha basit bileşiklerin, gazlar ve katıların üretilmesini içerir.",
+    "pyrolysis": "Oksijenin olmadığı durumda bu süreç piroliz olarak bilinir. Piroliz, malzemenin hava ile temas etmeden yüksek sıcaklıklara ısıtılmasını içerir, bu da yanmayı önler. Bu süreç, metan, hidrojen ve karbon monoksit gibi gazlar ve katı maddeler üretir.",
+    "benefits": "Yüksek sıcaklıkta termal ayrışmanın birçok faydası vardır, örneğin atık hacminin azaltılması ve atıktan enerji üretilmesi gibi. Ancak, kontrolsüz bir şekilde gerçekleştirilirse atmosfere zararlı kirleticiler salınabilir, bu da insan sağlığı ve çevre üzerinde olumsuz etkilere neden olabilir. Bu nedenle, bu süreçlerin güvenli ve çevresel olarak sürdürülebilir bir şekilde gerçekleştirildiğinden emin olmak için sıkı düzenlemeler altında yürütülmesi önemlidir.",
+    "overall": "Genel olarak, moleküler ayrışma, atık depolama sahalarındaki atık hacmini azaltmanın, yenilenebilir enerji üretmenin ve sera gazı emisyonlarını azaltmanın etkili bir yolu olabilir. Ancak, bu süreçlerin potansiyel olumsuz etkilerini en aza indirmek için güvenli ve çevresel olarak sürdürülebilir bir şekilde gerçekleştirildiğinden emin olmak önemlidir."
+  }
+  

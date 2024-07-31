@@ -9,6 +9,7 @@ import ro from './locales/ro/translation.json';
 import hu from './locales/hu/translation.json';
 import gr from './locales/gr/translation.json';
 import zh from './locales/zh/translation.json';
+import tr from './locales/tr/translation.json';
 
 i18n
   // i18next-http-backend
@@ -41,7 +42,10 @@ i18n
       },
       gr: {
         translation: gr
-      }
+      },
+      tr:{
+        translation: tr
+      },
     },
     debug: true,
     fallbackLng: 'en',

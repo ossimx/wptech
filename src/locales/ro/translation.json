@@ -10,8 +10,16 @@
     "contact": "Contact",
     "learn_more_desc": "Aflați mai multe despre tehnologie",
     "news": "Știri",
-    "history": "Istoric",
-    "certificates": "Certificări",
+    "history": "Istorie",
+    "certificates": "Certificare",
     "sustainability": "Sustenabilitate",
-    "ourproduct": "Produsele Noastre"
-}
+    "ourproduct": "Produsele noastre",
+    "how_it_works": "Cum funcționează?",
+    "molecular_disintegration": "Disintegrarea moleculară se referă la ruperea legăturilor chimice din interiorul moleculelor, rezultând formarea unor compuși mai mici și mai simpli.",
+    "thermal_treatment_methods": "Metodele de tratament termic implică expunerea moleculelor la temperaturi ridicate, provocând descompunerea lor în compuși mai mici.",
+    "high_temp_thermal_decomposition": "Descompunerea termică la temperaturi ridicate se referă la un proces de descompunere a materialelor organice sau anorganice la temperaturi foarte ridicate, de obicei peste 700 de grade Celsius. Procesul implică aplicarea căldurii materialului în absența oxigenului pentru a produce compuși mai simpli, cum ar fi gaze și solide.",
+    "pyrolysis": "În absența oxigenului, procesul este cunoscut sub numele de pyrolyse. Pyrolyse implică încălzirea materialului la temperaturi ridicate fără contact cu aerul, prevenind arderea. Acest proces produce gaze, cum ar fi metan, hidrogen și monoxid de carbon, precum și solide.",
+    "benefits": "Descompunerea termică la temperaturi ridicate are multe beneficii, cum ar fi reducerea volumului de deșeuri și generarea de energie din deșeuri. Cu toate acestea, poate elibera și poluanți dăunători în atmosferă dacă nu este realizată într-un mod controlat, ceea ce poate avea impacturi negative asupra sănătății umane și mediului. Prin urmare, este important să se efectueze aceste procese conform unor reglementări stricte pentru a asigura că sunt sigure și sustenabile din punct de vedere ecologic.",
+    "overall": "În general, disintegrarea moleculară poate fi o metodă eficientă pentru a reduce volumul de deșeuri în gropile de gunoi, pentru a genera energie regenerabilă și pentru a reduce emisiile de gaze cu efect de seră. Cu toate acestea, este important să se asigure că aceste procese sunt efectuate într-un mod sigur și ecologic pentru a minimiza impactul lor negativ potențial."
+  }
+  

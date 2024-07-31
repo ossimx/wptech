@@ -1,17 +1,25 @@
 {
     "welcome": "Üdvözöljük a Waste Powertech-nél",
-    "learn_more": "Tudjon meg többet",
-    "contact_us": "Lépjen kapcsolatba velünk:",
+    "learn_more": "Tudj meg többet",
+    "contact_us": "Lépjen kapcsolatba velünk itt:",
     "location": "Helyszín:",
     "technology": "Technológia",
     "references": "Referenciák",
     "company": "Cég",
     "products": "Termékek",
     "contact": "Kapcsolat",
-    "learn_more_desc": "Tudjon meg többet a technológiáról",
+    "learn_more_desc": "Tudj meg többet a technológiáról",
     "news": "Hírek",
     "history": "Történelem",
     "certificates": "Tanúsítványok",
     "sustainability": "Fenntarthatóság",
-    "ourproduct": "Termékeink"
-}
+    "ourproduct": "Termékeink",
+    "how_it_works": "Hogyan működik?",
+    "molecular_disintegration": "A molekuláris diszintegáció a kémiai kötések lebontását jelenti a molekulákban, amely kisebb, egyszerűbb vegyületek kialakulásához vezet.",
+    "thermal_treatment_methods": "A hőkezelési módszerek magukban foglalják a molekulák magas hőmérsékletnek való kitettségét, amely kisebb vegyületekre bontja őket.",
+    "high_temp_thermal_decomposition": "A magas hőmérsékletű hőbomlás egy olyan folyamatot jelöl, amely során szerves vagy szervetlen anyagokat bontanak le nagyon magas hőmérsékleten, általában 700 Celsius fok felett. A folyamat magában foglalja a hő alkalmazását az anyagon oxigén jelenléte nélkül, egyszerűbb vegyületek, például gázok és szilárd anyagok előállítása érdekében.",
+    "pyrolysis": "Oxigén jelenléte nélkül a folyamatot pirolízisnek nevezik. A pirolízis magában foglalja az anyag magas hőmérsékleten történő felmelegítését levegővel való érintkezés nélkül, amely megakadályozza az égést. Ez a folyamat gázokat, például metánt, hidrogént és szén-monoxidot, valamint szilárd anyagokat eredményez.",
+    "benefits": "A magas hőmérsékletű hőbomlásnak számos előnye van, például a hulladék térfogatának csökkentése és energia előállítása a hulladékból. Ugyanakkor káros szennyező anyagokat is felszabadíthat a légkörbe, ha nem kontrollált módon hajtják végre, ami negatív hatással lehet az emberi egészségre és a környezetre. Ezért fontos, hogy ezeket a folyamatokat szigorú előírások mellett végezzék annak érdekében, hogy biztosítsák azok biztonságos és környezetbarát voltát.",
+    "overall": "Összességében a molekuláris diszintegáció hatékony módja lehet a hulladék mennyiségének csökkentésére a lerakókban, megújuló energia előállítására és az üvegházhatású gázok kibocsátásának csökkentésére. Fontos azonban, hogy ezeket a folyamatokat biztonságos és környezetbarát módon végezzék, hogy minimalizálják potenciális negatív hatásaikat."
+  }
+  
