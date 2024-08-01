@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wptech/static/css/main.19354e0a.css",
-    "main.js": "/wptech/static/js/main.4835e8f6.js",
+    "main.js": "/wptech/static/js/main.e04aa336.js",
     "static/js/453.4b6d0715.chunk.js": "/wptech/static/js/453.4b6d0715.chunk.js",
     "static/media/Wpowertech-24.jpg": "/wptech/static/media/Wpowertech-24.712f3e650c4fc62f40c5.jpg",
     "static/media/Wpowertech-2.jpg": "/wptech/static/media/Wpowertech-2.1e747fa13d4884caf10b.jpg",
@@ -34,11 +34,11 @@
     "index.html": "/wptech/index.html",
     "static/media/getFetch.cjs": "/wptech/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
     "main.19354e0a.css.map": "/wptech/static/css/main.19354e0a.css.map",
-    "main.4835e8f6.js.map": "/wptech/static/js/main.4835e8f6.js.map",
+    "main.e04aa336.js.map": "/wptech/static/js/main.e04aa336.js.map",
     "453.4b6d0715.chunk.js.map": "/wptech/static/js/453.4b6d0715.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19354e0a.css",
-    "static/js/main.4835e8f6.js"
+    "static/js/main.e04aa336.js"
   ]
 }
