@@ -30,5 +30,9 @@
   "title-darmanesti": "Dărmănești, Romania (Under Construction)",
   "desc-darmanesti": "Raw material - used tires and oil waste\n10000 tonnes/year\n\nDelivery time: October 2023",
   "title-oradea": "Oradea, Romania (Under Construction)",
-  "desc-oradea": "Raw material - used tires and RDF\n50000 tonnes/year\n\nDelivery time: March 2024"
+  "desc-oradea": "Raw material - used tires and RDF\n50000 tonnes/year\n\nDelivery time: March 2024",
+  "office":" Office",
+  "office-address":"Târgu Mureș, Gheorghe Doja street 177",
+  "factory":"Factory",
+  "factory-address":"Târnăveni, Avram Iancu street 270"
 }

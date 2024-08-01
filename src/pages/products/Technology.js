@@ -43,8 +43,8 @@ const TechnologyPage = () => {
                 <p>SC Waste Powertech SRL</p>
                 <p><FaEnvelope />: office@wpowertech.ro</p>
                 <p><FaPhone />: (+40) 751-624-810</p>
-                <a href="https://www.facebook.com/profile.php?id=61559358922953" style={{ textDecoration: 'none' }}><FaFacebook />: Waste Powertech SRL</a>
-                <a href="https://www.youtube.com/@wastepowertech4213" style={{ textDecoration: 'none' }}><FaYoutube />: Waste Powertech</a>
+                <a href="https://www.facebook.com/profile.php?id=61559358922953"><FaFacebook />: Waste Powertech SRL</a>
+                <a href="https://www.youtube.com/@wastepowertech4213" ><FaYoutube />: Waste Powertech</a>
               </div>
               <div className="location-container">
                 <h2><b>{t('location')}</b></h2>
