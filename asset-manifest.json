@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wptech/static/css/main.e6fe3265.css",
-    "main.js": "/wptech/static/js/main.edb93a46.js",
+    "main.css": "/wptech/static/css/main.b6f3132a.css",
+    "main.js": "/wptech/static/js/main.1b05d1d1.js",
     "static/js/453.4b6d0715.chunk.js": "/wptech/static/js/453.4b6d0715.chunk.js",
     "static/media/refBG.jpg": "/wptech/static/media/refBG.3e99b761b14e837bc648.jpg",
     "static/media/Wpowertech-24.jpg": "/wptech/static/media/Wpowertech-24.712f3e650c4fc62f40c5.jpg",
@@ -36,12 +36,12 @@
     "static/media/WPowertech_logo_white.png": "/wptech/static/media/WPowertech_logo_white.10bbbf17f09ad5ef9cf9.png",
     "index.html": "/wptech/index.html",
     "static/media/getFetch.cjs": "/wptech/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
-    "main.e6fe3265.css.map": "/wptech/static/css/main.e6fe3265.css.map",
-    "main.edb93a46.js.map": "/wptech/static/js/main.edb93a46.js.map",
+    "main.b6f3132a.css.map": "/wptech/static/css/main.b6f3132a.css.map",
+    "main.1b05d1d1.js.map": "/wptech/static/js/main.1b05d1d1.js.map",
     "453.4b6d0715.chunk.js.map": "/wptech/static/js/453.4b6d0715.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6fe3265.css",
-    "static/js/main.edb93a46.js"
+    "static/css/main.b6f3132a.css",
+    "static/js/main.1b05d1d1.js"
   ]
 }
