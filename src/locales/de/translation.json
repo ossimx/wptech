@@ -31,8 +31,16 @@
   "desc-darmanesti": "Rohstoff - gebrauchte Reifen und Ölabfälle\n10000 Tonnen/Jahr\n\nLieferzeit: Oktober 2023",
   "title-oradea": "Oradea, Rumänien (Im Bau)",
   "desc-oradea": "Rohstoff - gebrauchte Reifen und RDF\n50000 Tonnen/Jahr\n\nLieferzeit: März 2024",
+  "title-cluj": "Cluj Napoca, Rumänien",
+  "desc-cluj": " - ",
+  "title-satumare": "Satu Mare, Rumänien",
+  "desc-satumare": "-",
   "office": "Büro",
   "office-address": "Târgu Mureș, Gheorghe Doja Straße 177",
   "factory": "Fabrik",
-  "factory-address": "Târnăveni, Avram Iancu Straße 270"
+  "factory-address": "Târnăveni, Avram Iancu Straße 270",
+  "urban-waste": "Städtischer Abfall",
+  "industrial-waste": "Industriemüll",
+  "biomass": "Biomasse",
+  "dangerous-waste": "Gefährlicher Abfall"
 }

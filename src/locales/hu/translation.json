@@ -29,10 +29,18 @@
   "desc-ramnicu": "Nyersanyag - RDF, szennyvíztisztító telepekről származó iszap\n10000 tonna/év\n\nSzállítás: 2023 szeptember",
   "title-darmanesti": "Dărmănești, Románia (Építés alatt)",
   "desc-darmanesti": "Nyersanyag - használt gumiabroncsok és olajhulladék\n10000 tonna/év\n\nSzállítási idő: 2023 október",
+  "title-cluj": "Kolozsvár, Románia",
+  "desc-cluj": " - ",
+  "title-satumare": "Szatmárnémeti, Románia",
+  "desc-satumare": "-",
   "title-oradea": "Nagyvárad, Románia (Építés alatt)",
   "desc-oradea": "Nyersanyag - használt gumiabroncsok és RDF\n50000 tonna/év\n\nSzállítási idő: 2024 március",
   "office": "Iroda",
   "office-address": "Târgu Mureș, Gheorghe Doja utca 177",
   "factory": "Gyár",
-  "factory-address": "Târnăveni, Avram Iancu utca 270"
+  "factory-address": "Târnăveni, Avram Iancu utca 270",
+  "urban-waste": "Városi Hulladék",
+  "industrial-waste": "Ipari Hulladék",
+  "biomass": "Biomassza",
+  "dangerous-waste": "Veszélyes Hulladék"
 }

@@ -7,8 +7,12 @@ import { FaTrash } from 'react-icons/fa';
 import { FaIndustry } from 'react-icons/fa';
 import { PiPlantFill } from "react-icons/pi";
 import { PiWarningDiamondFill } from "react-icons/pi";
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
+import { CustomPrevButton, CustomNextButton } from '../../components/CustomButtons'
 
 import './References.css';
+import '../../components/Carousel.css';
 import images from '../../images/Imageholder';
 import { useRef } from 'react';
 
@@ -38,42 +42,62 @@ const References = () => {
             images.darmanesti3,
             images.darmanesti4,
         ],
-        oradea: [
-        ]
+        cluj: [images.inConstruction],
+        satumare: [images.inConstruction],
     };
-
-    const renderGallery = (images) => (
-        <div className="reference-gallery">
-            {images.map((src, index) => (
-                <div className="gallery-item" key={index}>
-                    <img src={src} alt={`Gallery ${index}`} />
-                </div>
-            ))}
-        </div>
-    );
     const scrollToRef = (ref) => {
         if (ref.current) {
-          ref.current.scrollIntoView({ behavior: 'smooth' });
+            ref.current.scrollIntoView({ behavior: 'instant' });
         }
-      };
+    };
+    const createCarouselItems = (imageArray) => (
+        imageArray.map((src, index) => (
+            <div className="gallery-item" key={index}>
+                <img src={src} alt={`Gallery ${index}`} />
+            </div>
+        ))
+    );
     return (
-        <Parallax pages={8}>
-             <ParallaxLayer offset={0} speed={0.1} className="hero-section">
-            <img src={images.refBackground} alt="Background" className="background-image" />
+        <div className='references-page'>
+        <Parallax pages={9}>
+            <ParallaxLayer offset={0} speed={0.5} className="hero-section">
+                <img src={images.refBackground} alt="Background" className="background-image" />
                 <div className="reference-box">
                     <h1>{t('references')}</h1>
                     <div className="button-container">
                         <div className="button-background"></div>
-                        <button onClick={() => scrollToRef(urbanRef)}><FaTrash/><br></br>{t('urban-waste')}</button>
-                        <button onClick={() => scrollToRef(industryRef)}><FaIndustry/><br></br>{t('industrial-waste')}</button>
+                        <button onClick={() => scrollToRef(urbanRef)}><FaTrash /><br></br>{t('urban-waste')}</button>
+                        <button onClick={() => scrollToRef(industryRef)}><FaIndustry /><br></br>{t('industrial-waste')}</button>
                         <button onClick={() => scrollToRef(biomassRef)}><PiPlantFill /><br></br>{t('biomass')}</button>
                         <button onClick={() => scrollToRef(dangerRef)}><PiWarningDiamondFill />
-                        {t('dangerous-waste')}</button>
+                            {t('dangerous-waste')}</button>
                     </div>
                 </div>
             </ParallaxLayer>
             <ParallaxLayer offset={1} speed={0.1} className="reference-layer">
-                <div className="reference-container" ref={urbanRef}>
+                <div className="reference-container scroll-margin" ref={urbanRef}>
+                    <div className="reference-content">
+                        <div className="title-bar">
+                            {t('title-cluj')}
+                        </div>
+                        <div className="description">
+                            {t('desc-cluj')}
+                        </div>
+                        <div className="gallery">
+                            <AliceCarousel
+                                mouseTracking
+                                infinite
+                                items={createCarouselItems(imageSources.cluj)}
+                                renderPrevButton={() => <CustomPrevButton onClick={() => { }} />}
+                                renderNextButton={() => <CustomNextButton onClick={() => { }} />}
+                            />
+                        </div>
+                    </div>
+
+                </div>
+            </ParallaxLayer>
+            <ParallaxLayer offset={2} speed={0.1} className="reference-layer">
+                <div className="reference-container scroll-margin" ref={industryRef}>
                     <div className="reference-content">
                         <div className="title-bar">
                             {t('title-tarnaveni')}
@@ -82,30 +106,42 @@ const References = () => {
                             {t('desc-tarnaveni')}
                         </div>
                         <div className="gallery">
-                            {renderGallery(imageSources.tarnaveni)}
-                        </div>
-                    </div>
-
-                </div>
-            </ParallaxLayer>
-            <ParallaxLayer offset={2} speed={0.1} className="reference-layer">
-                <div className="reference-container" ref={biomassRef}>
-                    <div className="reference-content">
-                        <div className="title-bar">
-                            {t('title-jidvei')}
-                        </div>
-                        <div className="description">
-                            {t('desc-jidvei')}
-                        </div>
-                        <div className="gallery">
-                            {renderGallery(imageSources.jidvei)}
+                            <AliceCarousel
+                                mouseTracking
+                                infinite
+                                items={createCarouselItems(imageSources.tarnaveni)}
+                                renderPrevButton={() => <CustomPrevButton onClick={() => { }} />}
+                                renderNextButton={() => <CustomNextButton onClick={() => { }} />}
+                            />
                         </div>
                     </div>
 
                 </div>
             </ParallaxLayer>
             <ParallaxLayer offset={3} speed={0.1} className="reference-layer">
-                <div className="reference-container" ref={industryRef}>
+                <div className="reference-container">
+                    <div className="reference-content">
+                        <div className="title-bar">
+                            {t('title-satumare')}
+                        </div>
+                        <div className="description">
+                            {t('desc-satumare')}
+                        </div>
+                        <div className="gallery">
+                            <AliceCarousel
+                                mouseTracking
+                                infinite
+                                items={createCarouselItems(imageSources.satumare)}
+                                renderPrevButton={() => <CustomPrevButton onClick={() => { }} />}
+                                renderNextButton={() => <CustomNextButton onClick={() => { }} />}
+                            />
+                        </div>
+                    </div>
+
+                </div>
+            </ParallaxLayer>
+            <ParallaxLayer offset={4} speed={0.1} className="reference-layer">
+                <div className="reference-container scroll-margin">
                     <div className="reference-content">
                         <div className="title-bar">
                             {t('title-ramnicu')}
@@ -114,14 +150,42 @@ const References = () => {
                             {t('desc-ramnicu')}
                         </div>
                         <div className="gallery">
-                            {renderGallery(imageSources.ramnicu)}
+                            <AliceCarousel
+                                mouseTracking
+                                infinite
+                                items={createCarouselItems(imageSources.ramnicu)}
+                                renderPrevButton={() => <CustomPrevButton onClick={() => { }} />}
+                                renderNextButton={() => <CustomNextButton onClick={() => { }} />}
+                            />
                         </div>
                     </div>
 
                 </div>
             </ParallaxLayer>
-            <ParallaxLayer offset={4} speed={0.1} className="reference-layer">
-                <div className="reference-container" ref={dangerRef}>
+            <ParallaxLayer offset={5} speed={0.1} className="reference-layer">
+                <div className="reference-container scroll-margin" ref={biomassRef}>
+                    <div className="reference-content">
+                        <div className="title-bar">
+                            {t('title-jidvei')}
+                        </div>
+                        <div className="description">
+                            {t('desc-jidvei')}
+                        </div>
+                        <div className="gallery">
+                            <AliceCarousel
+                                mouseTracking
+                                infinite
+                                items={createCarouselItems(imageSources.jidvei)}
+                                renderPrevButton={() => <CustomPrevButton onClick={() => { }} />}
+                                renderNextButton={() => <CustomNextButton onClick={() => { }} />}
+                            />
+                        </div>
+                    </div>
+
+                </div>
+            </ParallaxLayer>
+            <ParallaxLayer offset={6} speed={0.1} className="reference-layer">
+                <div className="reference-container scroll-margin" ref={dangerRef}>
                     <div className="reference-content">
                         <div className="title-bar">
                             {t('title-darmanesti')}
@@ -130,30 +194,21 @@ const References = () => {
                             {t('desc-darmanesti')}
                         </div>
                         <div className="gallery">
-                            {renderGallery(imageSources.darmanesti)}
+                            <AliceCarousel
+                                mouseTracking
+                                infinite
+                                items={createCarouselItems(imageSources.darmanesti)}
+                                renderPrevButton={() => <CustomPrevButton onClick={() => { }} />}
+                                renderNextButton={() => <CustomNextButton onClick={() => { }} />}
+                            />
                         </div>
                     </div>
                 </div>
 
             </ParallaxLayer>
-            <ParallaxLayer offset={5} speed={0.1} className="reference-layer">
-                <div className="reference-container">
-                    <div className="reference-content">
-                        <div className="title-bar">
-                            {t('title-oradea')}
-                        </div>
-                        <div className="description">
-                            {t('desc-oradea')}
-                        </div>
-                        <div className="gallery">
-                            {renderGallery(imageSources.oradea)}
-                        </div>
-                    </div>
 
-                </div>
-            </ParallaxLayer>
             <ParallaxLayer
-                offset={6}
+                offset={8}
                 speed={0.1}
                 className="footer"
             >
@@ -173,6 +228,7 @@ const References = () => {
                 </div>
             </ParallaxLayer>
         </Parallax>
+        </div>
     );
 };
 

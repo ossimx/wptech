@@ -31,8 +31,16 @@
   "desc-darmanesti": "原材料 - 废旧轮胎和油废料\n10000 吨/年\n\n交付时间：2023年10月",
   "title-oradea": "Oradea, 罗马尼亚（在建中）",
   "desc-oradea": "原材料 - 废旧轮胎和RDF\n50000 吨/年\n\n交付时间：2024年3月",
+  "title-cluj": "克卢日-纳波卡, 罗马尼亚",
+  "desc-cluj": " - ",
+  "title-satumare": "萨图马雷, 罗马尼亚",
+  "desc-satumare": "-",
   "office": "办公室",
   "office-address": "塔尔古穆雷什，Gheorghe Doja 街 177号",
   "factory": "工厂",
-  "factory-address": "塔尔纳文，Avram Iancu 街 270号"
+  "factory-address": "塔尔纳文，Avram Iancu 街 270号",
+  "urban-waste": "城市垃圾",
+  "industrial-waste": "工业废物",
+  "biomass": "生物质",
+  "dangerous-waste": "危险废物"
 }
