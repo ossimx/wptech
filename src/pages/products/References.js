@@ -3,12 +3,21 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import { useTranslation } from 'react-i18next';
 import { FaEnvelope, FaPhone } from 'react-icons/fa';
 import { FaFacebook, FaYoutube } from "react-icons/fa6";
+import { FaTrash } from 'react-icons/fa';
+import { FaIndustry } from 'react-icons/fa';
+import { PiPlantFill } from "react-icons/pi";
+import { PiWarningDiamondFill } from "react-icons/pi";
+
 import './References.css';
 import images from '../../images/Imageholder';
+import { useRef } from 'react';
 
 const References = () => {
     const { t } = useTranslation();
-
+    const urbanRef = useRef(null);
+    const industryRef = useRef(null);
+    const biomassRef = useRef(null);
+    const dangerRef = useRef(null);
     const imageSources = {
         tarnaveni: [
             images.tarnaveni1,
@@ -42,11 +51,29 @@ const References = () => {
             ))}
         </div>
     );
-
+    const scrollToRef = (ref) => {
+        if (ref.current) {
+          ref.current.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
     return (
         <Parallax pages={8}>
-            <ParallaxLayer offset={0} speed={0.5} className="reference-layer">
-                <div className="reference-container">
+             <ParallaxLayer offset={0} speed={0.1} className="hero-section">
+            <img src={images.refBackground} alt="Background" className="background-image" />
+                <div className="reference-box">
+                    <h1>{t('references')}</h1>
+                    <div className="button-container">
+                        <div className="button-background"></div>
+                        <button onClick={() => scrollToRef(urbanRef)}><FaTrash/><br></br>{t('urban-waste')}</button>
+                        <button onClick={() => scrollToRef(industryRef)}><FaIndustry/><br></br>{t('industrial-waste')}</button>
+                        <button onClick={() => scrollToRef(biomassRef)}><PiPlantFill /><br></br>{t('biomass')}</button>
+                        <button onClick={() => scrollToRef(dangerRef)}><PiWarningDiamondFill />
+                        {t('dangerous-waste')}</button>
+                    </div>
+                </div>
+            </ParallaxLayer>
+            <ParallaxLayer offset={1} speed={0.1} className="reference-layer">
+                <div className="reference-container" ref={urbanRef}>
                     <div className="reference-content">
                         <div className="title-bar">
                             {t('title-tarnaveni')}
@@ -61,8 +88,8 @@ const References = () => {
 
                 </div>
             </ParallaxLayer>
-            <ParallaxLayer offset={1} speed={0.5} className="reference-layer">
-                <div className="reference-container">
+            <ParallaxLayer offset={2} speed={0.1} className="reference-layer">
+                <div className="reference-container" ref={biomassRef}>
                     <div className="reference-content">
                         <div className="title-bar">
                             {t('title-jidvei')}
@@ -77,8 +104,8 @@ const References = () => {
 
                 </div>
             </ParallaxLayer>
-            <ParallaxLayer offset={2} speed={0.5} className="reference-layer">
-                <div className="reference-container">
+            <ParallaxLayer offset={3} speed={0.1} className="reference-layer">
+                <div className="reference-container" ref={industryRef}>
                     <div className="reference-content">
                         <div className="title-bar">
                             {t('title-ramnicu')}
@@ -93,8 +120,8 @@ const References = () => {
 
                 </div>
             </ParallaxLayer>
-            <ParallaxLayer offset={3} speed={0.5} className="reference-layer">
-                <div className="reference-container">
+            <ParallaxLayer offset={4} speed={0.1} className="reference-layer">
+                <div className="reference-container" ref={dangerRef}>
                     <div className="reference-content">
                         <div className="title-bar">
                             {t('title-darmanesti')}
@@ -109,7 +136,7 @@ const References = () => {
                 </div>
 
             </ParallaxLayer>
-            <ParallaxLayer offset={4} speed={0.5} className="reference-layer">
+            <ParallaxLayer offset={5} speed={0.1} className="reference-layer">
                 <div className="reference-container">
                     <div className="reference-content">
                         <div className="title-bar">
@@ -126,7 +153,7 @@ const References = () => {
                 </div>
             </ParallaxLayer>
             <ParallaxLayer
-                offset={5}
+                offset={6}
                 speed={0.1}
                 className="footer"
             >
