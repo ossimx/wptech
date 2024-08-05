@@ -149,9 +149,9 @@
   }
   .dropdown-arrow {
   position: absolute;
-  top: -1.4vw;
-  left: -0.3vw;
-  font-size: 3rem;
+  top: -5.2vw;
+  left: -2vw;
+  font-size: 10vw;
   color: rgb(0, 60, 23);
   }
   .lang-container {

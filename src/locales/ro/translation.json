@@ -29,10 +29,18 @@
   "desc-ramnicu": "Materie primă - RDF, nămol de la stațiile de epurare a apelor uzate\n10000 tone/an\n\nLivrat: Septembrie 2023",
   "title-darmanesti": "Dărmănești, România (În construcție)",
   "desc-darmanesti": "Materie primă - anvelope uzate și deșeuri de ulei\n10000 tone/an\n\nTermen de livrare: Octombrie 2023",
+  "title-cluj": "Cluj Napoca, România",
+  "desc-cluj": " - ",
+  "title-satumare": "Satu Mare, România",
+  "desc-satumare": "-",
   "title-oradea": "Oradea, România (În construcție)",
   "desc-oradea": "Materie primă - anvelope uzate și RDF\n50000 tone/an\n\nTermen de livrare: Martie 2024",
   "office": "Birou",
   "office-address": "Târgu Mureș, strada Gheorghe Doja nr. 177",
   "factory": "Fabrica",
-  "factory-address": "Târnăveni, strada Avram Iancu nr. 270"
+  "factory-address": "Târnăveni, strada Avram Iancu nr. 270",
+  "urban-waste": "Deșeuri Municipale",
+  "industrial-waste": "Deșeuri Industriale",
+  "biomass": "Biomasă",
+  "dangerous-waste": "Deșeuri Periculoase"
 }

@@ -1,3 +1,12 @@
+.references-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-image: url("/public/bg-ref2.png");
+}
 .parallax {
     position: relative;
 }
@@ -102,18 +111,18 @@
     border-radius: 12px;
     box-sizing: border-box;
     position: relative;
+    clip-path: polygon(0 0, 5% 0, 0 5%, 0 100%, 100% 100%, 100% 0);
 }
 
 .title-bar {
-    background-color: #4CAF50;
-    color: white;
-    padding: 15px;
+    background-color: #fff200;
+    color: rgb(0, 0, 0);
+    padding: 2vw;
     font-size: 1.5rem;
     font-weight: bold;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
     border-radius: 6px;
-    width: calc(100% + 20px);
-    margin: -20px -20px 20px -20px;
+    margin: -20px;
 }
 
 .description {
@@ -136,12 +145,20 @@
 .gallery-item {
     position: relative;
     border-radius: 12px;
-}
-
-.gallery-item img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 400px;
+    overflow: hidden;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.scroll-margin {
+    padding-top: 180px;
+}
+.gallery-item img {
+    width: auto;
+    height: 400px;
+    display: block;
     border-radius: 12px;
 }
 

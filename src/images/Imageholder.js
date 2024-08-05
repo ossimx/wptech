@@ -34,6 +34,7 @@ import ramnicu5 from './valcea-05.jpeg';
 import tarnaveni1 from './tarnaveni.jpeg';
 import jidvei1 from './jidvei.jpeg';
 import refBackground from './refBG.jpg'
+import inConstruction from './inplan.png';
 const images = {
     Wpowertech1,
     Wpowertech2,
@@ -51,6 +52,7 @@ const images = {
     WPowertechSystemLogoWhite,
     logo,
     feed1,
+    inConstruction,
     feed2,
     refBackground,
     feed3,
