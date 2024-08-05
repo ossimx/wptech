@@ -33,7 +33,7 @@ import ramnicu4 from './valcea-04.jpeg';
 import ramnicu5 from './valcea-05.jpeg';
 import tarnaveni1 from './tarnaveni.jpeg';
 import jidvei1 from './jidvei.jpeg';
-
+import refBackground from './refBG.jpg'
 const images = {
     Wpowertech1,
     Wpowertech2,
@@ -52,6 +52,7 @@ const images = {
     logo,
     feed1,
     feed2,
+    refBackground,
     feed3,
     feed4,
     feed5,

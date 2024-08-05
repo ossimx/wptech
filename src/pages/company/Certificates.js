@@ -36,36 +36,53 @@ const Certificates = ({ disableNavbar, enableNavbar }) => {
   }, [selectedCertificate]);
   return (
     <div className="certificatePage">
-    <Parallax pages={2}>
-      <ParallaxLayer offset={0} speed={0.5} className="text-layer">
-        <div className="text-content">
-          <h1>{t('certificates')}</h1>
-          <div className="certificates-gallery">
-            {certificateGallery.map((certificate) => (
-              <img
-                key={certificate.id}
-                src={certificate.src}
-                alt={certificate.alt}
-                onClick={() => handleClick(certificate)}
-                className="certificate-thumbnail"
-              />
-            ))}
-          </div>
-        </div>
-        {selectedCertificate && (
-           <div className={`certificate-overlay ${selectedCertificate ? 'active' : ''}`} onClick={handleClose}>
-            <div className="overlay-content" onClick={(e) => e.stopPropagation()}>
-              <IoMdClose className="close-icon" onClick={handleClose} />
-              <img
-                src={selectedCertificate.src}
-                alt={selectedCertificate.alt}
-                className="certificate-full"
-              />
+      <Parallax pages={2}>
+        <ParallaxLayer offset={0} speed={0.5} className="text-layer">
+          <div className="text-content">
+            <h1>{t('certificates')}</h1>
+            <div className="certificates-gallery">
+              {certificateGallery.map((certificate) => (
+                <img
+                  key={certificate.id}
+                  src={certificate.src}
+                  alt={certificate.alt}
+                  onClick={() => handleClick(certificate)}
+                  className="certificate-thumbnail"
+                />
+              ))}
             </div>
+            <ul>
+              <li>
+                <p>EU Directive: 2000/76 EG 2014/35/EU 2014/30/EU 2006/42/EC</p>
+              </li>
+              <li>
+                <p>SR EN ISO12100:2011</p>
+              </li>
+              <li>
+                <p>SR EN 60204 1:2007</p>
+              </li>
+              <li>
+                <p>SR EN 62061:2005</p>
+              </li>
+              <li>
+                <p>SR EN 842+A1:2009</p>
+                </li>
+            </ul>
           </div>
-        )}
-      </ParallaxLayer>
-    </Parallax>
+          {selectedCertificate && (
+            <div className={`certificate-overlay ${selectedCertificate ? 'active' : ''}`} onClick={handleClose}>
+              <div className="overlay-content" onClick={(e) => e.stopPropagation()}>
+                <IoMdClose className="close-icon" onClick={handleClose} />
+                <img
+                  src={selectedCertificate.src}
+                  alt={selectedCertificate.alt}
+                  className="certificate-full"
+                />
+              </div>
+            </div>
+          )}
+        </ParallaxLayer>
+      </Parallax>
     </div>
   );
 };
