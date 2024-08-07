@@ -42,5 +42,15 @@
   "urban-waste": "Városi Hulladék",
   "industrial-waste": "Ipari Hulladék",
   "biomass": "Biomassza",
-  "dangerous-waste": "Veszélyes Hulladék"
+  "dangerous-waste": "Veszélyes Hulladék",
+  "sustainability-important": "A FENNTARTHATÓSÁG SZÁMUNKRA NAGYON FONTOS – FELELŐSSÉGET VÁLLALUNK JÖVŐNKÉRT",
+  "sustainability-description": "Cselekedeteinknek következményei vannak – cégként felismerjük a felelősségünket az emberek és a környezet iránt. Ezért a fenntarthatóságot minden tevékenységünkben előtérbe helyezzük.",
+  "sustainability-ecology": "FENNTARTHATÓSÁG ÉS ÖKOLÓGIA",
+  "sustainability-ecology-description": "A WastePowerTech vállalat elkötelezett a környezet védelme és megőrzése mellett. Fő céljaink egyike a CO2-kibocsátás folyamatos csökkentése és lehetőleg teljes megszüntetése.",
+  "commitment-to-environment": "KÖRNYEZETI ELKÖTELEZETTSÉGÜNK",
+  "commitment-description": "A WastePowerTech-nél elkötelezettek vagyunk a fenntartható jövő előmozdítása iránt, amely magában foglalja a környezetbarát gyakorlatok integrálását működésünk minden területén. Arra törekszünk, hogy innovatív megoldásokkal és felelős erőforrás-menedzsmenttel minimalizáljuk környezeti hatásainkat.",
+  "commitment-details": "Iniciatíváink közé tartozik a fenntarthatósági gyakorlataink folyamatos javítása, megújuló energiaforrások alkalmazása és hulladékgazdálkodási folyamataink optimalizálása. Célunk környezettudatos technológiák és gyakorlatok alkalmazása, hogy csökkentsük szén-dioxid lábnyomunkat és megőrizzük a természeti erőforrásokat.",
+  "social-responsibility": "SZOCIÁLIS FELELŐSSÉGET VÁLLALUNK",
+  "social-responsibility-description": "Vállalatként és munkáltatóként tisztában vagyunk társadalmi és munkavállalói felelősségünkkel. Gondoskodunk a tisztességes munkakörülményekről minden telephelyünkön, és tiszteletben tartjuk a beszállítókkal és alvállalkozókkal való kapcsolatok integritását."
+
 }

@@ -40,5 +40,15 @@
   "urban-waste": "Kentsel Atık",
   "industrial-waste": "Endüstriyel Atık",
   "biomass": "Biyokütle",
-  "dangerous-waste": "Tehlikeli Atık"
+  "dangerous-waste": "Tehlikeli Atık",
+  "sustainability-important": "SÜRDÜRÜLEBİLİRLİK BİZİM İÇİN ÇOK ÖNEMLİ – GELECEĞİMİZ İÇİN SORUMLULUK ALIYORUZ",
+  "sustainability-description": "Eylemlerimizin sonuçları var – bir şirket olarak, insanlara ve çevreye karşı sorumluluğumuzu kabul ediyoruz. Bu yüzden sürdürülebilirliği yaptığımız her şeyde önceliklendiriyoruz.",
+  "sustainability-ecology": "SÜRDÜRÜLEBİLİRLİK VE EKOLİJİ",
+  "sustainability-ecology-description": "WastePowerTech şirketi, çevrenin korunması ve korunmasına kendini adamıştır. Temel hedeflerimizden biri, CO2 emisyonlarını sürekli olarak azaltmak ve ideal olarak ortadan kaldırmaktır.",
+  "commitment-to-environment": "ÇEVREYE OLAN TAHAHÜDÜMÜZ",
+  "commitment-description": "WastePowerTech olarak, tüm operasyonlarımızda çevre dostu uygulamaları entegre ederek sürdürülebilir bir geleceği teşvik etmeye kendimizi adadık. Çevresel etkilerimizi yenilikçi çözümler ve sorumlu kaynak yönetimi yoluyla en aza indirmeye kararlıyız.",
+  "commitment-details": "İnisiyatiflerimiz, sürdürülebilirlik uygulamalarımızın sürekli iyileştirilmesini, yenilenebilir enerji kaynaklarının benimsenmesini ve atık yönetim süreçlerimizin optimize edilmesini içerir. Karbon ayak izimizi azaltmak ve doğal kaynakları korumak için çevre dostu teknolojiler ve uygulamalar benimsemeye çalışıyoruz.",
+  "social-responsibility": "SOSYAL SORUMLULUK ALIYORUZ",
+  "social-responsibility-description": "Bir işletme ve işveren olarak, topluma ve çalışanlarımıza karşı önemli bir sorumluluğumuzun farkındayız. Tüm lokasyonlarımızda adil çalışma koşullarını sağlıyoruz ve alt yüklenicilerimiz ve tedarikçilerimizle olan ilişkilerimizde dürüstlüğü koruyoruz."
+
 }

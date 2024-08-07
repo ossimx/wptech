@@ -1,0 +1,116 @@
+.history-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-image: url("/public/bg-roadmap.png");
+}
+.history-layer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container {
+  text-align: center;
+}
+
+.wp-logo {
+  width: 80vw;
+  height: auto;
+  margin-top: 6vw;
+}
+
+.timeline-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.timeline-title {
+  font-size: 10vw;
+  text-align: center;
+  margin-bottom: 20px;
+  color:wheat;
+  text-decoration: bold;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 40px;
+  padding: 10px;
+  border-left: 5px solid;
+  border-image: linear-gradient(to bottom, rgb(136, 81, 45), wheat, white, wheat, rgb(136, 81, 45)) 1;
+}
+.timeline-2{
+  position: relative;
+  padding-left: 40px;
+  padding: 10px;
+  border-left: 5px solid;
+  border-image: linear-gradient(to bottom, rgb(136, 81, 45), rgb(255, 123, 123), white, rgb(255, 123, 123), rgb(0, 11, 62)) 1;
+}
+.timeline-3{
+  position: relative;
+  padding-left: 40px;
+  padding: 10px;
+  border-left: 5px solid;
+  border-image: linear-gradient(to bottom, rgb(0, 11, 62), rgrgb(0, 255, 229)white, rgb(0, 204, 204), rgb(0, 191, 95)) 1;
+}
+.timeline-4{
+  position: relative;
+  padding-left: 40px;
+  padding: 10px;
+  border-left: 5px solid;
+  border-image: linear-gradient(to bottom, rgb(0, 191, 95), rgb(0, 255, 0), white, rgb(255, 234, 0), rgb(247, 111, 0)) 1;
+}
+.timeline-5{
+  position: relative;
+  padding-left: 40px;
+  padding: 10px;
+  border-left: 5px solid;
+  border-image: linear-gradient(to bottom, rgb(247, 111, 0), rgb(255, 0, 170), white, rgb(225, 116, 165), rgb(255, 188, 188)) 1;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.timeline-content {
+  padding-left: 20px;
+}
+
+.timeline-content h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 7.6vw;
+  margin: 0 0 10px 0;
+}
+
+.timeline-content .quarter {
+  color: #ff4a4a; 
+  font-weight: bold;
+}
+
+.timeline-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.timeline-content ul li {
+  margin-bottom: 5px;
+  color:wheat;
+  font-size:4vw
+}
+@media (max-width: 1024px) {
+
+  .timeline-content h2 {
+    font-size: 10vw;
+  }
+
+  .timeline-content ul li {
+    font-size: 6vw;
+  }
+}

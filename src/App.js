@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Company from './pages/Company';
 import Products from './pages/Products';
@@ -8,6 +8,8 @@ import Layout from './pages/Layout';
 import Technology from './pages/products/Technology';
 import Certificates from './pages/company/Certificates';
 import References from './pages/products/References';
+import History from './pages/company/History';
+import Sustainability from './pages/company/Sustainability';
 const App = () => {
   const [isNavbarDisabled, setIsNavbarDisabled] = useState(false);
 
@@ -25,6 +27,8 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/wptech" element={<Home />} />
             <Route path="/company" element={<Company />} />
+            <Route path="/company/history" element={<History />} />
+            <Route path="/company/sustainability" element={<Sustainability />} />
             <Route path="/company/certificates" element={<Certificates disableNavbar={disableNavbar} enableNavbar={enableNavbar} />} />
             <Route path="/products" element={<Products />} />
             <Route path="/products/technology" element={<Technology />} />
