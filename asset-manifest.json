@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/wptech/static/css/main.a7c9314c.css",
-    "main.js": "/wptech/static/js/main.812b965f.js",
+    "main.css": "/wptech/static/css/main.ff4c9042.css",
+    "main.js": "/wptech/static/js/main.6d46608e.js",
     "static/js/453.4b6d0715.chunk.js": "/wptech/static/js/453.4b6d0715.chunk.js",
     "static/media/refBG.jpg": "/wptech/static/media/refBG.3e99b761b14e837bc648.jpg",
     "static/media/Wpowertech-24.jpg": "/wptech/static/media/Wpowertech-24.712f3e650c4fc62f40c5.jpg",
     "static/media/Wpowertech-2.jpg": "/wptech/static/media/Wpowertech-2.1e747fa13d4884caf10b.jpg",
+    "static/media/sustain-banner.png": "/wptech/static/media/sustain-banner.ac65e06e295df9835278.png",
     "static/media/certificat3.png": "/wptech/static/media/certificat3.36c084b05559c9ae6693.png",
+    "static/media/bg-sust.png": "/wptech/static/media/bg-sust.a50143215d82a7bad7cd.png",
+    "static/media/bg-sust-hero.png": "/wptech/static/media/bg-sust-hero.dd4781fd208abe9af879.png",
     "static/media/certificat1.png": "/wptech/static/media/certificat1.366cedf65d7de69b7305.png",
     "static/media/bg-ref2.png": "/wptech/static/media/bg-ref2.1e66a0e74e78dc344e08.png",
     "static/media/tech-2.png": "/wptech/static/media/tech-2.ed378b12002e222d5c2b.png",
@@ -37,12 +40,12 @@
     "static/media/WPowertech_logo_white.png": "/wptech/static/media/WPowertech_logo_white.10bbbf17f09ad5ef9cf9.png",
     "index.html": "/wptech/index.html",
     "static/media/getFetch.cjs": "/wptech/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
-    "main.a7c9314c.css.map": "/wptech/static/css/main.a7c9314c.css.map",
-    "main.812b965f.js.map": "/wptech/static/js/main.812b965f.js.map",
+    "main.ff4c9042.css.map": "/wptech/static/css/main.ff4c9042.css.map",
+    "main.6d46608e.js.map": "/wptech/static/js/main.6d46608e.js.map",
     "453.4b6d0715.chunk.js.map": "/wptech/static/js/453.4b6d0715.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7c9314c.css",
-    "static/js/main.812b965f.js"
+    "static/css/main.ff4c9042.css",
+    "static/js/main.6d46608e.js"
   ]
 }
