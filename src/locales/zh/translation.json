@@ -42,5 +42,15 @@
   "urban-waste": "城市垃圾",
   "industrial-waste": "工业废物",
   "biomass": "生物质",
-  "dangerous-waste": "危险废物"
+  "dangerous-waste": "危险废物",
+  "sustainability-important": "可持续性对我们非常重要——我们对未来负有责任",
+  "sustainability-description": "我们的行动会产生影响——作为公司，我们认识到对人类和环境的责任。因此，我们在所有工作中优先考虑可持续性。",
+  "sustainability-ecology": "可持续性与生态",
+  "sustainability-ecology-description": "WastePowerTech公司致力于保护和维护环境。我们的主要目标之一是持续减少并理想地消除二氧化碳排放。",
+  "commitment-to-environment": "我们对环境的承诺",
+  "commitment-description": "在WastePowerTech，我们致力于通过在所有操作中融入环保实践来促进可持续未来。我们致力于通过创新解决方案和负责任的资源管理来最小化我们的环境影响。",
+  "commitment-details": "我们的举措包括持续改进我们的可持续性实践，采用可再生能源，并优化我们的废物管理过程。我们努力实施环保技术和实践，以减少我们的碳足迹并保护自然资源。",
+  "social-responsibility": "我们承担社会责任",
+  "social-responsibility-description": "作为企业和雇主，我们意识到对社会和员工的重大责任。我们确保在所有地点提供公平的工作条件，并在与分包商和供应商的关系中保持诚信。"
+
 }

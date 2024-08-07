@@ -42,5 +42,15 @@
   "urban-waste":"Municipal Solid Waste",
   "industrial-waste":"Industrial Waste",
   "biomass":"Biomass",
-  "dangerous-waste":"Hazardous Waste"
+  "dangerous-waste":"Hazardous Waste",
+  "sustainability-important": "SUSTAINABILITY IS VERY IMPORTANT TO US – WE TAKE RESPONSIBILITY FOR OUR FUTURE",
+  "sustainability-description": "Our actions have consequences — as a company, we recognize our responsibility towards people and the environment. That is why we prioritize sustainability in everything we do.",
+  "sustainability-ecology": "SUSTAINABILITY AND ECOLOGY",
+  "sustainability-ecology-description": "The WastePowerTech company is dedicated to protecting and preserving the environment. One of our primary goals is to continuously reduce and ideally eliminate CO2 emissions.",
+  "commitment-to-environment": "OUR COMMITMENT TO THE ENVIRONMENT",
+  "commitment-description": "At WastePowerTech, we are committed to fostering a sustainable future by integrating eco-friendly practices across all our operations. We are dedicated to minimizing our environmental impact through innovative solutions and responsible resource management.",
+  "commitment-details": "Our initiatives include the continuous improvement of our sustainability practices, embracing renewable energy sources, and optimizing our waste management processes. We strive to implement environmentally conscious technologies and practices to reduce our carbon footprint and conserve natural resources.",
+  "social-responsibility": "WE TAKE SOCIAL RESPONSIBILITY",
+  "social-responsibility-description": "As a business enterprise and employer, we are aware of our significant responsibility towards society and our employees. We ensure fair working conditions at all our locations and maintain integrity in our relationships with subcontractors and suppliers."
+
 }

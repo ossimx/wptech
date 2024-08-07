@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import Wpowertech1 from './Wpowertech-24.jpg';
 import Wpowertech2 from './Wpowertech-2.jpg';
 import WPowertechSystemLogoBlack from './WPowertech System logo black.png';
@@ -33,9 +34,11 @@ import ramnicu4 from './valcea-04.jpeg';
 import ramnicu5 from './valcea-05.jpeg';
 import tarnaveni1 from './tarnaveni.jpeg';
 import jidvei1 from './jidvei.jpeg';
-import refBackground from './refBG.jpg'
+import refBackground from './refBG.jpg';
 import inConstruction from './inplan.png';
+import sustainbanner from './sustain-banner.png';
 const images = {
+    sustainbanner,
     Wpowertech1,
     Wpowertech2,
     Technology,
