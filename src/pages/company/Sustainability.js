@@ -29,7 +29,7 @@ const Sustainability = () => {
             <div className='text-cont-sust-title'>
               <h1>{t('sustainability')}</h1>
             </div>
-            <div className="text-section">
+            <div className="text-section-sust">
               <div className="text-left">
                 <h1>{t('sustainability-important')}</h1>
                 <p>{t('sustainability-description')}</p>

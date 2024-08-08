@@ -45,7 +45,7 @@ const Home = () => {
               <p>{t('learn_more_desc')}</p>
             </div>
             <iframe width="600" height="385" src="https://www.youtube.com/embed/p8VD26dwU14?si=LXVS9aIcTAND8aRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <div className="button-container">
+            <div className="button-container-tech">
               <FaArrowRight className="arrow" />
               <a href="/products/technology" className="learn-more">{t('learn_more')}</a>
             </div>

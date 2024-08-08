@@ -153,6 +153,7 @@
   left: -2vw;
   font-size: 10vw;
   color: rgb(0, 60, 23);
+  pointer-events: none;
   }
   .lang-container {
   position: relative;
