@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wptech/static/css/main.2c95095d.css",
-    "main.js": "/wptech/static/js/main.d7f1530f.js",
+    "main.js": "/wptech/static/js/main.b96dd4f4.js",
     "static/js/453.4b6d0715.chunk.js": "/wptech/static/js/453.4b6d0715.chunk.js",
     "static/media/refBG.jpg": "/wptech/static/media/refBG.3e99b761b14e837bc648.jpg",
     "static/media/Wpowertech-24.jpg": "/wptech/static/media/Wpowertech-24.712f3e650c4fc62f40c5.jpg",
@@ -19,6 +19,7 @@
     "static/media/how it works.png": "/wptech/static/media/how it works.79d4a5b4b92cfefedf93.png",
     "static/media/feed1.png": "/wptech/static/media/feed1.71de0c3352d48504d403.png",
     "static/media/bg-news.jpg": "/wptech/static/media/bg-news.8847fb33a81e32cc7483.jpg",
+    "static/media/news2.png": "/wptech/static/media/news2.2914e3cc651b2b9e90c9.png",
     "static/media/feed4.png": "/wptech/static/media/feed4.7009ece83379201c62e9.png",
     "static/media/inplan.png": "/wptech/static/media/inplan.87e66099070741f43355.png",
     "static/media/logo.png": "/wptech/static/media/logo.9cc5eea76d838117cd9b.png",
@@ -43,11 +44,11 @@
     "index.html": "/wptech/index.html",
     "static/media/getFetch.cjs": "/wptech/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
     "main.2c95095d.css.map": "/wptech/static/css/main.2c95095d.css.map",
-    "main.d7f1530f.js.map": "/wptech/static/js/main.d7f1530f.js.map",
+    "main.b96dd4f4.js.map": "/wptech/static/js/main.b96dd4f4.js.map",
     "453.4b6d0715.chunk.js.map": "/wptech/static/js/453.4b6d0715.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2c95095d.css",
-    "static/js/main.d7f1530f.js"
+    "static/js/main.b96dd4f4.js"
   ]
 }
