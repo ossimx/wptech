@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { IoLanguage } from 'react-icons/io5';
+import { MdLanguage } from "react-icons/md";
 import { useTranslation } from 'react-i18next';
 import { IoMdArrowDropdown } from "react-icons/io";
 import { IoMdClose } from "react-icons/io";
@@ -87,8 +88,7 @@ const Layout = ({ children, isNavbarDisabled }) => {
                         <li className="dropdown" onClick={() => toggleDropdown(1)}>
                             <button type="button">{t('products')}<IoMdArrowDropdown /></button>
                             <div className={`dropdown-content ${dropdownOpen === 1 ? 'show' : ''}`}>
-                                <Link to="/products/ourproduct"><button><IoMdArrowDropdown className="dropdown-arrow" />{t('ourproduct')}</button></Link>
-                                <Link to="/products/technology"><button type="button">{t('technology')}</button></Link>
+                                <Link to="/products/technology"><IoMdArrowDropdown className="dropdown-arrow" /><button type="button">{t('technology')}</button></Link>
                                 <Link to="/products/references"><button type="button">{t('references')}</button></Link>
                             </div>
                         </li>
@@ -96,7 +96,7 @@ const Layout = ({ children, isNavbarDisabled }) => {
                     </ul>
                     <div className="lang-container">
                         <button type="button">
-                            <IoLanguage />
+                            <IoLanguage /><MdLanguage />
                         </button>
                         <div className="lang-dropdown">
                             <button type="button" onClick={() => changeLanguage('en')}>

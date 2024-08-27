@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <>
       <div className="home-page">
-        <Parallax pages={4}>
+        <Parallax pages={5}>
           <ParallaxLayer
             offset={0}
             speed={0.5}
@@ -36,7 +36,14 @@ const Home = () => {
             </div>
           </ParallaxLayer>
           <ParallaxLayer
-            offset={1}
+          offset = {0.999}
+          speed={0.4  
+          }
+          className='inbet'>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wIXN6ABv59o?si=2hBV5H6x9j0lZh4R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </ParallaxLayer>
+          <ParallaxLayer
+            offset={1.48}
             speed={0.5}
             className="technology-section"
           >
@@ -47,12 +54,12 @@ const Home = () => {
             <iframe width="600" height="385" src="https://www.youtube.com/embed/p8VD26dwU14?si=LXVS9aIcTAND8aRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <div className="button-container-tech">
               <FaArrowRight className="arrow" />
-              <a href="/products/technology" className="learn-more">{t('learn_more')}</a>
+              <a href="/#/products/technology" className="learn-more">{t('learn_more')}</a>
             </div>
           </ParallaxLayer>
 
           <ParallaxLayer
-            offset={2}
+            offset={2.5}
             speed={0.5}
             className="news-section"
           >
@@ -65,7 +72,7 @@ const Home = () => {
             />
           </ParallaxLayer>
           <ParallaxLayer
-            offset={3}
+            offset={3.5}
             speed={0.1}
             className="footer"
           >

@@ -1,376 +1,354 @@
 @import url('https://fonts.googleapis.com/css2?family=Interphases:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=TT+Autonomous:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 body,
 html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: 'Interphases', sans-serif;
-    overflow-x: hidden;
-    background-image: url("/public/bg.jpg");
+margin: 0;
+padding: 0;
+height: 100%;
+font-family: 'Interphases', sans-serif;
+overflow-x: hidden;
+background-image: url("/public/bg.jpg");
 }
-
 .App {
-    text-align: center;
+text-align: center;
 }
-
 .about-section {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
+position: relative;
+width: 100vw;
+height: 100vh;
 }
-
 .overlay {
-    position: relative;
-    width: 100%;
-    height: 100%;
+position: relative;
+width: 100%;
+height: 100%;
 }
-
 .background-image img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+z-index: -1;
 }
-
 .about-image {
-    position: relative;
-    z-index: 1;
+position: relative;
+z-index: 1;
 }
-
 .about-image img {
-    max-width: 80%;
-    height: auto;
-    z-index: 2;
-    position: relative;
-    display: block;
-    margin: 0 auto;
+max-width: 80%;
+height: auto;
+z-index: 2;
+position: relative;
+display: block;
+margin: 0 auto;
 }
-
 .news-section {
-    padding: 1vw;
-    background-color: #ffffff;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    box-shadow: 0 3vw 5vw rgba(0, 0, 0, 0.8);
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+padding: 1vw;
+background-color: #ffffff;
+text-align: center;
+color: rgb(0, 0, 0);
+box-shadow: 0 3vw 5vw rgba(0, 0, 0, 0.8);
+position: relative;
+width: 70vw;
+height: 10vw;
 }
-
 .facebook-feed {
-    display: flex;
-    gap: 20px;
-    overflow-x: auto;
+display: flex;
+gap: 20px;
+overflow-x: auto;
 }
-
 .facebook-post {
-    background-color: white;
-    border-radius: 1vw;
-    overflow: hidden;
-    padding: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    min-height: 10vw;
+background-color: white;
+border-radius: 1vw;
+overflow: hidden;
+padding: 5px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+min-height: 10vw;
 }
-
+.facebook-post img
+{
+width: 30%;
+height: auto;
+}
+.inbet {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.inbet iframe {
+width: 80%;
+height: 80%;
+}
 .overlay {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    padding: 20px;
-    text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100%;
+padding: 20px;
+text-align: center;
 }
-
 .about-section .overlay h1 {
-    font-size: 4rem;
+font-size: 4rem;
 }
-
 .technology-section {
-    background-image: url('/public/Wpowertech-24.jpg');
-    background-attachment: fixed;
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
-    color: rgb(0, 0, 0);
-    box-shadow: 0 3vw 5vw rgba(0, 0, 0, 0.8);
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+background-image: url('/public/Wpowertech-24.jpg');
+background-attachment: fixed;
+display: flex;
+align-items: center;
+padding: 0 20px;
+color: rgb(0, 0, 0);
+box-shadow: 0 3vw 5vw rgba(0, 0, 0, 0.8);
+position: relative;
+width: 100vw;
+height: 100vh;
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
 }
-
 .technology-section .overlay {
-    position: absolute;
-    left: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.43);
-    padding: 0vw;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: 600px;
-    z-index: 2;
+position: absolute;
+left: 20px;
+top: 50%;
+transform: translateY(-50%);
+background: rgba(255, 255, 255, 0.43);
+padding: 0vw;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+max-width: 600px;
+z-index: 2;
 }
-
 .technology-section .overlay h2 {
-    font-size: 6rem;
-    color: #009eed;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-    margin-bottom: 20px;
+font-size: 6rem;
+color: #009eed;
+text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+margin-bottom: 20px;
 }
-
 .technology-section .overlay p {
-    font-size: 4rem;
-    margin-bottom: 20px;
-    color: #333;
+font-size: 4rem;
+margin-bottom: 20px;
+color: #333;
 }
-
 .button-container-tech {
-    position: absolute;
-    right: 150px;
-    bottom: 20px;
-    transform: translateY(-50%);
-    display: flex;
-    align-items: center;
+position: absolute;
+right: 150px;
+bottom: 20px;
+transform: translateY(-50%);
+display: flex;
+align-items: center;
 }
-
 .technology-section iframe {
-    position: absolute;
-    right: 10vw;
-    box-shadow: 0 2vw 4vw rgba(0, 0, 0, 0.7);
+position: absolute;
+right: 10vw;
+box-shadow: 0 2vw 4vw rgba(0, 0, 0, 0.7);
 }
-
 .learn-more {
-    padding: 20px 40px;
-    border: 2px solid #005ab9;
-    background-color: #005ab9;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 10px;
-    font-size: 1.5rem;
-    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+padding: 20px 40px;
+border: 2px solid #005ab9;
+background-color: #005ab9;
+color: #fff;
+text-decoration: none;
+border-radius: 10px;
+font-size: 1.5rem;
+transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
-
 .learn-more:hover {
-    background-color: #0056b3;
-    transform: scale(1.1);
+background-color: #0056b3;
+transform: scale(1.1);
 }
-
 .arrow {
-    width: 100px;
-    height: 100px;
-    color: blue;
-    opacity: 0.8;
-    margin-right: 15px;
+width: 100px;
+height: 100px;
+color: blue;
+opacity: 0.8;
+margin-right: 15px;
 }
-
 footer {
-    padding: 20px;
-    background-color: #002a01;
-    color: #fff700;
-    position: relative;
-    width: 100%;
-    box-sizing: border-box;
-    clear: both;
+padding: 20px;
+background-color: #002a01;
+color: #fff700;
+position: relative;
+width: 100%;
+box-sizing: border-box;
+clear: both;
 }
-
 .footer-content {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 150px;
-    flex-wrap: wrap;
-    background-color: #4CAF50;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+gap: 150px;
+flex-wrap: wrap;
+background-color: #4CAF50;
 }
-
 .location-container,
 .contact-details {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
 }
-
 .location-container p,
 .contact-details p {
-    display: flex;
-    align-items: center;
-    margin: 0 0 10px 0;
-    text-align: left;
-    color: white;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5)
+display: flex;
+align-items: center;
+margin: 0 0 10px 0;
+text-align: left;
+color: white;
+text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5)
 }
-
 .location-container a,
 .contact-details a {
-    display: flex;
-    align-items: center;
-    margin: 0 0 10px 0;
-    text-align: left;
-    color: white;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5)
+display: flex;
+align-items: center;
+margin: 0 0 10px 0;
+text-align: left;
+color: white;
+text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5)
 }
-
 .contact-details p svg {
-    margin-right: 10px;
+margin-right: 10px;
 }
-
 .location-container h2,
 .contact-details h2 {
-    margin: 0 0 10px 0;
-    text-align: left;
-    color: white;
-    font-size: 2rem;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+margin: 0 0 10px 0;
+text-align: left;
+color: white;
+font-size: 2rem;
+text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
-
 @media (max-width: 1024px) {
-    .technology-section .overlay {
-        position: absolute;
-        left: 0;
-        top: 50vw;
-        transform: translateY(-50%);
-        background: rgba(255, 255, 255, 0.43);
-        padding: 10vw 5vw;
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-        width: 30vw;
-        z-index: 2;
-    }
-
-    .button-container-tech {
-        right: 30px;
-    }
-
-    .arrow {
-        width: 60px;
-        height: 60px;
-        margin-right: 10px;
-    }
-
-    .technology-section iframe {
-        position: absolute;
-        right: 40px;
-        bottom: 30%;
-        width: 50%;
-        height: 20%;
-        border: 4px solid #005ab9;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    }
-
-    .technology-section .overlay h2 {
-        font-size: 3rem;
-    }
-
-    .technology-section .overlay p {
-        font-size: 2rem;
-    }
-
-    .learn-more {
-        padding: 10px 20px;
-        font-size: 2rem;
-    }
-
-    .footer-content {
-        padding-top: 10px;
-    }
+.technology-section .overlay {
+position: absolute;
+left: 0;
+top: 50vw;
+transform: translateY(-50%);
+background: rgba(255, 255, 255, 0.43);
+padding: 10vw 5vw;
+display: flex;
+flex-direction: column;
+align-items: left;
+width: 30vw;
+z-index: 2;
 }
-
+.button-container-tech {
+right: 30px;
+}
+.arrow {
+width: 60px;
+height: 60px;
+margin-right: 10px;
+}
+.technology-section iframe {
+position: absolute;
+right: 40px;
+bottom: 30%;
+width: 50%;
+height: 20%;
+border: 4px solid #005ab9;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.technology-section .overlay h2 {
+font-size: 3rem;
+}
+.technology-section .overlay p {
+font-size: 2rem;
+}
+.learn-more {
+padding: 10px 20px;
+font-size: 2rem;
+}
+.footer-content {
+padding-top: 10px;
+}
+.facebook-post img
+{
+width: 70%;
+height: auto;
+}
+}
 @media (max-width: 480px) {
-    .navbar {
-        font-size: 1rem;
-        padding: 8px 10px;
-    }
-
-    .nav-links {
-        flex-direction: column;
-        gap: 5px;
-    }
-
-    .nav-links li a {
-        padding: 4px 8px;
-    }
-
-    .technology-section .overlay {
-        width: 40%;
-        background: rgba(255, 255, 255, 0.0);
-        top: 20%;
-    }
-
-    .learn-more {
-        padding: 10px 20px;
-        font-size: 1rem;
-    }
-
-    .arrow {
-        width: 50px;
-        height: 50px;
-        margin-right: 10px;
-    }
-
-    .button-container-tech {
-        right: 50px;
-        bottom: 60px;
-    }
-
-    .learn-more {
-        width: 80%;
-        height: 120%;
-    }
-
-    .technology-section .overlay h2 {
-        font-size: 3rem;
-    }
-
-    .technology-section .overlay p {
-        font-size: 1.5rem;
-        color: rgb(120, 120, 120);
-    }
-
-    .technology-section iframe {
-        position: absolute;
-        right: 40px;
-        bottom: 35%;
-        width: 90%;
-        height: 30%;
-        border: 2px solid #005ab9;
-        border-radius: 4px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    }
-
-    .facebook-post {
-        min-width: 90%;
-    }
-
-    .footer-content {
-        text-align: center;
-    }
-
-    .location-container,
-    .contact-details {
-        align-items: center;
-    }
-
-    .location-container iframe {
-        margin-top: -15px;
-    }
-
-    .lang-container {
-        position: absolute;
-        right: 10px;
-    }
+.navbar {
+font-size: 1rem;
+padding: 8px 10px;
+}
+.inbet iframe {
+width: 100%;
+height:70%  ;
+}
+.nav-links {
+flex-direction: column;
+gap: 5px;
+}
+.nav-links li a {
+padding: 4px 8px;
+}
+.technology-section .overlay {
+width: 40%;
+background: rgba(255, 255, 255, 0.0);
+top: 20%;
+}
+.learn-more {
+padding: 10px 20px;
+font-size: 1rem;
+}
+.arrow {
+width: 100px;
+height: 100px;
+margin-right: 10px;
+}
+.button-container-tech {
+right: 50px;
+bottom: 60px;
+}
+.learn-more {
+width: 50vw;
+height: 10vw;
+font-size:2rem;
+}
+.technology-section .overlay h2 {
+font-size: 4rem;
+}
+.technology-section .overlay p {
+font-size: 2.2rem;
+color: rgb(0, 81, 255);
+background-color: rgba(255, 255, 255, 0.699);
+border: 2px solid rgb(85, 85, 85)   ;
+border-radius: 10px;
+}
+.technology-section iframe {
+position: absolute;
+right: 40px;
+bottom: 35%;
+width: 90%;
+height: 30%;
+border: 2px solid #005ab9;
+border-radius: 4px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.facebook-post {
+min-width: 90%;
+}
+.footer-content {
+text-align: center;
+}
+.location-container,
+.contact-details {
+align-items: center;
+}
+.location-container iframe {
+margin-top: -15px;
+}
+.lang-container {
+position: absolute;
+right: 10px;
+}
+.facebook-post img
+{
+width: 80%;
+height: auto;
+}
 }

@@ -25,6 +25,7 @@ const History = () => {
           layer4: 1.,
           layer5: 1.325,
           layer6: 1.650,
+          layer7: 1.975,
         });
       } else if (window.innerWidth <= 1024) {//tablet
         setOffsets({
@@ -34,6 +35,7 @@ const History = () => {
           layer4: 1.8,
           layer5: 2,
           layer6: 2.4,
+          layer7: 2.8,
         });
       } else {
         setOffsets({//desktop
@@ -43,6 +45,7 @@ const History = () => {
           layer4:2,
           layer5:2.7,
           layer6:3,
+          layer7:3.7
         });
       }
     };
@@ -77,10 +80,10 @@ const History = () => {
                 </h2>
                 <ul>
                   <li>{t('year-1-element-1')}</li>
-                  <li>{t('year-1-element-2')}</li>
-                  <li>{t('year-1-element-3')}</li>
-                  <li>{t('year-1-element-4')}</li>
-                  <li>{t('year-1-element-5')}</li>
+                  <li>{t('blank')}</li>
+                  <li>{t('blank')}</li>
+                  <li>{t('blank')}</li>
+                  <li>{t('blank')}</li>
                 </ul>
               </div>
             </div>
@@ -101,10 +104,10 @@ const History = () => {
                 </h2>
                 <ul>
                   <li>{t('year-2-element-1')}</li>
-                  <li>{t('year-2-element-2')}</li>
-                  <li>{t('year-2-element-3')}</li>
-                  <li>{t('year-2-element-4')}</li>
-                  <li>{t('year-2-element-5')}</li>
+                  <li>{t('blank')}</li>
+                  <li>{t('blank')}</li>
+                  <li>{t('blank')}</li>
+                  <li>{t('blank')}</li>
                 </ul>
               </div>
             </div>
@@ -126,9 +129,9 @@ const History = () => {
                 <ul>
                   <li>{t('year-3-element-1')}</li>
                   <li>{t('year-3-element-2')}</li>
-                  <li>{t('year-3-element-3')}</li>
-                  <li>{t('year-3-element-4')}</li>
-                  <li>{t('year-3-element-5')}</li>
+                  <li>{t('blank')}</li>
+                  <li>{t('blank')}</li>
+                  <li>{t('blank')}</li>
                 </ul>
               </div>
             </div>
@@ -149,10 +152,7 @@ const History = () => {
                 </h2>
                 <ul>
                   <li>{t('year-4-element-1')}</li>
-                  <li>{t('year-4-element-2')}</li>
-                  <li>{t('year-4-element-3')}</li>
-                  <li>{t('year-4-element-4')}</li>
-                  <li>{t('year-4-element-5')}</li>
+                  <li>{t('blank')}</li><li>{t('blank')}</li><li>{t('blank')}</li><li>{t('blank')}</li>
                 </ul>
               </div>
             </div>
@@ -174,9 +174,33 @@ const History = () => {
                 <ul>
                   <li>{t('year-5-element-1')}</li>
                   <li>{t('year-5-element-2')}</li>
-                  <li>{t('year-5-element-3')}</li>
-                  <li>{t('year-5-element-4')}</li>
-                  <li>{t('year-5-element-5')}</li>
+                  <li>{t('blank')}</li>
+                  <li>{t('blank')}</li>
+                  <li>{t('blank')}</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ParallaxLayer>
+      <ParallaxLayer
+        offset={offsets.layer7}
+        speed={0.5}
+        className="history-layer"
+      >
+        <div className="timeline-container">
+          <div className="timeline-5">
+            <div className="timeline-item">
+              <div className="timeline-content">
+                <h2>
+                  <span className="quarter">{t('year-6')}</span>
+                </h2>
+                <ul>
+                  <li>{t('year-6-element-1')}</li>
+                  <li>{t('year-6-element-2')}</li>
+                  <li>{t('blank')}</li>
+                  <li>{t('blank')}</li>
+                  <li>{t('blank')}</li>
                 </ul>
               </div>
             </div>

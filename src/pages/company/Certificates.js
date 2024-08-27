@@ -1,7 +1,9 @@
+/* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from 'react';
 import { IoMdClose } from 'react-icons/io';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import { useTranslation } from 'react-i18next';
+import { FaFilePdf, FaFileWord } from "react-icons/fa";
 import './Certificates.css';
 
 import images from '../../images/Imageholder';
@@ -15,6 +17,16 @@ const Certificates = ({ disableNavbar, enableNavbar }) => {
     { id: 3, src: images.certificate3, alt: 'Certificate 3' },
   ];
 
+  const documentList = [
+    { id: 1, title: t('document1'), file: '/docs/Brevet.pdf' },
+    { id: 2, title: t('document2'), file: '/docs/Descrierea_tehnologiei.pdf' },
+    { id: 3, title: t('document3'), file: '/docs/Acord_de_mediu_Valcea.pdf' },
+    { id: 4, title: t('document4'), file: '/docs/Autorizație_de_mediu_Jidvei.pdf' },
+    { id: 5, title: t('document5'), file: '/docs/Autorizație_de_mediu_Târnăveni.pdf' },
+    { id: 6, title: t('document6'), file: '/docs/Protecția_mediului_Satu_Mare.pdf' },
+    { id: 7, title: t('document7'), file: '/docs/Protecția_mediului_Cluj.pdf' },
+    { id: 8, title: t('document8'), file: '/docs/Autorizație_de_construcție_Cluj.pdf' },
+  ];
   const handleClick = (certificate) => {
     setSelectedCertificate(certificate);
     disableNavbar();
@@ -34,9 +46,19 @@ const Certificates = ({ disableNavbar, enableNavbar }) => {
       document.body.style.overflow = 'auto';
     };
   }, [selectedCertificate]);
+  const renderDocumentList = () => {
+    return documentList.map((doc) => (
+      <div key={doc.id} className="document-item">
+        <a href={doc.file} download className="document-link">
+          <FaFilePdf />
+          <span>{doc.title}</span>
+        </a>
+      </div>
+    ));
+  };
   return (
     <div className="certificatePage">
-      <Parallax pages={2}>
+      <Parallax pages={3}>
         <ParallaxLayer offset={0} speed={0.5} className="text-layer">
           <div className="text-content">
             <h1>{t('certificates')}</h1>
@@ -50,6 +72,10 @@ const Certificates = ({ disableNavbar, enableNavbar }) => {
                   className="certificate-thumbnail"
                 />
               ))}
+            </div>
+            <h1>{t('documents')}</h1>
+            <div className="documents-grid">
+              {renderDocumentList()}
             </div>
             <ul>
               <li>

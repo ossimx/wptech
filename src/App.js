@@ -10,6 +10,7 @@ import Certificates from './pages/company/Certificates';
 import References from './pages/products/References';
 import History from './pages/company/History';
 import Sustainability from './pages/company/Sustainability';
+import News from './pages/company/News';
 const App = () => {
   const [isNavbarDisabled, setIsNavbarDisabled] = useState(false);
 
@@ -28,6 +29,7 @@ const App = () => {
             <Route path="/wptech" element={<Home />} />
             <Route path="/company" element={<Company />} />
             <Route path="/company/history" element={<History />} />
+            <Route path="/company/news" element={<News />} />
             <Route path="/company/sustainability" element={<Sustainability />} />
             <Route path="/company/certificates" element={<Certificates disableNavbar={disableNavbar} enableNavbar={enableNavbar} />} />
             <Route path="/products" element={<Products />} />

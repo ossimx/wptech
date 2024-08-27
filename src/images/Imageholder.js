@@ -37,45 +37,76 @@ import jidvei1 from './jidvei.jpeg';
 import refBackground from './refBG.jpg';
 import inConstruction from './inplan.png';
 import sustainbanner from './sustain-banner.png';
+import news2 from './news2.png'
+import news3 from './maszol.jpg';
+import tarnaveni2 from './Wpowertech-13.jpg';
+import tarnaveni3 from './Wpowertech-17.jpg';
+import cj1 from './cj1.png';
+import cj2 from './cj2.png';
+import cj3 from './cj3.png';
+import cj4 from './cj4.png';
+import vl1 from './vl1.png';
+import vl2 from './vl2.png';
+import vl3 from './vl3.png';
+import vl4 from './vl4.png';
+import jid1 from './jid1.png';
+import jid2 from './jid2.png';
+import jid3 from './jid3.png';
+
 const images = {
-    sustainbanner,
-    Wpowertech1,
-    Wpowertech2,
-    Technology,
-    HowItWorks,
-    ThermalTreatment,
-    bg,
-    us,
-    de,
-    ro,
-    hu,
-    gr,
-    zh,
-    WPowertechSystemLogoBlack,
-    WPowertechSystemLogoWhite,
-    logo,
-    feed1,
-    inConstruction,
-    feed2,
-    refBackground,
-    feed3,
-    feed4,
-    feed5,
-    tr,
-    certificate1,
-    certificate2,
-    certificate3,
-    darmanesti1,
-    darmanesti2,
-    darmanesti3,
-    darmanesti4,
-    ramnicu1,
-    ramnicu2,
-    ramnicu3,
-    ramnicu4,
-    ramnicu5,
-    tarnaveni1,
-    jidvei1,
-  };
-  
-  export default images;
+  jid1,
+  jid2,
+  jid3,
+  vl1,
+  vl2,
+  vl3,
+  vl4,
+  cj1,
+  cj2,
+  cj3,
+  cj4,
+  sustainbanner,
+  tarnaveni2,
+  tarnaveni3,
+  Wpowertech1,
+  Wpowertech2,
+  Technology,
+  HowItWorks,
+  ThermalTreatment,
+  bg,
+  news3,
+  us,
+  de,
+  ro,
+  hu,
+  news2,
+  gr,
+  zh,
+  WPowertechSystemLogoBlack,
+  WPowertechSystemLogoWhite,
+  logo,
+  feed1,
+  inConstruction,
+  feed2,
+  refBackground,
+  feed3,
+  feed4,
+  feed5,
+  tr,
+  certificate1,
+  certificate2,
+  certificate3,
+  darmanesti1,
+  darmanesti2,
+  darmanesti3,
+  darmanesti4,
+  ramnicu1,
+  ramnicu2,
+  ramnicu3,
+  ramnicu4,
+  ramnicu5,
+  tarnaveni1,
+  jidvei1,
+};
+
+export default images;

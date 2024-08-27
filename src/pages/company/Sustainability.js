@@ -48,7 +48,7 @@ const Sustainability = () => {
           </div>
         </ParallaxLayer>
         <ParallaxLayer
-          offset={2}
+          offset={2.3}
           speed={0.1}
           className="footer"
         >
