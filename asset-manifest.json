@@ -1,24 +1,29 @@
 {
   "files": {
     "main.css": "/wptech/static/css/main.c0f68ed5.css",
-    "main.js": "/wptech/static/js/main.0bcbea6e.js",
+    "main.js": "/wptech/static/js/main.af2877a5.js",
     "static/js/453.4b6d0715.chunk.js": "/wptech/static/js/453.4b6d0715.chunk.js",
     "static/media/Wpowertech-17.jpg": "/wptech/static/media/Wpowertech-17.c047878deb5ee7000cb7.jpg",
     "static/media/Wpowertech-13.jpg": "/wptech/static/media/Wpowertech-13.d0460b08269131b3ff8c.jpg",
     "static/media/refBG.jpg": "/wptech/static/media/refBG.3e99b761b14e837bc648.jpg",
     "static/media/Wpowertech-24.jpg": "/wptech/static/media/Wpowertech-24.712f3e650c4fc62f40c5.jpg",
     "static/media/Wpowertech-2.jpg": "/wptech/static/media/Wpowertech-2.1e747fa13d4884caf10b.jpg",
+    "static/media/Acord_de_mediu_valcea.pdf": "/wptech/static/media/Acord_de_mediu_valcea.4994ae9ee9ef01e17ad7.pdf",
+    "static/media/AM_Energy_Gas.pdf": "/wptech/static/media/AM_Energy_Gas.6ec264da118c5861c77c.pdf",
     "static/media/sustain-banner.png": "/wptech/static/media/sustain-banner.ac65e06e295df9835278.png",
     "static/media/cj3.png": "/wptech/static/media/cj3.b0dca568179c84d4b79a.png",
     "static/media/cj4.png": "/wptech/static/media/cj4.65dea0c21ff56ce41aa8.png",
+    "static/media/Autorizatie_de_mediu_alba.pdf": "/wptech/static/media/Autorizatie_de_mediu_alba.c7ca861d4903829c0862.pdf",
     "static/media/certificat3.png": "/wptech/static/media/certificat3.36c084b05559c9ae6693.png",
     "static/media/bg-sust.png": "/wptech/static/media/bg-sust.a50143215d82a7bad7cd.png",
     "static/media/cj2.png": "/wptech/static/media/cj2.15798c791f1f2198c603.png",
     "static/media/bg-sust-hero.png": "/wptech/static/media/bg-sust-hero.dd4781fd208abe9af879.png",
     "static/media/cj1.png": "/wptech/static/media/cj1.58a05218c43bb4339cf0.png",
     "static/media/certificat1.png": "/wptech/static/media/certificat1.366cedf65d7de69b7305.png",
+    "static/media/SM_Decizie.pdf": "/wptech/static/media/SM_Decizie.4c9bd4459097e2b4c20d.pdf",
     "static/media/bg-ref2.png": "/wptech/static/media/bg-ref2.1e66a0e74e78dc344e08.png",
     "static/media/tech-2.png": "/wptech/static/media/tech-2.ed378b12002e222d5c2b.png",
+    "static/media/Decizie_APM.pdf": "/wptech/static/media/Decizie_APM.1269a835a7b1fe96808c.pdf",
     "static/media/certificat2.png": "/wptech/static/media/certificat2.b1683b24af893cb0df4f.png",
     "static/media/bg-roadmap.png": "/wptech/static/media/bg-roadmap.917e9dcfc5577cb41bd3.png",
     "static/media/how it works.png": "/wptech/static/media/how it works.79d4a5b4b92cfefedf93.png",
@@ -44,6 +49,7 @@
     "static/media/vl4.png": "/wptech/static/media/vl4.638bd8ca524fcfbb1a9d.png",
     "static/media/feed5.png": "/wptech/static/media/feed5.316d707e5fb3481cf795.png",
     "static/media/vl1.png": "/wptech/static/media/vl1.75f4685c1bcb02f9033e.png",
+    "static/media/Autorizatie_de_constructie.pdf": "/wptech/static/media/Autorizatie_de_constructie.5c7e89ee17ce6bcd775f.pdf",
     "static/media/jidvei.jpeg": "/wptech/static/media/jidvei.a96302d9e8b1b50638d1.jpeg",
     "static/media/valcea.jpeg": "/wptech/static/media/valcea.bcf49d2cb4e00e5a1606.jpeg",
     "static/media/valcea-02.jpeg": "/wptech/static/media/valcea-02.7902ff75bf6e3c8a9dda.jpeg",
@@ -51,6 +57,8 @@
     "static/media/valcea-04.jpeg": "/wptech/static/media/valcea-04.ef83545e094d89f2438a.jpeg",
     "static/media/valcea-05.jpeg": "/wptech/static/media/valcea-05.1a3859ebae7d61ea44a5.jpeg",
     "static/media/tarnaveni.jpeg": "/wptech/static/media/tarnaveni.6c93f953664d684a7b13.jpeg",
+    "static/media/Brevet.pdf": "/wptech/static/media/Brevet.b0d225cf0529327ba3d0.pdf",
+    "static/media/Descriere_tech.pdf": "/wptech/static/media/Descriere_tech.07b7d705f3cfa762394d.pdf",
     "static/media/technology.jpeg": "/wptech/static/media/technology.ad468f76e8fb683b68ab.jpeg",
     "static/media/WPowertech System logo black.png": "/wptech/static/media/WPowertech System logo black.71e6e1c4d054d8ada448.png",
     "static/media/WPowertech_logo_white.png": "/wptech/static/media/WPowertech_logo_white.10bbbf17f09ad5ef9cf9.png",
@@ -58,11 +66,11 @@
     "index.html": "/wptech/index.html",
     "static/media/getFetch.cjs": "/wptech/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
     "main.c0f68ed5.css.map": "/wptech/static/css/main.c0f68ed5.css.map",
-    "main.0bcbea6e.js.map": "/wptech/static/js/main.0bcbea6e.js.map",
+    "main.af2877a5.js.map": "/wptech/static/js/main.af2877a5.js.map",
     "453.4b6d0715.chunk.js.map": "/wptech/static/js/453.4b6d0715.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c0f68ed5.css",
-    "static/js/main.0bcbea6e.js"
+    "static/js/main.af2877a5.js"
   ]
 }
