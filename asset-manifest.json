@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wptech/static/css/main.c0f68ed5.css",
-    "main.js": "/wptech/static/js/main.958f5234.js",
+    "main.css": "/wptech/static/css/main.5fbad705.css",
+    "main.js": "/wptech/static/js/main.935d5850.js",
     "static/js/453.4b6d0715.chunk.js": "/wptech/static/js/453.4b6d0715.chunk.js",
     "static/media/Wpowertech-17.jpg": "/wptech/static/media/Wpowertech-17.c047878deb5ee7000cb7.jpg",
     "static/media/Wpowertech-13.jpg": "/wptech/static/media/Wpowertech-13.d0460b08269131b3ff8c.jpg",
@@ -28,14 +28,27 @@
     "static/media/bg-roadmap.png": "/wptech/static/media/bg-roadmap.917e9dcfc5577cb41bd3.png",
     "static/media/how it works.png": "/wptech/static/media/how it works.79d4a5b4b92cfefedf93.png",
     "static/media/feed1.png": "/wptech/static/media/feed1.71de0c3352d48504d403.png",
+    "static/media/bg-tech-hero.png": "/wptech/static/media/bg-tech-hero.ddd0a0a3057c6124acc3.png",
+    "static/media/bg-tech.png": "/wptech/static/media/bg-tech.c5a52724b16f43165145.png",
     "static/media/bg-news.jpg": "/wptech/static/media/bg-news.8847fb33a81e32cc7483.jpg",
+    "static/media/jid9.jpg": "/wptech/static/media/jid9.4c5e7e9fb6545bf98525.jpg",
+    "static/media/jid4.jpg": "/wptech/static/media/jid4.cb8b2bf0cf44911585f9.jpg",
+    "static/media/jid10.jpg": "/wptech/static/media/jid10.0d9c3df2028f7fe17a5a.jpg",
     "static/media/news2.png": "/wptech/static/media/news2.2914e3cc651b2b9e90c9.png",
     "static/media/feed4.png": "/wptech/static/media/feed4.7009ece83379201c62e9.png",
     "static/media/feed3.png": "/wptech/static/media/feed3.7a3377e0f024ad57f8b9.png",
+    "static/media/jid6.jpg": "/wptech/static/media/jid6.a7aaf853fbe9d0f1ba41.jpg",
+    "static/media/jid5.jpg": "/wptech/static/media/jid5.81d8d73cb1f098e0034c.jpg",
+    "static/media/jid7.jpg": "/wptech/static/media/jid7.2f7e333782c56a04b283.jpg",
+    "static/media/jid8.jpg": "/wptech/static/media/jid8.8a1bebfcc73b7465f28b.jpg",
     "static/media/inplan.png": "/wptech/static/media/inplan.87e66099070741f43355.png",
     "static/media/logo.png": "/wptech/static/media/logo.9cc5eea76d838117cd9b.png",
+    "static/media/darm1.jpg": "/wptech/static/media/darm1.f19975c43388ea896e15.jpg",
+    "static/media/darm3.jpg": "/wptech/static/media/darm3.40f87298b71f56e804b4.jpg",
     "static/media/darmanesti.jpeg": "/wptech/static/media/darmanesti.e6debbd69dd93343a713.jpeg",
+    "static/media/darm4.jpg": "/wptech/static/media/darm4.71bcd62fdc64d4a8f7cb.jpg",
     "static/media/Darmanesti-02.jpeg": "/wptech/static/media/Darmanesti-02.5672ea0da8769b64273a.jpeg",
+    "static/media/darm2.jpg": "/wptech/static/media/darm2.b155ea705afbc807b231.jpg",
     "static/media/Darmanesti-04.jpeg": "/wptech/static/media/Darmanesti-04.70cdbc15822b5a695ccd.jpeg",
     "static/media/Darmanesti-03.jpeg": "/wptech/static/media/Darmanesti-03.dbfd5df966b3b6cb0153.jpeg",
     "static/media/maszol.jpg": "/wptech/static/media/maszol.2e76748c5d572301ce04.jpg",
@@ -63,12 +76,12 @@
     "static/media/bg-out-news.jpg": "/wptech/static/media/bg-out-news.2cfeb3f42e3f9ccb421d.jpg",
     "index.html": "/wptech/index.html",
     "static/media/getFetch.cjs": "/wptech/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
-    "main.c0f68ed5.css.map": "/wptech/static/css/main.c0f68ed5.css.map",
-    "main.958f5234.js.map": "/wptech/static/js/main.958f5234.js.map",
+    "main.5fbad705.css.map": "/wptech/static/css/main.5fbad705.css.map",
+    "main.935d5850.js.map": "/wptech/static/js/main.935d5850.js.map",
     "453.4b6d0715.chunk.js.map": "/wptech/static/js/453.4b6d0715.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0f68ed5.css",
-    "static/js/main.958f5234.js"
+    "static/css/main.5fbad705.css",
+    "static/js/main.935d5850.js"
   ]
 }
