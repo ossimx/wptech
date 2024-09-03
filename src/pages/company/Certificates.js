@@ -5,6 +5,13 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import { useTranslation } from 'react-i18next';
 import { FaFilePdf, FaFileWord } from "react-icons/fa";
 import './Certificates.css';
+import acordDeMediiValcea from '../../docs/Acord_de_mediu_valcea.pdf';
+import autorizatieDeMediiJidvei from '../../docs/Autorizatie_de_mediu_alba.pdf';
+import autorizatieDeMediiTarnaveni from '../../docs/AM_Energy_Gas.pdf';
+import protectiaMediuluiSatuMare from '../../docs/SM_Decizie.pdf';
+import protectiaMediuluiCluj from '../../docs/Decizie_APM.pdf';
+import autorizatieDeConstructieCluj from '../../docs/Autorizatie_de_constructie.pdf';
+
 
 import images from '../../images/Imageholder';
 
@@ -18,14 +25,12 @@ const Certificates = ({ disableNavbar, enableNavbar }) => {
   ];
 
   const documentList = [
-    { id: 1, title: t('document1'), file: '/docs/Brevet.pdf' },
-    { id: 2, title: t('document2'), file: '/docs/Descrierea_tehnologiei.pdf' },
-    { id: 3, title: t('document3'), file: '/docs/Acord_de_mediu_Valcea.pdf' },
-    { id: 4, title: t('document4'), file: '/docs/Autorizație_de_mediu_Jidvei.pdf' },
-    { id: 5, title: t('document5'), file: '/docs/Autorizație_de_mediu_Târnăveni.pdf' },
-    { id: 6, title: t('document6'), file: '/docs/Protecția_mediului_Satu_Mare.pdf' },
-    { id: 7, title: t('document7'), file: '/docs/Protecția_mediului_Cluj.pdf' },
-    { id: 8, title: t('document8'), file: '/docs/Autorizație_de_construcție_Cluj.pdf' },
+    { id: 1, title: t('document3'), file: acordDeMediiValcea },
+    { id: 2, title: t('document4'), file: autorizatieDeMediiJidvei },
+    { id: 3, title: t('document5'), file: autorizatieDeMediiTarnaveni },
+    { id: 4, title: t('document6'), file: protectiaMediuluiSatuMare },
+    { id: 5, title: t('document7'), file: protectiaMediuluiCluj },
+    { id: 6, title: t('document8'), file: autorizatieDeConstructieCluj },
   ];
   const handleClick = (certificate) => {
     setSelectedCertificate(certificate);
@@ -92,7 +97,7 @@ const Certificates = ({ disableNavbar, enableNavbar }) => {
               </li>
               <li>
                 <p>SR EN 842+A1:2009</p>
-                </li>
+              </li>
             </ul>
           </div>
           {selectedCertificate && (

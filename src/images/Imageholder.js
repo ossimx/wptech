@@ -52,8 +52,29 @@ import vl4 from './vl4.png';
 import jid1 from './jid1.png';
 import jid2 from './jid2.png';
 import jid3 from './jid3.png';
-
+import jid4 from './jid4.jpg';
+import jid5 from './jid5.jpg';
+import jid6 from './jid6.jpg';
+import jid7 from './jid7.jpg';
+import jid8 from './jid8.jpg';
+import jid9 from './jid9.jpg';
+import jid10 from './jid10.jpg';
+import darm1 from './darm1.jpg';
+import darm2 from './darm2.jpg';
+import darm3 from './darm3.jpg';
+import darm4 from './darm4.jpg';
 const images = {
+  darm1,
+  darm2,
+  darm3,
+  darm4,
+  jid5,
+  jid6,
+  jid7,
+  jid8,
+  jid9,
+  jid10,
+  jid4,
   jid1,
   jid2,
   jid3,

@@ -23,14 +23,20 @@ const References = () => {
     const dangerRef = useRef(null);
     const imageSources = {
         tarnaveni: [
-            images.Wpowertech2,
-            images.tarnaveni1,
+            images.Wpowertech2, 
             images.Wpowertech1,
             images.news3,
             images.tarnaveni2,
             images.tarnaveni3,
         ],
         jidvei: [
+            images.jid4,
+            images.jid5,
+            images.jid6,
+            images.jid7,
+            images.jid8,
+            images.jid9,
+            images.jid10,
             images.jid1,
             images.jid2,
             images.jid3,
@@ -43,10 +49,10 @@ const References = () => {
             images.vl4,
         ],
         darmanesti: [
-            images.darmanesti1,
-            images.darmanesti2,
-            images.darmanesti3,
-            images.darmanesti4,
+            images.darm1,
+            images.darm2,
+            images.darm3,
+            images.darm4,
         ],
         cluj: [images.cj1,
         images.cj2,
@@ -54,11 +60,7 @@ const References = () => {
         images.cj4,
         ],
         satumare: [images.inConstruction],
-    };
-    const scrollToRef = (ref) => {
-        if (ref.current) {
-            ref.current.scrollIntoView({ behavior: 'instant' });
-        }
+        prototype: [images.tarnaveni1],
     };
     const createCarouselItems = (imageArray) => (
         imageArray.map((src, index) => (
@@ -69,22 +71,22 @@ const References = () => {
     );
     return (
         <div className='references-page'>
-            <Parallax pages={10}>
+            <Parallax pages={8}>
                 <ParallaxLayer offset={0} speed={0.5} className="hero-section">
                     <img src={images.refBackground} alt="Background" className="background-image" />
                     <div className="reference-box">
                         <h1>{t('references')}</h1>
                         <div className="button-container">
                             <div className="button-background"></div>
-                            <button onClick={() => scrollToRef(urbanRef)}><FaTrash /><br></br>{t('urban-waste')}</button>
-                            <button onClick={() => scrollToRef(industryRef)}><FaIndustry /><br></br>{t('industrial-waste')}</button>
-                            <button onClick={() => scrollToRef(biomassRef)}><PiPlantFill /><br></br>{t('biomass')}</button>
-                            <button onClick={() => scrollToRef(dangerRef)}><PiWarningDiamondFill />
+                            <button><FaTrash /><br></br>{t('urban-waste')}</button>
+                            <button><FaIndustry /><br></br>{t('industrial-waste')}</button>
+                            <button><PiPlantFill /><br></br>{t('biomass')}</button>
+                            <button><PiWarningDiamondFill />
                                 {t('dangerous-waste')}</button>
                         </div>
                     </div>
                 </ParallaxLayer>
-                <ParallaxLayer offset={1} speed={0.1} className="reference-layer">
+                <ParallaxLayer offset={0.8} speed={0.3} className="reference-layer">
                     <div className="reference-container scroll-margin" ref={urbanRef}>
                         <div className="reference-content">
                             <div className="title-bar">
@@ -106,7 +108,7 @@ const References = () => {
 
                     </div>
                 </ParallaxLayer>
-                <ParallaxLayer offset={2} speed={0.1} className="reference-layer">
+                <ParallaxLayer offset={1.6} speed={0.3} className="reference-layer">
                     <div className="reference-container scroll-margin" ref={industryRef}>
                         <div className="reference-content">
                             <div className="title-bar">
@@ -128,7 +130,7 @@ const References = () => {
 
                     </div>
                 </ParallaxLayer>
-                <ParallaxLayer offset={3} speed={0.1} className="reference-layer">
+                <ParallaxLayer offset={2.4} speed={0.3} className="reference-layer">
                     <div className="reference-container">
                         <div className="reference-content">
                             <div className="title-bar">
@@ -150,7 +152,7 @@ const References = () => {
 
                     </div>
                 </ParallaxLayer>
-                <ParallaxLayer offset={4} speed={0.1} className="reference-layer">
+                <ParallaxLayer offset={3.2} speed={0.3} className="reference-layer">
                     <div className="reference-container scroll-margin">
                         <div className="reference-content">
                             <div className="title-bar">
@@ -172,7 +174,7 @@ const References = () => {
 
                     </div>
                 </ParallaxLayer>
-                <ParallaxLayer offset={5} speed={0.1} className="reference-layer">
+                <ParallaxLayer offset={4} speed={0.3} className="reference-layer">
                     <div className="reference-container scroll-margin" ref={biomassRef}>
                         <div className="reference-content">
                             <div className="title-bar">
@@ -194,7 +196,7 @@ const References = () => {
 
                     </div>
                 </ParallaxLayer>
-                <ParallaxLayer offset={6} speed={0.1} className="reference-layer">
+                <ParallaxLayer offset={5} speed={0.3} className="reference-layer">
                     <div className="reference-container scroll-margin" ref={dangerRef}>
                         <div className="reference-content">
                             <div className="title-bar">
@@ -216,10 +218,29 @@ const References = () => {
                     </div>
 
                 </ParallaxLayer>
+                <ParallaxLayer offset={6} speed={0.3} className="reference-layer">
+                    <div className="reference-container scroll-margin">
+                        <div className="reference-content">
+                            <div className="title-bar">
+                                {t('prototype')}
+                            </div>
+                            <div className="gallery">
+                                <AliceCarousel
+                                    mouseTracking
+                                    infinite
+                                    items={createCarouselItems(imageSources.prototype)}
+                                    renderPrevButton={() => <CustomPrevButton onClick={() => { }} />}
+                                    renderNextButton={() => <CustomNextButton onClick={() => { }} />}
+                                />
+                            </div>
+                        </div>
+                    </div>
+
+                </ParallaxLayer>
 
                 <ParallaxLayer
-                    offset={8}
-                    speed={0.1}
+                    offset={7.3}
+                    speed={0.4}
                     className="footer"
                 >
                     <FFooter></FFooter>

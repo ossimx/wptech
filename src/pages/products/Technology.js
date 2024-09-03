@@ -9,9 +9,28 @@ const TechnologyPage = () => {
   const { t } = useTranslation();
 
   return (
-    <Parallax pages={3}>
-      <div classname='tech-page'>
-      <ParallaxLayer offset={0} speed={0.5} className="text-layer-tech">
+    <div className='techno-page'>
+    <Parallax pages={4.5}>
+      <ParallaxLayer
+          offset={0}
+          speed={0.5}
+          className="sustain-layer-hero"
+        >
+          <div className='hero-tech'>
+            <div className="logo-container">
+              <img src={images.WPowertechSystemLogoBlack} alt="WP Logo" className="wp-logo" />
+              <h1 className="sustain-title">{t('technology')}</h1>
+            </div>
+          </div>
+        </ParallaxLayer>
+        <ParallaxLayer
+          offset={0.95}
+          speed={0.4}
+          className="inbet"
+        >
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/4vWkYQgP3D8?si=V66Cd2OhiW3CaU_i"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </ParallaxLayer>
+      <ParallaxLayer offset={1.5} speed={0.5} className="text-layer-tech">
       <div className="text-content-tech">
           <h1>{t('how_it_works')}</h1>
           <p>{t('molecular_disintegration')}</p>
@@ -22,7 +41,7 @@ const TechnologyPage = () => {
         </div>
 
       </ParallaxLayer>
-      <ParallaxLayer offset={1} speed={0.5} className="text-layer-tech">
+      <ParallaxLayer offset={2.4} speed={0.5} className="text-layer-tech">
         <div className="text-content-tech">
           <h2>{t('high_temp_thermal_decomposition')}</h2>
           <p>{t('pyrolysis')}</p>
@@ -34,14 +53,14 @@ const TechnologyPage = () => {
 
       </ParallaxLayer>
       <ParallaxLayer
-            offset={2.5}
+            offset={3.4}
             speed={0.1}
             className="footer"
           >
            <FFooter></FFooter>
           </ParallaxLayer>
-          </div>
     </Parallax>
+    </div>
   );
 };
 
