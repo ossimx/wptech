@@ -10,7 +10,6 @@
 
 # production
 /build
-/src/docs
 # misc
 .DS_Store
 .env.local
