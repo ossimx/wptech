@@ -292,7 +292,7 @@ background: rgba(255, 255, 255, 0.0);
 top: 20%;
 }
 .learn-more {
-padding: 10px 20px;
+padding: 5vw 5vw;
 font-size: 1rem;
 }
 .arrow {
@@ -301,19 +301,19 @@ height: 100px;
 margin-right: 10px;
 }
 .button-container-tech {
-right: 50px;
-bottom: 60px;
+right: 10vw;
+bottom: 5vw;
 }
 .learn-more {
 width: 50vw;
 height: 10vw;
-font-size:2rem;
+font-size:1.5rem;
 }
 .technology-section .overlay h2 {
-font-size: 4rem;
+font-size: 3.4rem;
 }
 .technology-section .overlay p {
-font-size: 2.2rem;
+font-size: 2rem;
 color: rgb(0, 81, 255);
 background-color: rgba(255, 255, 255, 0.699);
 border: 2px solid rgb(85, 85, 85)   ;
@@ -322,7 +322,7 @@ border-radius: 10px;
 .technology-section iframe {
 position: absolute;
 right: 40px;
-bottom: 35%;
+bottom: 25%;
 width: 90%;
 height: 30%;
 border: 2px solid #005ab9;

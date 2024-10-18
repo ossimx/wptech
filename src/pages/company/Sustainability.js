@@ -3,17 +3,49 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
+import { useState,useEffect } from 'react';
 import FFooter from '../FFooter';
 import images from '../../images/Imageholder'
 import './Sustainability.css'
 const Sustainability = () => {
   const { t } = useTranslation();
+  const [offsets, setOffsets] = useState({
+    layer1: 0,
+    layer2: 1.5,
+    layer3: 2.3,
+  });
 
+  useEffect(() => {
+    const handleResize = () => {//phone
+      if (window.innerWidth <= 768) {
+        setOffsets({
+          layer1: 0.01,
+          layer2: 2.2,
+          layer3: 4,
+        });
+      } else if (window.innerWidth <= 1024) {//tablet
+        setOffsets({
+          layer1: 0,
+          layer2: 2.3,
+          layer3: 2.7,
+        });
+      } else {
+        setOffsets({//desktop
+          layer1: 0,
+          layer2: 1.5,
+          layer3: 2.95,
+        });
+      }
+    };
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
   return (
     <div className='sustain-page'>
-      <Parallax pages={3}>
+      <Parallax pages={5.4}>
         <ParallaxLayer
-          offset={0}
+          offset={offsets.layer1}
           speed={0.5}
           className="sustain-layer-hero"
         >
@@ -24,22 +56,30 @@ const Sustainability = () => {
             </div>
           </div>
         </ParallaxLayer>
-        <ParallaxLayer offset={1} speed={0.5} className="sustain-layer">
+        <ParallaxLayer offset={offsets.layer2} speed={0.5} className="sustain-layer">
           <div className="text-content-sust">
             <div className='text-cont-sust-title'>
               <h1>{t('sustainability')}</h1>
             </div>
             <div className="text-section-sust">
               <div className="text-left">
-                <h1>{t('sustainability-important')}</h1>
-                <p>{t('sustainability-description')}</p>
-                <h2>{t('sustainability-ecology')}</h2>
-                <p>{t('sustainability-ecology-description')}</p>
-                <h2>{t('commitment-to-environment')}</h2>
-                <p>{t('commitment-description')}</p>
-                <p>{t('commitment-details')}</p>
-                <h2>{t('social-responsibility')}</h2>
-                <p>{t('social-responsibility-description')}</p>
+                <h1>{t('sust-15')}</h1>
+                <p>{t('sust-new-1')}</p>
+                <p>{t('sust-16')}</p>
+                <p>{t('sust-new-2')}</p>
+                <h2>{t('sust-17')}</h2>
+                <p>{t('sust-18')}</p>
+                <h2>{t('sust-19')}</h2>
+                <p>{t('sust-20')}</p>
+                <h2>{t('sust-21')}</h2>
+                <p>{t('sust-22')}</p>
+                <h2>{t('sust-23')}</h2>
+                <p>{t('sust-24')}</p>
+                <h2>{t('sust-25')}</h2>
+                <p>{t('sust-26')}</p>
+                <p>{t('sust-27')}</p>
+                <h2>{t('sust-new-3')}</h2>
+                <p>{t('sust-new-4')}</p>
               </div>
               <div className="image-container-sust">
                 <img src={images.sustainbanner} alt='sustainimage' />
@@ -48,7 +88,7 @@ const Sustainability = () => {
           </div>
         </ParallaxLayer>
         <ParallaxLayer
-          offset={2.3}
+          offset={offsets.layer3}
           speed={0.1}
           className="footer"
         >

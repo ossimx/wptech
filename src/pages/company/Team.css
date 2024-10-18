@@ -1,0 +1,147 @@
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    background:
+    radial-gradient(circle farthest-side at 0% 50%,#004b13 23.5%,rgba(240,166,17,0) 0)21px 30px,
+    radial-gradient(circle farthest-side at 0% 50%,#007708 24%,rgba(240,166,17,0) 0)19px 30px,
+    linear-gradient(#004b13 14%,rgba(240,166,17,0) 0, rgba(240,166,17,0) 85%,#004b13 0)0 0,
+    linear-gradient(150deg,#004b13 24%,#007708 0,#007708 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#007708 0,#007708 76%,#004b13 0)0 0,
+    linear-gradient(30deg,#004b13 24%,#007708 0,#007708 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#007708 0,#007708 76%,#004b13 0)0 0,
+    linear-gradient(90deg,#007708 2%,#004b13 0,#004b13 98%,#007708 0%)0 0 #004b13;
+    background-size:40px 60px;
+    padding: 40px 0;
+  }
+  
+  .team-logo {
+    width: 40%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .team-title {
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #007708;
+    padding: 50px;
+  }
+  
+  .team-member {
+    flex: 1 1 30%;
+    margin: 20px;
+    background-color: #004b13;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .team-photo {
+    border-radius: 50%;
+    margin-bottom: 15px;
+    width: 40%;
+    height: 40%;
+    max-width: 40%;
+    max-height: 40%;
+    object-fit: cover;
+  }
+  
+  .team-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .team-position {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .team-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .team-contact .icon {
+    margin-right: 10px;
+  }
+  
+  .team-description {
+    font-size: 1.2em;
+    color: #d3d3d3;
+    margin-top: 15px;
+  }
+  @media (max-width: 768px) {
+    .team-container {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .team-member {
+      flex: 1 1 100%;
+      margin: 10px 0;
+      padding: 15px;
+    }
+  
+    .team-photo {
+      width: 40%;
+      height: 40%;
+    }
+  
+    .team-name {
+      font-size: 1.2em;
+    }
+  
+    .team-position {
+      font-size: 1em;
+    }
+  
+    .team-description {
+      font-size: 0.9em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .team-logo {
+      width: 70%; /* Logo will be 70% of the screen width */
+    }
+  
+    .team-title {
+      font-size: 2em; /* Reduce title size on smaller screens */
+    }
+  
+    .team-member {
+      padding: 10px;
+    }
+  
+    .team-photo {
+      width: 40%;
+      height: 40%;
+    }
+  
+    .team-name {
+      font-size: 1.1em;
+    }
+  
+    .team-position {
+      font-size: 0.9em;
+    }
+  
+    .team-description {
+      font-size: 0.85em;
+    }
+  }

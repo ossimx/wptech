@@ -14,6 +14,8 @@ import ro from './ro.png';
 import hu from './hu.png';
 import gr from './gr.png';
 import zh from './zh.png';
+import slide17 from './slide_17.png';
+import slide4 from './slide_4.png';
 import feed1 from './feed1.png';
 import feed2 from './feed2.png';
 import feed3 from './feed3.png';
@@ -45,6 +47,12 @@ import cj1 from './cj1.png';
 import cj2 from './cj2.png';
 import cj3 from './cj3.png';
 import cj4 from './cj4.png';
+import cj5 from './cj5.png';
+import cj6 from './cj6.png';
+import cj7 from './cj7.png';
+import cj8 from './cj8.png';
+import cj9 from './cj9.png';
+import cj10 from './cj10.png';
 import vl1 from './vl1.png';
 import vl2 from './vl2.png';
 import vl3 from './vl3.png';
@@ -63,9 +71,45 @@ import darm1 from './darm1.jpg';
 import darm2 from './darm2.jpg';
 import darm3 from './darm3.jpg';
 import darm4 from './darm4.jpg';
+import prez1 from './prezeng.jpg';
+import prez2 from './prezro.jpg';
+import prez3 from './span.jpg';
+import es from './es.png';
+import teammember1 from './teammember1.png';
+import teammember2 from './teammember2.png';
+import mj from './mj.png';
+import kw from './kw.png';
+import prez4 from './perztr.jpg';
+import prez5 from './prezde.jpg';
+import user from './user.png';
+import teammember4 from './teammember4.png';
+import news4 from './news4.png';
+import teammember3 from './teammember3.png';
 const images = {
   darm1,
+  teammember4,
+  user,
+  prez4,
+  cj10,
+  slide4,
+  slide17,
+  teammember3,
+  prez5,
+  cj8,
+  cj9,
+  es,
+  mj,
+  kw,
+  cj5,
+  cj6,
+  cj7,
+  teammember1,
+  teammember2,
   darm2,
+  prez1,
+  news4,
+  prez2,
+  prez3,
   darm3,
   darm4,
   jid5,

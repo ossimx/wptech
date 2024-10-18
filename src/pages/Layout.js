@@ -21,7 +21,7 @@ const Layout = ({ children, isNavbarDisabled }) => {
     const [dropdownOpen, setDropdownOpen] = useState(null);
     const [prevScrollPos, setPrevScrollPos] = useState(0);
     const [isNavbarVisible, setIsNavbarVisible] = useState(true);
-  
+
     const navbarRef = useRef(null);
 
     const toggleMenu = () => {
@@ -46,26 +46,26 @@ const Layout = ({ children, isNavbarDisabled }) => {
     }, []);
     useEffect(() => {
         const handleScroll = () => {
-          const currentScrollPos = window.scrollY;
-          if (currentScrollPos > prevScrollPos) {
-            setIsNavbarVisible(false);
-          } else {
-            setIsNavbarVisible(true);
-          }
-          setPrevScrollPos(currentScrollPos);
+            const currentScrollPos = window.scrollY;
+            if (currentScrollPos > prevScrollPos) {
+                setIsNavbarVisible(false);
+            } else {
+                setIsNavbarVisible(true);
+            }
+            setPrevScrollPos(currentScrollPos);
         };
-    
+
         window.addEventListener('scroll', handleScroll);
-    
+
         return () => window.removeEventListener('scroll', handleScroll);
-      }, [prevScrollPos]);
+    }, [prevScrollPos]);
     return (
         <div className="layout">
             <header>
-            <nav
-          className={`navbar ${isNavbarDisabled || !isNavbarVisible ? 'disabled' : ''}`}
-          ref={navbarRef}
-        >
+                <nav
+                    className={`navbar ${isNavbarDisabled || !isNavbarVisible ? 'disabled' : ''}`}
+                    ref={navbarRef}
+                >
                     <div className="logo">
                         <Link to="/">
                             <img src={images.WPowertechSystemLogoBlack} alt="Logo" className='logo-black' />
@@ -79,10 +79,10 @@ const Layout = ({ children, isNavbarDisabled }) => {
                         <li className="dropdown" onClick={() => toggleDropdown(0)}>
                             <button type="button">{t('company')}<IoMdArrowDropdown /></button>
                             <div className={`dropdown-content ${dropdownOpen === 0 ? 'show' : ''}`}>
-                                <Link to="/company/news"><button type="button"><IoMdArrowDropdown className="dropdown-arrow" />{t('news')}</button></Link>
-                                <Link to="/company/history"><button type="button">{t('history')}</button></Link>
-                                <Link to="/company/certificates"><button type="button">{t('certificates')}</button></Link>
+
                                 <Link to="/company/sustainability"><button type="button">{t('sustainability')}</button></Link>
+                                <Link to="/company/certificates"><button type="button">{t('certificates')}</button></Link>
+
                             </div>
                         </li>
                         <li className="dropdown" onClick={() => toggleDropdown(1)}>
@@ -90,6 +90,14 @@ const Layout = ({ children, isNavbarDisabled }) => {
                             <div className={`dropdown-content ${dropdownOpen === 1 ? 'show' : ''}`}>
                                 <Link to="/products/technology"><IoMdArrowDropdown className="dropdown-arrow" /><button type="button">{t('technology')}</button></Link>
                                 <Link to="/products/references"><button type="button">{t('references')}</button></Link>
+                            </div>
+                        </li>
+                        <li className="dropdown" onClick={() => toggleDropdown(1)}>
+                            <button type="button">{t('about-us')}<IoMdArrowDropdown /></button>
+                            <div className={`dropdown-content ${dropdownOpen === 1 ? 'show' : ''}`}>
+                                <Link to="/about/news"><button type="button"><IoMdArrowDropdown className="dropdown-arrow" />{t('about-us')}</button></Link>
+                                <Link to="/about/history"><button type="button">{t('history')}</button></Link>
+                                <Link to="/about/team"><button type="button">{t('team')}</button></Link>
                             </div>
                         </li>
                         <li><Link to="/contact"><button type="button">{t('contact')}</button></Link></li>
@@ -119,6 +127,9 @@ const Layout = ({ children, isNavbarDisabled }) => {
                             </button>
                             <button type="button" onClick={() => changeLanguage('zh')}>
                                 <img src={images.zh} alt="Chinese" />
+                            </button>
+                            <button type="button" onClick={() => changeLanguage('es')}>
+                                <img src={images.es} alt="Spanish" />
                             </button>
 
                         </div>

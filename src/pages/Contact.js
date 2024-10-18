@@ -1,10 +1,12 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
-import { FaEnvelope, FaPhone } from 'react-icons/fa';
+import { FaEnvelope } from 'react-icons/fa';
 import { FaFacebook, FaYoutube } from "react-icons/fa6";
 import { MdFactory } from "react-icons/md";
 import { HiBuildingOffice2 } from "react-icons/hi2";
+import { RiBaseStationFill } from "react-icons/ri";
+
 import { TbTournament } from "react-icons/tb";
 
 import './Contact.css'
@@ -24,9 +26,12 @@ const Contact = () => {
           <div>
             <div className="text-section">
               <h1>{t('contact')}</h1>
+              
 
               <h2><TbTournament /> SC Waste Powertech SRL</h2>
+              <h2><RiBaseStationFill/> Idrifaia 72 , Mures</h2>
               <div className='office-part'>
+                
                 <h2><HiBuildingOffice2 /> {t('office')}</h2>
                 <p>{t('office-address')}</p>
                 <div className="map-section-phone">
@@ -42,7 +47,6 @@ const Contact = () => {
                 </div>
               </div>
               <h1><FaEnvelope />: office@wpowertech.ro</h1>
-              <h2><FaPhone />: (+40) 751-624-810</h2>
               <a href="https://www.facebook.com/profile.php?id=61559358922953" style={{ textDecoration: 'none', color: 'black' }}><FaFacebook />: Waste Powertech SRL</a>
               <a href="https://www.youtube.com/@wastepowertech4213" style={{ textDecoration: 'none', color: 'black' }}><FaYoutube />: Waste Powertech</a>
             </div>
