@@ -10,7 +10,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    background-image: url('/public/bg-tech.png');
+    background-image: url('/bg-tech.png');
   }
 
   .text-layer-tech {
@@ -23,7 +23,7 @@
   }
 
   .hero-tech {
-    background-image: url("/public/bg-tech-hero.png");
+    background-image: url("/bg-tech-hero.png");
     width: 100%;
   }
 

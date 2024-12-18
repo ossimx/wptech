@@ -1,41 +1,56 @@
-.certificatePage {
-  padding: 10rem 0rem 10rem 0rem;
+.certificateHolder {
+  background-image: URL('/bg-cert.jpg');
+  padding: 15rem 5rem;
+  background-size: cover;
+  background-position: center;
+  }
+  .certificatePage {
+  padding: 8rem 0rem 10rem 0rem;
   background-color: #f8f8f8;
-}
-
-.text-content {
+  position: relative;
+  z-index: 1;
+  border-radius: 15px;
+  
+  }
+  .__react_modal_image__header {
+    top:12vh !important;
+  }
+  .__react_modal_image__modal_content
+    {
+      top:16vh !important;
+      width: 100% !important;
+      height: 85% !important;
+  }
+  .text-content {
   text-align: center;
-}
-
-h1
-{
+  }
+  h1
+  {
   font-size: 5vw;
-}
-.certificates-gallery {
+  }
+  .certificates-gallery {
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
   gap: 1rem;
   margin-top: 5vw;
   overflow-x: auto;
-}
-
-.certificate-thumbnail {
+  }
+  .certificate-thumbnail {
   height: 30vh;
   width: auto;
   cursor: pointer;
   border-radius: 0.5rem;
   transition: transform 0.3s ease-in-out;
-}
-
-.certificate-thumbnail:hover {
+  }
+  .certificate-thumbnail:hover {
   transform: scale(1.05);
   box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.2);
-}
-.documents-grid {
+  }
+  .documents-grid {
   padding-left: 20vh;
-}
-.separator-banner {
+  }
+  .separator-banner {
   width: 100%;
   background:
   radial-gradient(circle farthest-side at 0% 50%,#1190ff 23.5%,rgba(240,166,17,0) 0)21px 30px,
@@ -51,103 +66,84 @@ h1
   margin: 2rem 0;
   transition: background 0.5s ease;
   }
-  
   .separator-banner h2 {
   font-size: 10vw;
   }
-@media (max-width: 768px) {
-  .certificate-thumbnail {
-    height: 15vh;
-  }
-}
+  @media (max-width: 768px) {
+    .__react_modal_image__header {
+      top:0vh !important;
+    }
+    .__react_modal_image__modal_content
+      {
+        top:0vh !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .certificateHolder {
+      background-image: URL('/bg-cert.jpg');
+      padding: 10rem 1rem;
+      background-size: cover;
+      background-position: center;
+      }
+    .certificatePage {
+      padding: 4rem 1rem 6rem 1rem;
+      border-radius: 10px;
+      }
 
-.documents-grid {
+  .certificate-thumbnail {
+  height: 15vh;
+  }
+  }
+  .documents-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
   gap: 1rem;
-  overflow-x: auto; /* Enable horizontal scrolling if content overflows */
-  box-sizing: border-box; 
-  padding-left: 10vw; /* Adjust padding for smaller screens */
+  overflow-x: auto;
+  box-sizing: border-box;
+  padding-left: 10vw;
   padding-right: 10vw;
-}
-
-.document-item {
+  }
+  .document-item {
   background: #fff;
   border-radius: 0.5rem;
   padding: 1rem;
   box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
-}
-
-.document-item:hover {
+  }
+  .document-item:hover {
   box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.2);
-}
-
-.document-link {
+  }
+  .document-link {
   display: flex;
   align-items: center;
   font-weight: 500;
   text-decoration: none;
   color: #333;
-}
-
-.document-link svg {
+  }
+  .document-link svg {
   margin-right: 0.5rem;
-}
-
-.ReactModal__Content {
-  padding: 0;
-  background-color: rgba(0, 0, 0, 0.8) !important;
-}
-
-.ReactModal__Image {
-  display: block;
-  width: 100%;
-  height: auto;
-  max-width: 90vw;
-  max-height: 90vh;
-  margin: 0 auto;
-}
-
-.ReactModal__CloseIcon {
-  position: absolute;
-  top: 1.25rem;
-  right: 1.25rem;
-  color: white;
-  font-size: 1.875rem;
-  cursor: pointer;
-  transition: color 0.3s;
-}
-
-.ReactModal__CloseIcon:hover {
-  color: #ff4081;
-}
-
-/* Adjusted UL styles to shift left */
-.ul-box {
+  }
+  .ul-box {
   padding: 1rem;
   margin-top: 2rem;
   background-color: #fff;
   border-radius: 0.5rem;
   box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.1);
-  text-align: left; /* Ensures text is aligned to the left */
+  text-align: left;
   width: auto;
-  max-width: 80%; /* Optional, limits the width */
+  max-width: 80%;
   margin-left: auto;
-  margin-right: auto; /* Center the box but shift content inside to the left */
-}
-
-.ul-box ul {
+  margin-right: auto;
+  }
+  .ul-box ul {
   list-style-type: disc;
-  padding-left: 1.5rem; /* Left padding for the bullet points */
+  padding-left: 1.5rem;
   font-size: 1rem;
   color: #333;
-}
-
-.ul-box li {
+  }
+  .ul-box li {
   margin: 0.5rem 0;
-}
-
-.ul-box li:hover {
+  }
+  .ul-box li:hover {
   color: #ff4081;
-}
+  }

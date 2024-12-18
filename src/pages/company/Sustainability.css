@@ -5,8 +5,9 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  background-image: url("/public/bg-sust.png");
+  background-image: url("/bg-sust.png");
   }
+  
   .sustain-layer-hero {
   display: flex;
   align-items: center;
@@ -39,7 +40,7 @@
   }
   .hero-sust
   {
-  background-image:  url("/public/bg-sust-hero.png");
+  background-image:  url("/bg-sust-hero.png");
   width: 100%;
   }
   .text-cont-sust-title {
