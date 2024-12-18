@@ -14,6 +14,7 @@ import presentation2 from '../../docs/prez_sp.pdf'
 import presentation3 from '../../docs/prez_tr.pdf'
 import presentation4 from '../../docs/prez_ro.pdf'
 import presentation5 from '../../docs/prez_de.pdf'
+import LazyLoad from 'react-lazyload';
 
 const TechnologyPage = () => {
   const { t } = useTranslation();
@@ -106,7 +107,9 @@ const TechnologyPage = () => {
           <div className="gallery-container">
             {fileGallery.map((file, index) => (
               <a key={index} href={file.file} download>
+                <LazyLoad height={400} offset={200}>
                 <img src={file.img} alt={`File ${index + 1}`} className="gallery-image" />
+                </LazyLoad>
               </a>
             ))}
           </div>
