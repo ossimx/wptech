@@ -11,6 +11,7 @@ import gr from './locales/gr/translation.json';
 import zh from './locales/zh/translation.json';
 import tr from './locales/tr/translation.json';
 import es from './locales/es/translation.json';
+import pl from './locales/pl/translation.json';
 i18n
   // i18next-http-backend
   // loads translations from your server
@@ -49,6 +50,10 @@ i18n
       es:
       {
         translation:es
+      },
+      pl:
+      {
+        translation:pl
       },
     },
     debug: true,

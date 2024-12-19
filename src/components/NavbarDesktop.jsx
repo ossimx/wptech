@@ -81,7 +81,9 @@ const NavbarDesktop = () => {
                             <button type="button" onClick={() => changeLanguage('es')}>
                                 <img src={images.es} alt="Spanish" />
                             </button>
-
+                            <button type="button" onClick={() => changeLanguage('pl')}>
+                                <img src={images.pl} alt="Polish" />
+                            </button>
                         </div>
                     </div>
         </nav>

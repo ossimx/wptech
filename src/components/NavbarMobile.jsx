@@ -119,6 +119,12 @@ const NavbarMobile = () => {
                                 <span>Español</span>
                             </ListItemButton>
                         </ListItem>
+                        <ListItem button onClick={() => handleLanguageChange('pl')}>
+                            <ListItemButton sx={{ display: 'flex', alignItems: 'center' }}>
+                                <img src={images.pl} alt="Polish" style={{ width: '10vw', height: 'auto', marginRight: '10px' }} />
+                                <span>Polska</span>
+                            </ListItemButton>
+                        </ListItem>
                     </List>
                 </Box>
             </Drawer>

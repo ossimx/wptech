@@ -69,7 +69,7 @@ const Team = () => {
       } else {
         setOffsets({//desktop
           layer1: 0,
-          layer2: 2.5,
+          layer2: 3,
           layer3: 3.3,
         });
       }
@@ -104,6 +104,12 @@ const Team = () => {
               </div>
             </div>
           ))}
+          <div className='team-member'>
+          <img src={images.teammember5} alt="Crowe" className="team-photo-crowe"/>
+              <h1 className="team-name">Crowe</h1>
+              <h3 className="team-position">{t('partner')}</h3>
+              <h3><a href="https://www.crowe.com" style={{ color: 'white', textDecoration: 'none' }}>www.crowe.com</a></h3>
+          </div>
         </div>
       </ParallaxLayer>
       <ParallaxLayer

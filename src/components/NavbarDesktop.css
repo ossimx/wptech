@@ -92,7 +92,8 @@ header {
     align-items: center;
     justify-content: center;
     white-space: nowrap;
-    min-width: 10vw;}
+    min-width: 10vw;
+    max-width:15vw;}
 .nav-links li button:hover {
   color: #b3e6ff;}
 .nav-links .dropdown > button {

@@ -14,6 +14,7 @@ import ro from './ro.png';
 import hu from './hu.png';
 import gr from './gr.png';
 import zh from './zh.png';
+import pl from './pl.png';
 import slide17 from './slide_17.png';
 import slide4 from './slide_4.png';
 import feed1 from './feed1.png';
@@ -53,6 +54,13 @@ import cj7 from './cj7.png';
 import cj8 from './cj8.png';
 import cj9 from './cj9.png';
 import cj10 from './cj10.png';
+import cj11 from './cj11.jpg';
+import cj12 from './cj12.jpg';
+import cj13 from './cj13.jpg';
+import cj14 from './cj14.jpg';
+import cj15 from './cj15.jpg';
+import cj16 from './cj16.jpg';
+import cj17 from './cj17.jpg';
 import vl1 from './vl1.png';
 import vl2 from './vl2.png';
 import vl3 from './vl3.png';
@@ -84,12 +92,15 @@ import prez5 from './prezde.jpg';
 import user from './user.png';
 import teammember4 from './teammember4.png';
 import news4 from './news4.png';
+import teammember5 from './teammember5.png';
 import teammember3 from './teammember3.png';
+import prezpl from './prezpl.jpg';
 const images = {
   darm1,
   teammember4,
   user,
   prez4,
+  prezpl,
   cj10,
   slide4,
   slide17,
@@ -98,8 +109,17 @@ const images = {
   cj8,
   cj9,
   es,
+  cj11,
+  cj12,
+  cj13,
+  cj14,
+  cj15,
+  cj16,
+  cj17,
+  teammember5,
   mj,
   kw,
+  pl,
   cj5,
   cj6,
   cj7,

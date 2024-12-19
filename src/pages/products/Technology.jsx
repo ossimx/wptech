@@ -14,16 +14,17 @@ import presentation2 from '../../docs/prez_sp.pdf'
 import presentation3 from '../../docs/prez_tr.pdf'
 import presentation4 from '../../docs/prez_ro.pdf'
 import presentation5 from '../../docs/prez_de.pdf'
-import LazyLoad from 'react-lazyload';
+import presentation6 from '../../docs/prez_pl.pdf'
 
 const TechnologyPage = () => {
   const { t } = useTranslation();
   const fileGallery = [
-    { img: images.prez1, file:presentation1 },
+    { img: images.prez1, file: presentation1 },
     { img: images.prez2, file: presentation4 },
     { img: images.prez3, file: presentation2 },
     { img: images.prez4, file: presentation3 },
-    { img: images.prez5, file: presentation5},
+    { img: images.prez5, file: presentation5 },
+    { img: images.prezpl, file: presentation6 },
   ];
   const [offsets, setOffsets] = useState({
     layer1: 0,
@@ -67,8 +68,8 @@ const TechnologyPage = () => {
   }, []);
   return (
     <div className='techno-page'>
-    <Parallax pages={5.7}>
-      <ParallaxLayer
+      <Parallax pages={5.7}>
+        <ParallaxLayer
           offset={offsets.layer1}
           speed={0.5}
           className="sustain-layer-hero"
@@ -85,45 +86,43 @@ const TechnologyPage = () => {
           speed={0.4}
           className="inbet"
         >
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/4vWkYQgP3D8?si=V66Cd2OhiW3CaU_i"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/4vWkYQgP3D8?si=V66Cd2OhiW3CaU_i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </ParallaxLayer>
-      <ParallaxLayer offset={offsets.layer3} speed={0.5} className="text-layer-tech">
-      <div className="text-content-tech">
-          <h1>{t('how_it_works')}</h1>
-          <p>{t('molecular_disintegration')}</p>
-          <p>{t('high_temp_thermal_decomposition')}</p>
-          <p>{t('benefits')}</p>
-          <div className='image-layer-tech'>
-        <img src={images.HowItWorks} alt="How It Works" />
-        <img src={images.slide4} alt="Product Presentation" />
-        <img src={images.slide17} alt="The Process" />
-        </div>
-        </div>
-
-      </ParallaxLayer>
-      <ParallaxLayer offset={offsets.layer4} speed={0.5} className="text-layer-tech">
-        <div className="text-content-tech">
-        <h2>{t('file-gallery')} <FaDownload/></h2>
-          <div className="gallery-container">
-            {fileGallery.map((file, index) => (
-              <a key={index} href={file.file} download>
-                <LazyLoad height={400} offset={200}>
-                <img src={file.img} alt={`File ${index + 1}`} className="gallery-image" />
-                </LazyLoad>
-              </a>
-            ))}
+        <ParallaxLayer offset={offsets.layer3} speed={0.5} className="text-layer-tech">
+          <div className="text-content-tech">
+            <h1>{t('how_it_works')}</h1>
+            <p>{t('molecular_disintegration')}</p>
+            <p>{t('high_temp_thermal_decomposition')}</p>
+            <p>{t('benefits')}</p>
+            <div className='image-layer-tech'>
+              <img src={images.HowItWorks} alt="How It Works" />
+              <img src={images.slide4} alt="Product Presentation" />
+              <img src={images.slide17} alt="The Process" />
+            </div>
           </div>
-        </div>
 
-      </ParallaxLayer>
-      <ParallaxLayer
-            offset={offsets.layer5}
-            speed={0.1}
-            className="footer"
-          >
-           <FFooter></FFooter>
-          </ParallaxLayer>
-    </Parallax>
+        </ParallaxLayer>
+        <ParallaxLayer offset={offsets.layer4} speed={0.5} className="text-layer-tech">
+          <div className="text-content-tech">
+            <h2>{t('file-gallery')} <FaDownload /></h2>
+            <div className="gallery-container">
+              {fileGallery.map((file, index) => (
+                <a key={index} href={file.file} download>
+                  <img src={file.img} alt={`File ${index + 1}`} className="gallery-image" />
+                </a>
+              ))}
+            </div>
+          </div>
+
+        </ParallaxLayer>
+        <ParallaxLayer
+          offset={offsets.layer5}
+          speed={0.1}
+          className="footer"
+        >
+          <FFooter></FFooter>
+        </ParallaxLayer>
+      </Parallax>
     </div>
   );
 };
