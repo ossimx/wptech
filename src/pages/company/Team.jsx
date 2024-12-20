@@ -80,6 +80,7 @@ const Team = () => {
   }, []);
 
   return (
+    <div className="teamPage">
     <Parallax pages={4}>
       <ParallaxLayer
         offset={offsets.layer1}
@@ -120,6 +121,7 @@ const Team = () => {
         <FFooter />
       </ParallaxLayer>
     </Parallax>
+    </div>
   );
 };
 

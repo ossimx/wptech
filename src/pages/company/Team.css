@@ -1,3 +1,22 @@
+.teamPage
+{
+  background:
+  radial-gradient(circle farthest-side at 0% 50%,#004b13 23.5%,rgba(240,166,17,0) 0)21px 30px,
+  radial-gradient(circle farthest-side at 0% 50%,#007708 24%,rgba(240,166,17,0) 0)19px 30px,
+  linear-gradient(#004b13 14%,rgba(240,166,17,0) 0, rgba(240,166,17,0) 85%,#004b13 0)0 0,
+  linear-gradient(150deg,#004b13 24%,#007708 0,#007708 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#007708 0,#007708 76%,#004b13 0)0 0,
+  linear-gradient(30deg,#004b13 24%,#007708 0,#007708 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#007708 0,#007708 76%,#004b13 0)0 0,
+  linear-gradient(90deg,#007708 2%,#004b13 0,#004b13 98%,#007708 0%)0 0 #004b13;
+  height: 100vh; /* Ensure it fills the full viewport height */
+  width: 100vw;  /* Ensure it fills the full viewport width */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  overflow: hidden; /* Prevent scrollbars if the content overflows */
+  display: flex; /* Use flexbox for centering content if needed */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .logo-section {
     display: flex;
     flex-direction: column;
@@ -58,9 +77,8 @@
     object-fit: cover;
   }
   .team-photo-crowe {
-    border-radius: 50%;
     margin-bottom: 15px;
-    width: 30%;
+    width: 50%;
     height: 30%;
     object-fit: cover;
   }
@@ -111,7 +129,7 @@
       height: 40%;
     }
     .team-photo-crowe {
-      width: 50%;
+      width: 60%;
       height: 50%;
     }
     .team-name {
@@ -147,6 +165,11 @@
   
     .team-name {
       font-size: 1.1em;
+    }
+    .team-photo-crowe {
+      padding:30px;
+      width: 90%;
+      height: auto;
     }
   
     .team-position {

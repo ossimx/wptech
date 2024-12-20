@@ -32,7 +32,6 @@ const History = () => {
           icon={<i className="fas fa-calendar-alt"></i>}
           style={{}}
         >
-          <h3 style={{ color: 'wheat' }}>{t('year-1')}</h3>
           <ul className="timeline-list">
             <li>{t('year-1-element-1')}</li>
             <li>{t('year-1-element-2')}</li>
@@ -53,7 +52,6 @@ const History = () => {
           }}
           icon={<i className="fas fa-calendar-alt"></i>}
         >
-          <h3 style={{ color: 'wheat' }}>{t('year-2')}</h3>
           <ul className="timeline-list">
             <li>{t('year-2-element-1')}</li>
             <li>{t('year-2-element-2')}</li>
@@ -75,7 +73,6 @@ const History = () => {
           }}
           icon={<i className="fas fa-calendar-alt"></i>}
         >
-          <h3 style={{ color: 'wheat' }}>{t('year-3')}</h3>
           <ul className="timeline-list">
             <li>{t('year-3-element-1')}</li>
             <li>{t('year-3-element-2')}</li>
@@ -96,7 +93,6 @@ const History = () => {
           }}
           icon={<i className="fas fa-calendar-alt"></i>}
         >
-          <h3 style={{ color: 'wheat' }}>{t('year-4')}</h3>
           <ul className="timeline-list">
             <li>{t('year-4-element-1')}</li>
             <li>{t('year-4-element-2')}</li>
@@ -117,7 +113,6 @@ const History = () => {
           }}
           icon={<i className="fas fa-calendar-alt"></i>}
         >
-          <h3 style={{ color: 'wheat' }}>{t('year-5')}</h3>
           <ul className="timeline-list">
             <li>{t('year-5-element-1')}</li>
             <li>{t('year-5-element-2')}</li>
@@ -139,7 +134,6 @@ const History = () => {
           }}
           icon={<i className="fas fa-calendar-alt"></i>}
         >
-          <h3 style={{ color: 'wheat' }}>{t('year-6')}</h3>
           <ul className="timeline-list">
             <li>{t('year-6-element-1')}</li>
             <li>{t('year-6-element-2')}</li>
@@ -160,7 +154,6 @@ const History = () => {
           }}
           icon={<i className="fas fa-calendar-alt"></i>}
         >
-          <h3 style={{ color: 'wheat' }}>{t('year-7')}</h3>
           <ul className="timeline-list">
             <li>{t('year-7-element-1')}</li>
           </ul>
@@ -180,7 +173,6 @@ const History = () => {
           }}
           icon={<i className="fas fa-calendar-alt"></i>}
         >
-          <h3 style={{ color: 'wheat' }}>{t('year-8')}</h3>
           <ul className="timeline-list">
             <li>{t('year-8-element-1')}</li>
             <li>{t('year-8-element-2')}</li>
@@ -202,7 +194,6 @@ const History = () => {
           }}
           icon={<i className="fas fa-calendar-alt"></i>}
         >
-          <h3 style={{ color: 'wheat' }}>{t('year-9')}</h3>
           <ul className="timeline-list">
             <li>{t('year-9-element-1')}</li>
             <li>{t('year-9-element-2')}</li>
@@ -224,7 +215,6 @@ const History = () => {
           }}
           icon={<i className="fas fa-calendar-alt"></i>}
         >
-          <h3 style={{ color: 'wheat' }}>{t('year-10')}</h3>
           <ul className="timeline-list">
             <li>{t('year-10-element-1')}</li>
             <li>{t('year-10-element-2')}</li>

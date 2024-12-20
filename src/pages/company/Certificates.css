@@ -15,6 +15,7 @@
   .__react_modal_image__header {
     top:12vh !important;
   }
+
   .__react_modal_image__modal_content
     {
       top:16vh !important;
@@ -37,7 +38,7 @@
   overflow-x: auto;
   }
   .certificate-thumbnail {
-  height: 30vh;
+  height: 50vh;
   width: auto;
   cursor: pointer;
   border-radius: 0.5rem;
