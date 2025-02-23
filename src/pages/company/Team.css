@@ -113,6 +113,10 @@
     margin-top: 15px;
   }
   @media (max-width: 768px) {
+    .logo-section
+    {
+      padding: 22vh 0;
+    }
     .team-container {
       flex-direction: column;
       padding: 20px;
@@ -146,6 +150,10 @@
   }
   
   @media (max-width: 480px) {
+    .logo-section
+    {
+      padding:10vh;
+    }
     .team-logo {
       width: 70%; /* Logo will be 70% of the screen width */
     }

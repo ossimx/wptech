@@ -121,17 +121,19 @@
     linear-gradient(150deg,#1190ff 24%,#114dff 0,#114dff 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#114dff 0,#114dff 76%,#1190ff 0)0 0,
     linear-gradient(30deg,#1190ff 24%,#114dff 0,#114dff 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#114dff 0,#114dff 76%,#1190ff 0)0 0,
     linear-gradient(90deg,#114dff 2%,#1190ff 0,#1190ff 98%,#114dff 0%)0 0 #1190ff;
-    background-size:40px 60px;
+    background-size: 40px 60px;
     color: #ffffff;
     text-align: center;
-    padding: 6rem 0;
-    margin: 2rem 0;
+    padding: 10vh 0;
+    margin: 3rem 0;
     transition: background 0.5s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     }
     
     .separator-banner h2 {
-    font-size: 5vw;
+    font-size: 10vw;
     margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.581);
     }
     @media (max-width: 1024px) {
         .hero-news {
@@ -192,4 +194,9 @@
     clip-path: polygon(0 0, 2% 0, 0 3%, 0 100%, 100% 100%, 100% 0);
     padding: 400vw 0;
     }
+    .separator-banner h2 {
+        font-size: 15vw;
+        margin: 0;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.581);
+        }
     }

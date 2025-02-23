@@ -5,13 +5,18 @@ import { HiOutlineBars3 } from 'react-icons/hi2';
 import { Drawer, Box, List, ListItem, ListItemButton, ListItemText, Divider, IconButton } from '@mui/material';
 import { IoLanguage } from 'react-icons/io5';
 import { MdLanguage } from 'react-icons/md';
+import { BsBuildingsFill } from "react-icons/bs";
 import { useTranslation } from 'react-i18next';
+import { BiSolidFactory } from "react-icons/bi";
+import { FaUsers } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa";
+
 import images from '../images/Imageholder';
 
 const NavbarMobile = () => {
     const { t, i18n } = useTranslation();
     const [menuOpen, setMenuOpen] = useState(false);
-    const [languageDrawerOpen, setLanguageDrawerOpen] = useState(false);  
+    const [languageDrawerOpen, setLanguageDrawerOpen] = useState(false);
 
     const toggleDrawer = () => {
         setMenuOpen(!menuOpen);
@@ -23,46 +28,46 @@ const NavbarMobile = () => {
 
     const handleLanguageChange = (lng) => {
         i18n.changeLanguage(lng);
-        setLanguageDrawerOpen(false);  
+        setLanguageDrawerOpen(false);
     };
 
     return (
         <>
-            {}
-     <Box sx={{
-                position: 'absolute', 
-                top: 0, 
-                left: 0, 
-                right: 0, 
-                zIndex: 1000, 
-                backgroundColor: 'darkgreen', 
-                padding: '1rem 1rem', 
-                display: 'flex', 
-                justifyContent: 'space-between', 
+            { }
+            <Box sx={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                right: 0,
+                zIndex: 1000,
+                backgroundColor: 'darkgreen',
+                padding: '1rem 1rem',
+                display: 'flex',
+                justifyContent: 'space-between',
                 alignItems: 'center'
-            }}>            {}
+            }}>            { }
                 <Link to="/">
                     <img src={images.WPowertechSystemLogoWhite} alt="Logo" className="logo-white" style={{ height: '40px' }} />
                 </Link>
 
-                {}
-                <IconButton 
-                    onClick={toggleLanguageDrawer} 
+                { }
+                <IconButton
+                    onClick={toggleLanguageDrawer}
                     sx={{ color: 'white', fontSize: '1.5rem' }}
                 >
                     <IoLanguage />
                     <MdLanguage />
                 </IconButton>
 
-                {}
+                { }
                 <IconButton color="inherit" edge="end" onClick={toggleDrawer} sx={{ display: { md: "none" } }}>
                     {menuOpen ? <IoMdClose /> : <HiOutlineBars3 />}
                 </IconButton>
             </Box>
 
-            {}
+            { }
             <Drawer anchor="left" open={languageDrawerOpen} onClose={toggleLanguageDrawer}>
-                <Box sx={{ width: "250px", padding: "1rem",fontSize:"4vw" }}>
+                <Box sx={{ width: "250px", padding: "1rem", fontSize: "4vw" }}>
                     <List>
                         <ListItem button onClick={() => handleLanguageChange('en')}>
                             <ListItemButton sx={{ display: 'flex', alignItems: 'center' }}>
@@ -119,6 +124,7 @@ const NavbarMobile = () => {
                                 <span>Español</span>
                             </ListItemButton>
                         </ListItem>
+                        <Divider sx={{ borderColor: 'gray', marginBottom: '8px' }} />
                         <ListItem button onClick={() => handleLanguageChange('pl')}>
                             <ListItemButton sx={{ display: 'flex', alignItems: 'center' }}>
                                 <img src={images.pl} alt="Polish" style={{ width: '10vw', height: 'auto', marginRight: '10px' }} />
@@ -129,36 +135,51 @@ const NavbarMobile = () => {
                 </Box>
             </Drawer>
 
-            {}
+            { }
             <Drawer anchor="right" open={menuOpen} onClose={toggleDrawer}>
-                <Box sx={{ width: "250px", padding: "1rem"}}>
+                <Box sx={{ width: "250px", padding: "1rem" }}>
                     <List>
-                        {}
-                        <ListItem component={Link} to="/company/sustainability" sx={{ textDecoration: 'none', color: 'black' }}>
-                            <ListItemButton>
+                        { }
+                        <ListItem
+                            component={Link}
+                            to="/company/sustainability"
+                            sx={{ textDecoration: 'none', color: 'black', paddingLeft: 0 }}
+                        >
+                            <ListItemButton sx={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                <span style={{ display: 'inline-flex', width: '24px', justifyContent: 'center' }}>
+                                    <BsBuildingsFill />
+                                </span>
                                 <ListItemText primary={t("sustainability")} />
                             </ListItemButton>
                         </ListItem>
                         <Divider sx={{ borderColor: 'gray', marginBottom: '8px' }} />
 
-                        {}
+                        { }
                         <ListItem component={Link} to="/company/certificates" sx={{ textDecoration: 'none', color: 'black' }}>
                             <ListItemButton>
                                 <ListItemText primary={t("certificates")} />
                             </ListItemButton>
                         </ListItem>
                         <Divider sx={{
-                            borderColor: 'gray', 
-                            marginBottom: '12px', 
-                            borderWidth: '2px', 
-                            transition: 'all 0.5s ease-in-out', 
+                            borderColor: 'gray',
+                            marginBottom: '12px',
+                            borderWidth: '2px',
+                            transition: 'all 0.5s ease-in-out',
                             opacity: 0.5,
                             background: 'linear-gradient(90deg, rgba(169, 169, 169, 0.6), rgba(169, 169, 169, 1))'
-                        }} /> {}
+                        }} /> { }
 
-                        {}
-                        <ListItem component={Link} to="/products/technology" sx={{ textDecoration: 'none', color: 'black' }}>
-                            <ListItemButton>
+                        { }
+                        <ListItem
+                            component={Link}
+                            to="/products/technology"
+                            sx={{ textDecoration: 'none', color: 'black', paddingLeft: 0 }}
+                        >
+                            <ListItemButton sx={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                <span style={{ display: 'inline-flex', width: '24px', justifyContent: 'center' }}>
+                                    <BiSolidFactory />
+
+                                </span>
                                 <ListItemText primary={t("technology")} />
                             </ListItemButton>
                         </ListItem>
@@ -169,15 +190,22 @@ const NavbarMobile = () => {
                             </ListItemButton>
                         </ListItem>
                         <Divider sx={{
-                            borderColor: 'gray', 
-                            marginBottom: '12px', 
-                            borderWidth: '2px', 
-                            transition: 'all 0.5s ease-in-out', 
+                            borderColor: 'gray',
+                            marginBottom: '12px',
+                            borderWidth: '2px',
+                            transition: 'all 0.5s ease-in-out',
                             opacity: 0.5,
                             background: 'linear-gradient(90deg, rgba(169, 169, 169, 0.6), rgba(169, 169, 169, 1))'
-                        }} /> 
-                        <ListItem component={Link} to="/about/news" sx={{ textDecoration: 'none', color: 'black' }}>
-                            <ListItemButton>
+                        }} />
+                        <ListItem
+                            component={Link}
+                            to="/about/news"
+                            sx={{ textDecoration: 'none', color: 'black', paddingLeft: 0 }}
+                        >
+                            <ListItemButton sx={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                <span style={{ display: 'inline-flex', width: '24px', justifyContent: 'center' }}>
+                                    <FaUsers />
+                                </span>
                                 <ListItemText primary={t("news")} />
                             </ListItemButton>
                         </ListItem>
@@ -194,15 +222,22 @@ const NavbarMobile = () => {
                             </ListItemButton>
                         </ListItem>
                         <Divider sx={{
-                            borderColor: 'gray', 
-                            marginBottom: '12px', 
-                            borderWidth: '2px', 
-                            transition: 'all 0.5s ease-in-out', 
+                            borderColor: 'gray',
+                            marginBottom: '12px',
+                            borderWidth: '2px',
+                            transition: 'all 0.5s ease-in-out',
                             opacity: 0.5,
                             background: 'linear-gradient(90deg, rgba(169, 169, 169, 0.6), rgba(169, 169, 169, 1))'
                         }} />
-                        <ListItem component={Link} to="/contact" sx={{ textDecoration: 'none', color: 'black' }}>
-                            <ListItemButton>
+                                                <ListItem
+                            component={Link}
+                            to="/contact"
+                            sx={{ textDecoration: 'none', color: 'black', paddingLeft: 0 }}
+                        >
+                            <ListItemButton sx={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                <span style={{ display: 'inline-flex', width: '24px', justifyContent: 'center' }}>
+                                    <FaPhone />
+                                </span>
                                 <ListItemText primary={t("contact")} />
                             </ListItemButton>
                         </ListItem>

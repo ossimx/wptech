@@ -110,14 +110,6 @@ height: 100px;
 color: blue;
 opacity: 0.8;
 margin-right: 15px;}
-footer {
-padding: 20px;
-background-color: #002a01;
-color: #fff700;
-position: relative;
-width: 100%;
-box-sizing: border-box;
-clear: both;}
 .footer-content {
 display: flex;
 align-items: flex-start;

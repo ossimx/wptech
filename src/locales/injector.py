@@ -7,7 +7,9 @@ from tkinter import filedialog, messagebox
 class TranslationInjectorApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Translation Injector")
+        self.root.title("Locale Injector")
+        self.root.iconbitmap("favicon.ico")  # Set the window icon (ensure favicon.ico exists in the same directory)
+
         self.default_locale_dir = os.getcwd()
         tk.Label(root, text="Locales Root Directory:").grid(row=0, column=0, sticky="w", padx=10, pady=5)
         self.locale_dir_entry = tk.Entry(root, width=40)
@@ -99,6 +101,8 @@ class TranslationInjectorApp:
                 continue
 
         messagebox.showinfo("Success", "Translations injected successfully.")
+
+
 if __name__ == "__main__":
     root = tk.Tk()
     app = TranslationInjectorApp(root)

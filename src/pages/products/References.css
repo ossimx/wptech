@@ -34,6 +34,10 @@
     font-size: 7vw;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     }
+    .reference-box h1{
+        font-size: 15vw;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
     .button-container {
     display: contents;
     flex-direction: row;
@@ -166,7 +170,7 @@
     border-radius: 10px;
     }
     .reference-box {
-    font-size: 8vw;
+    font-size: 10vw;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     }
     .button-container {

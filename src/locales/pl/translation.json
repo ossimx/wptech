@@ -84,8 +84,8 @@
   "news1.paragraph": "Inwestycja Rady Powiatu (CJ) w pierwszy tego typu obiekt do przetwarzania odpadów komunalnych wynosi 14 milionów euro. Prezes instytucji, Alin Tișe, podpisał z laureatem przetargu, Waste Powertech, umowę na projekt i wykonanie obiektu do dezintegracji molekularnej w celu odzyskiwania energii z odpadów komunalnych z powiatu. Wartość kontraktu wynosi 60 milionów lei, bez VAT. Finansowanie pochodzi ze środków własnych CJ Cluj.",
   "news2.title": "Podpisano umowę na zakup pierwszej instalacji do przetwarzania odpadów komunalnych przy użyciu dezintegracji molekularnej w powiecie Cluj",
   "news2.paragraph": "Prezes Rady Powiatu Cluj, Pan Alin Tișe, podpisał w środę, 8 maja 2024 roku, w obecności zwycięzcy przetargu, Waste Powertech SRL, umowę na projektowanie i budowę instalacji do przetwarzania odpadów za pomocą dezintegracji molekularnej w celu odzyskiwania energii z odpadów komunalnych z powiatu Cluj.\n\nUmowa została przyznana za kwotę 60,794,052 RON, bez VAT, a finansowanie zapewniono z zasobów własnych Rady Powiatu Cluj.",
-  "news3.title": "Energia z odpadów: Rada Powiatu Cluj inwestuje 61 milionów lei w budowę nowoczesnej instalacji przetwarzania odpadów - portal Maszol.ro",
-  "news3.paragraph": "Powiat Cluj produkuje ekonomicznie użyteczną energię z odpadów w sposób przyjazny dla środowiska i dąży do energetycznego wykorzystania co najmniej 15% odpadów komunalnych do 2025 roku. To oczekiwanie przewodniczącego Rady Powiatu Cluj, Alina Tișe, wynikające z inwestycji o wartości około 61 milionów lei. W środę podpisał umowę na zakup zakładu zaprojektowanego do przetwarzania odpadów poprzez dezintegrację molekularną. Nowa instalacja przetwarzania odpadów zostanie sfinansowana ze środków własnych Rady Powiatu Cluj. - portal Maszol.ro",
+  "news3.title": "Energia z odpadów: Rada Powiatu Cluj inwestuje 61 milionów lei w budowę nowoczesnej instalacji przetwarzania odpadów",
+  "news3.paragraph": "Powiat Cluj produkuje ekonomicznie użyteczną energię z odpadów w sposób przyjazny dla środowiska i dąży do energetycznego wykorzystania co najmniej 15% odpadów komunalnych do 2025 roku. To oczekiwanie przewodniczącego Rady Powiatu Cluj, Alina Tișe, wynikające z inwestycji o wartości około 61 milionów lei. W środę podpisał umowę na zakup zakładu zaprojektowanego do przetwarzania odpadów poprzez dezintegrację molekularną. Nowa instalacja przetwarzania odpadów zostanie sfinansowana ze środków własnych Rady Powiatu Cluj.",
   "news4.title": "Ważny krok w kierunku transformacji odpadów w energię",
   "news4.paragraph": "Zakończono fazę projektowania pierwszej instalacji do przetwarzania odpadów komunalnych na bazie dezintegracji molekularnej w powiecie Cluj.\n\nRada Powiatu Cluj otrzymała do weryfikacji i zatwierdzenia projekt techniczny (PT) dotyczący umowy na roboty podpisanej w maju 2024 roku z Waste Powertech SRL, dotyczącej projektowania i realizacji pierwszego zakładu przetwarzania odpadów przy użyciu dezintegracji molekularnej w celu odzyskiwania energii z odpadów komunalnych w powiecie Cluj.",
   "blank": "‎ ",
@@ -133,5 +133,7 @@
   "prototype": "Prototyp (2018)",
   "file-gallery": "Prezentacja komercyjna",
   "team": "Zespół i partnerzy",
-  "partner": "Partner strategiczny"
+  "partner": "Partner strategiczny",
+  "news5.paragraph": "Minister Energii Sebastian Burduja powiedział w sobotę wieczorem w Klużu, że projekt Rady Okręgu Klużu mający na celu przekształcenie śmieci w zieloną energię jest rewolucyjny i że pomoże znaleźć fundusze na budowę stacji na terenie CMID Kluż.",
+  "news5.title": "Minister energii: „Będziemy wspierać krajowe rozszerzenie projektu dezintegracji molekularnej Rady Okręgu Cluj"
 }

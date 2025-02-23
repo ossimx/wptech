@@ -52,7 +52,7 @@ const Certificates = ({ disableNavbar, enableNavbar }) => {
             />
           ))}
         </div>
-        <div className="separator-banner">
+        <div className="separator-banner-cert">
                         <h2>{t('documents')}</h2>
                     </div>
         <div className="documents-grid">

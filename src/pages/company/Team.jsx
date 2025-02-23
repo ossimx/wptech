@@ -15,7 +15,7 @@ const Team = () => {
   const teamMembers = [
     {
       name: 'Szakács János',
-      position: 'CEO',
+      position: 'Founder & CEO',
       email: 'janos@wpowertech.ro',
       phone: '+40 751 624 810',
       image: images.teammember1,
@@ -57,14 +57,14 @@ const Team = () => {
       if (window.innerWidth <= 768) {
         setOffsets({
           layer1: 0,
-          layer2: 3,
-          layer3: 4.2,
+          layer2: 2,
+          layer3: 5,
         });
       } else if (window.innerWidth <= 1024) {//tablet
         setOffsets({
           layer1: 0,
           layer2: 2,
-          layer3: 2.4,
+          layer3: 4,
         });
       } else {
         setOffsets({//desktop
@@ -81,46 +81,47 @@ const Team = () => {
 
   return (
     <div className="teamPage">
-    <Parallax pages={4}>
-      <ParallaxLayer
-        offset={offsets.layer1}
-        speed={0.1}
-        className="team-hero"
-      >
-        <div className="logo-section">
-          <img src={images.WPowertechSystemLogoWhite} alt="Powertech Logo" className="team-logo" />
-          <h1 className="team-title">{t('team')}</h1>
-        </div>
-        <div className="team-container">
-          {teamMembers.map((member, index) => (
-            <div key={index} className="team-member">
-              <img src={member.image} alt={member.name} className="team-photo" />
-              <h2 className="team-name">{member.name}</h2>
-              <h3 className="team-position">{member.position}</h3>
-              <div className="team-contact">
-                <FaEnvelope className="icon" /> <span>{member.email}</span>
+      <Parallax pages={7}>
+        <ParallaxLayer
+          offset={offsets.layer1}
+          speed={0.1}
+          className="team-hero"
+        >
+          <div className="logo-section">
+            <img src={images.WPowertechSystemLogoWhite} alt="Powertech Logo" className="team-logo" />
+            <h1 className="team-title">{t('team')}</h1>
+          </div>
+          <div className="team-container">
+            {teamMembers.map((member, index) => (
+              <div key={index} className="team-member">
+                <img src={member.image} alt={member.name} className="team-photo" />
+                <h2 className="team-name">{member.name}</h2>
+                <h3 className="team-position">{member.position}</h3>
+                <div className="team-contact">
+                  <FaEnvelope className="icon" /> <span>{member.email}</span>
+                </div>
+                <div className="team-contact">
+                  <FaPhone className="icon" /> <span>{member.phone}</span>
+                </div>
               </div>
-              <div className="team-contact">
-                <FaPhone className="icon" /> <span>{member.phone}</span>
-              </div>
-            </div>
-          ))}
-          <div className='team-member'>
-          <img src={images.teammember5} alt="Crowe" className="team-photo-crowe"/>
+            ))}
+            <div className='team-member'>
+              <a href="https://www.crowe.com/hu" target="_blank" rel="noopener noreferrer">
+                <img src={images.teammember5} alt="Crowe" className="team-photo-crowe" />
+              </a>
               <h1 className="team-name">Crowe</h1>
               <h3 className="team-position">{t('partner')}</h3>
-              <h3><a href="https://www.crowe.com" style={{ color: 'white', textDecoration: 'none' }}>www.crowe.com</a></h3>
+              <h3><a href="https://www.crowe.com/hu" style={{ color: 'white', textDecoration: 'none' }}>www.crowe.com</a></h3>
+            </div>
           </div>
-        </div>
-      </ParallaxLayer>
-      <ParallaxLayer
-        offset={offsets.layer2}
-        speed={0.1}
-        className="footer"
-      >
-        <FFooter />
-      </ParallaxLayer>
-    </Parallax>
+        </ParallaxLayer>
+        <ParallaxLayer
+          offset={offsets.layer2}
+          speed={0.1}
+          className="footer"
+        >
+        </ParallaxLayer>
+      </Parallax>
     </div>
   );
 };

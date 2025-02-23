@@ -84,8 +84,8 @@
   "news1.paragraph": "The County Council's (CJ) investment in the first such municipal waste treatment facility amounts to 14 million euros. The president of the institution, Alin Tișe, signed with the winner of the tender, Waste Powertech, the design and execution contract for the molecular disintegration treatment facility for the energy recovery of municipal waste from the county. The awarded value of the contract is 60 million lei, excluding VAT. The financing is provided from CJ Cluj's own funds.",
   "news2.title": "The contract for the acquisition of the first municipal waste treatment plant, using molecular disintegration, in Cluj County has been signed",
   "news2.paragraph": "The President of the Cluj County Council, Mr. Alin Tișe, signed on Wednesday, May 8, 2024, in the presence of the auction winner, Waste Powertech SRL, the contract for the design and construction of the treatment plant using molecular disintegration for the energy recovery of municipal waste from Cluj County.\n\nThe contract was awarded for a value of 60,794,052 RON, excluding VAT, with funding provided from the Cluj County Council's own resources.",
-  "news3.title": "Energy Generated from Waste: Cluj County Council Invests 61 Million Lei to Build a Modern Waste Treatment Plant - from the Maszol.ro Portal",
-  "news3.paragraph": "Cluj County is producing economically usable energy from waste in an environmentally friendly way and aims to achieve the energetic utilization of at least 15% of municipal waste by 2025. This is the expectation of the Cluj County Council President, Alin Tișe, from the approximately 61 million lei investment. On Wednesday, he signed a contract for the purchase of a plant designed for waste treatment through molecular decomposition. The new waste treatment facility will be financed from the Cluj County Council's own resources. - from the Maszol.ro Portal",
+  "news3.title": "Energy Generated from Waste: Cluj County Council Invests 61 Million Lei to Build a Modern Waste Treatment Plant ",
+  "news3.paragraph": "Cluj County is producing economically usable energy from waste in an environmentally friendly way and aims to achieve the energetic utilization of at least 15% of municipal waste by 2025. This is the expectation of the Cluj County Council President, Alin Tișe, from the approximately 61 million lei investment. On Wednesday, he signed a contract for the purchase of a plant designed for waste treatment through molecular decomposition. The new waste treatment facility will be financed from the Cluj County Council's own resources.",
   "blank": "‎ ",
   "year-1": 2009,
   "year-1-element-1": "○ Initiation of the Concept",
@@ -134,5 +134,7 @@
   "team": "Team and Partners",
   "news4.title": "An Important New Step Towards Waste-to-Energy Transformation",
   "news4.paragraph": "An important new step towards waste-to-energy transformation\n\nThe design phase of the first molecular disintegration-based municipal waste treatment plant in Cluj County has been completed.\n\nThe Cluj County Council has received, for review and approval, the technical project (PT) related to the works contract signed in May 2024 with Waste Powertech SRL, concerning the design and execution of the first molecular disintegration treatment plant for the energy recovery of municipal waste in Cluj County.",
-  "partner": "Strategic Partner"
+  "partner": "Strategic Partner",
+  "news5.paragraph": "The Minister of Energy, Sebastian Burduja, said on Saturday evening in Cluj that the Cluj County Council's project to turn garbage into green energy is revolutionary and that he will help find funding for the station that will be built on the CMID Cluj site.",
+  "news5.title": "Energy Minister: 'We will support the national extension of the Cluj County Council's molecular disintegration project'"
 }

@@ -11,7 +11,7 @@
   "learn_more_desc": "Aflați mai multe despre tehnologie",
   "news": "Știri",
   "history": "Istorie",
-  "certificates": "Certificare",
+  "certificates": "Certificate",
   "sustainability": "Sustenabilitate",
   "ourproduct": "Produsele noastre",
   "how_it_works": "Cum funcționează?",
@@ -82,8 +82,8 @@
   "news1.paragraph": "Investiția Consiliului Județean (CJ) în prima astfel de instalație de tratare a deșeurilor municipale se ridică la 14 milioane de euro.Președintele instituției Alin Tișe, a semnat cu câștigătorul licitației, Waste Powertech, contractul de proiectare și execuție a instalației de tratare prin dezintegrare moleculară pentru valorificarea energetică a deșeurilor municipale din județ. Valoarea adjudecată a contractului este de 60 milioane lei, fără TVA. Finanțarea este asigurată din fonduri proprii ale CJ Cluj.",
   "news2.title": "A fost semnat contractul de achiziție a primei instalații de tratare a deșeurilor municipale, folosind dezintegrarea moleculară, în județul Cluj",
   "news2.paragraph": "Președintele Consiliului Județean Cluj, domnul Alin Tișe, a semnat miercuri, 8 mai 2024, în prezența câștigătorului licitației, societatea Waste Powertech SRL, contractul privind proiectarea și execuția instalației de tratare prin dezintegrare moleculară pentru valorificarea energetică a deșeurilor municipale din județul Cluj.\n\nValoarea contractului a fost adjudecată la 60.794.052 lei, fără TVA, finanțarea fiind asigurată din fondurile proprii ale Consiliului Județean Cluj.",
-  "news3.title": "Energie Generată din Deșeuri: Consiliul Județean Cluj Investește 61 de Milioane de Lei pentru a Construi o Stație Modernă de Tratare a Deșeurilor - de pe Portalul Maszol.ro",
-  "news3.paragraph": "Județul Cluj produce energie utilizabilă economic din deșeuri într-un mod ecologic și își propune să realizeze utilizarea energetică a cel puțin 15% din deșeurile municipale până în 2025. Aceasta este așteptarea președintelui Consiliului Județean Cluj, Alin Tișe, de la investiția de aproximativ 61 de milioane de lei. Miercuri, el a semnat un contract pentru achiziționarea unei instalații destinate tratării deșeurilor prin descompunere moleculară. Noua stație de tratare a deșeurilor va fi finanțată din resurse proprii ale Consiliului Județean Cluj. - de pe Portalul Maszol.ro",
+  "news3.title": "Energie Generată din Deșeuri: Consiliul Județean Cluj Investește 61 de Milioane de Lei pentru a Construi o Stație Modernă de Tratare a Deșeurilor ",
+  "news3.paragraph": "Județul Cluj produce energie utilizabilă economic din deșeuri într-un mod ecologic și își propune să realizeze utilizarea energetică a cel puțin 15% din deșeurile municipale până în 2025. Aceasta este așteptarea președintelui Consiliului Județean Cluj, Alin Tișe, de la investiția de aproximativ 61 de milioane de lei. Miercuri, el a semnat un contract pentru achiziționarea unei instalații destinate tratării deșeurilor prin descompunere moleculară. Noua stație de tratare a deșeurilor va fi finanțată din resurse proprii ale Consiliului Județean Cluj.",
   "year-1": 2009,
   "year-1-element-1": "○ Inițierea Conceptului",
   "year-1-element-2": "○ Se concepe ideea de dezvoltare a unei tehnologii inovatoare pentru valorificarea deșeurilor, destinată să transforme deșeurile în produse și subproduse cu valoare adăugată, deschizând calea către soluții sustenabile pentru gestionarea deșeurilor.",
@@ -132,5 +132,7 @@
   "team": "Echipa și partenerii",
   "news4.title": "Un nou pas important în vederea transformării deșeurilor în energie",
   "news4.paragraph": "Un nou pas important în vederea transformării deșeurilor în energie. A fost finalizată etapa de proiectare a primei instalații de tratare, prin dezintegrare moleculară, a deșeurilor municipale de pe teritoriul județului ClujConsiliul Județean Cluj a primit, spre analiză și aprobare, proiectul tehnic (PT) aferent contractului de lucrări încheiat în luna mai 2024 cu societatea Waste Powertech SRL, privind proiectarea și execuția primei instalații de tratare prin dezintegrare moleculară pentru valorificarea energetică a deșeurilor municipale din județul Cluj.",
-  "partner": "Partener Strategic"
+  "partner": "Partener Strategic",
+  "news5.paragraph": "Ministrul Energiei, Sebastian Burduja, a declarat, sâmbătă seara la Cluj, că proiectul Consiliului Județean Cluj de a transforma gunoaiele în energie verde este unul revoluționar și că va ajuta la găsirea finanțării pentru stația care se va ridica pe amplasamentul CMID Cluj.",
+  "news5.title": "Ministrul Energiei: ”Vom susține extinderea la nivel național a proiectului de dezintegrare moleculară al Consiliului Județean Cluj”"
 }

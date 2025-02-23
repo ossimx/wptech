@@ -61,6 +61,9 @@ import cj14 from './cj14.jpg';
 import cj15 from './cj15.jpg';
 import cj16 from './cj16.jpg';
 import cj17 from './cj17.jpg';
+import cj18 from './cj18.jpg';
+import cj19 from './cj19.jpg';
+import cj20 from './cj20.jpg';
 import vl1 from './vl1.png';
 import vl2 from './vl2.png';
 import vl3 from './vl3.png';
@@ -92,12 +95,17 @@ import prez5 from './prezde.jpg';
 import user from './user.png';
 import teammember4 from './teammember4.png';
 import news4 from './news4.png';
+import news5 from './news5.jpg';
 import teammember5 from './teammember5.png';
 import teammember3 from './teammember3.png';
 import prezpl from './prezpl.jpg';
+import office from './office.jpg';
+
 const images = {
+  office,
   darm1,
   teammember4,
+  news5,
   user,
   prez4,
   prezpl,
@@ -107,6 +115,9 @@ const images = {
   teammember3,
   prez5,
   cj8,
+  cj20,
+  cj19,
+  cj18,
   cj9,
   es,
   cj11,
